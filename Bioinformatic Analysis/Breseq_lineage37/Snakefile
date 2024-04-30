@@ -1,0 +1,175 @@
+#########################################
+# LIEBERMAN LAB SNAKEFILE FOR BRESEQ CREATION   #
+#########################################
+
+# Version History:
+# # 2022.12 Chris: Cleaned up file and foldernaming scheme
+# # 2020.07 Alex: Modified from Lieberman lab case step SM to be applicable for Breseq
+
+## USER defined variables (in theory do not need to be touched)
+spls = "samples_breseq.csv"
+# each reference genome must exist in the top level file named "{referenceID}.gbff"
+
+''' PRE-SNAKEMAKE '''
+import sys
+
+SCRIPTS_DIRECTORY = "./scripts"
+sys.path.insert(0, SCRIPTS_DIRECTORY)
+
+SCRIPTS_DIRECTORY = "/nfs/tamilab001/c3ddb-scratch-mit_lieberman/scripts"
+sys.path.insert(0, SCRIPTS_DIRECTORY)
+import os
+import subprocess
+from itertools import compress
+import basic_snakemake_functions as bsf # generic functions to read samples.csv etc.
+# define couple of lists from samples.csv
+# Format: Path,Sample,ReferenceGenome,ProviderName,Clade
+[PATH_ls, SAMPLE_ls, REF_GENOME_ls, PROVIDER_ls, CLADEID_ls] = bsf.read_samplesCSV(spls)
+REF_Genomes = set(REF_GENOME_ls) # provides only unique reference IDs
+
+# Write sample_info.csv for each sample
+bsf.split_samplesCSV(PATH_ls,SAMPLE_ls,REF_GENOME_ls,PROVIDER_ls,CLADEID_ls)
+#NOTE: make_data_links expects path to pre-processed files (sickle + cutadapt)
+
+''' SNAKEMAKE '''
+
+rule all:
+    input:
+        # breseq
+        expand("1-breseq/{referenceID}/{sampleID}.gd", zip, referenceID=REF_GENOME_ls, sampleID=SAMPLE_ls),
+        # visualize output
+        expand("2-output/{referenceID}/breseq_comparison.html", referenceID=REF_Genomes)
+
+## PART 0: Link to fastq files and process
+
+# rule make_data_links:
+#     # NOTE: expects path to pre-processed files (1-cutadapt + 2-sickle).
+#     input:
+#         sample_info_csv="0-data/{sampleID}/sample_info.csv",
+#     output:
+#         # Recommend using symbolic links to your likely many different input files
+#         filt1="0-data/{sampleID}/filt1.fq.gz",
+#         filt2="0-data/{sampleID}/filt2.fq.gz",
+#     run:
+#         # get stuff out of mini csv file
+#         with open(input.sample_info_csv,'r') as f:
+#             this_sample_info = f.readline() # only one line to read
+#         this_sample_info = this_sample_info.strip('\n').split(',')
+#         path = this_sample_info[0] # remember python indexing starts at 0
+#         sample = this_sample_info[1]
+#         #refgenome = this_sample_info[2]
+#         #provider = this_sample_info[3]
+#         #clade = this_sample_info[4]
+#         fwdfile = path + sample + "/filt1.fq.gz"
+#         revfile = path + sample + "/filt2.fq.gz"
+#         #make symbolic data links
+#         subprocess.run("ln -fs -T " + fwdfile + " 0-data/" + sample + "/filt1.fq.gz", shell=True)    
+#         subprocess.run("ln -fs -T " + revfile + " 0-data/" + sample + "/filt2.fq.gz", shell=True)
+
+
+rule make_data_links:
+    # NOTE: All raw data needs to be names fastq.gz. No fq! The links will be names fq though.
+    input:
+        sample_info_csv="0-data/{sampleID}/sample_info.csv",
+    output:
+        # Recommend using symbolic links to your likely many different input files
+        fq1="0-data/{sampleID}/R1.fq.gz",
+        fq2="0-data/{sampleID}/R2.fq.gz",
+    run:
+        # get stuff out of mini csv file
+        with open(input.sample_info_csv,'r') as f:
+            this_sample_info = f.readline() # only one line to read
+        this_sample_info = this_sample_info.strip('\n').split(',')
+        path = this_sample_info[0] # remember python indexing starts at 0
+        paths = path.split(' ')
+        sample = this_sample_info[1]
+        provider = this_sample_info[3]
+        # make links
+        if len(paths)>1:
+            bsf.cp_append_files(paths, sample, provider)
+        else:
+            bsf.makelink(path, sample, provider)
+
+rule cutadapt:
+    input:
+        # Recommend using symbolic links to your likely many different input files
+        fq1=rules.make_data_links.output.fq1,
+        fq2=rules.make_data_links.output.fq2,
+    output:
+        fq1o="0-data_processed/{sampleID}_R1_trim.fq.gz",
+        fq2o="0-data_processed/{sampleID}_R2_trim.fq.gz",
+    log:
+        log="logs/cutadapt_{sampleID}.txt",
+    conda:
+        "envs/cutadapt.yaml"
+    shell:
+        "cutadapt -a CTGTCTCTTAT -o {output.fq1o} {input.fq1} 1> {log};"
+        "cutadapt -a CTGTCTCTTAT -o {output.fq2o} {input.fq2} 1>> {log};"
+
+rule sickle2050:
+    input:
+        fq1o=rules.cutadapt.output.fq1o,
+        fq2o=rules.cutadapt.output.fq2o,
+    output:
+        fq1o="0-data_processed/{sampleID}/filt1.fq.gz",
+        fq2o="0-data_processed/{sampleID}/filt2.fq.gz",
+    params:
+        fqs="0-data_processed/{sampleID}/sing.fq.gz",
+    log:
+        log="logs/sickle2050_{sampleID}.txt",
+    conda:
+        "envs/sickle-trim.yaml"
+    shell:
+        "sickle pe -g -f {input.fq1o} -r {input.fq2o} -t sanger -o {output.fq1o} -p {output.fq2o} -s {params.fqs} -q 20 -l 50 -x -n 1> {log}"
+
+## PART 1: Run breseq
+# Note that breseq makes hundreds/thousands of files per sample, so a shadow directory is highly recommended. 
+# Evidence folder may be valuable to rule out false positives, can uncomment the mv command to keep that folder (untested).
+# Breseq makes directories named "data" and "output" so avoid having these in your parent directory, and/or use minimal shadow dir. 
+rule run_breseq:
+    input:
+        filt1=rules.sickle2050.output.fq1o,
+        filt2=rules.sickle2050.output.fq2o,
+        reference= "{referenceID}.gbff",
+    params:
+        this_dir=os.getcwd(),
+    output:
+        "1-breseq/{referenceID}/{sampleID}.gd",
+    shadow:
+        "minimal",
+    conda:
+        "envs/breseq.yml"
+    shell:
+        """
+        breseq -j 16 -r {input.reference} {input.filt1} {input.filt2};
+        cp output/output.gd {output}
+        mv output {params.this_dir}/1-breseq/{wildcards.referenceID}/{wildcards.sampleID}
+        """
+
+## PART 2: Summarize genome difference output
+
+#returns sample names of samples for the reference specified by argument
+def get_reference_gd(wildcards):
+      reference_name = wildcards.referenceID
+      samples_reference=get_reference_samples(wildcards.referenceID)
+      samples_gd=expand("1-breseq/"+reference_name+"/{sampleID}.gd",sampleID=samples_reference)
+      print(samples_gd)
+      return samples_gd
+
+def get_reference_samples(referenceID):
+      is_reference = [int(i == referenceID) for i in REF_GENOME_ls]
+      samples_reference = list(compress(SAMPLE_ls,is_reference))
+      return samples_reference
+
+rule compare_genome_diff:
+    input:
+        samples_gd=get_reference_gd,
+        reference= "{referenceID}.gbff",
+    output:
+        "2-output/{referenceID}/breseq_comparison.html",
+    conda:
+        "envs/breseq.yml",
+    shell:
+        """
+        gdtools ANNOTATE -f HTML -o {output} -r {input.reference} {input.samples_gd};
+        """

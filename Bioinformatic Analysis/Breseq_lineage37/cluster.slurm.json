@@ -1,0 +1,46 @@
+{
+    "documenation": {
+        "cmdline": "Use with snakemake --cluster-config cluster.slurm.json --cluster 'sbatch --job-name {cluster.job-name} --ntasks {cluster.ntasks} --cpus-per-task {cluster.cpus-per-task} --mem {cluster.mem} --mem-per-cpu {cluster.mem-per-cpu} --partition {cluster.partition} --time {cluster.time} --mail-user {cluster.mail-user} --mail-type {cluster.mail-type} --error {cluster.error} --output {cluster.output}'"
+    },
+    "__default__" : {
+        "job-name"       : "SM.{rule}",
+        "partition"      : "sched_mit_hill,sched_mit_tami",
+        "time"           : "01:00:00",
+        "ntasks"         : 1,
+        "cpus-per-task"  : 1,
+        "mem"            : 2000,
+        "mem-per-cpu-mb" : 2000,
+        "output"         : "logs/{rule}_%j.out_err.txt",
+        "error"          : "logs/{rule}_%j.out_err.txt",
+    },
+    "make_data_links": {
+        "partition"      : "sched_any_quicktest,sched_mit_hill",
+        "time"           : "00:15:00",
+        "output"         : "logs/{rule}_{wildcards.sampleID}_%j.out_err.txt",
+        "error"          : "logs/{rule}_{wildcards.sampleID}_%j.out_err.txt",
+    },
+    "cutadapt" : {
+        "time"           : "1:00:00",
+        "output"         : "logs/{rule}_{wildcards.sampleID}_%j.out_err.txt",
+        "error"          : "logs/{rule}_{wildcards.sampleID}_%j.out_err.txt",
+    },
+    "sickle2050" : {
+        "time"           : "1:00:00",
+        "output"         : "logs/{rule}_{wildcards.sampleID}_%j.out_err.txt",
+        "error"          : "logs/{rule}_{wildcards.sampleID}_%j.out_err.txt",
+    },
+    "run_breseq" : {
+        "cpus-per-task"  : 16,
+        "time"           : "08:00:00",
+        "mem"            : 64000,
+        "output"         : "logs/{rule}_{wildcards.sampleID}_%j.out_err.txt",
+        "error"          : "logs/{rule}_{wildcards.sampleID}_%j.out_err.txt",
+    },
+    "compare_gd" : {
+        "mem"            : 16000,
+        "cpus-per-task"  : 1,
+        "time"           : "2:00:00",
+        "output"         : "logs/{rule}_{wildcards.referenceID}_%j.out_err.txt",
+        "error"          : "logs/{rule}_{wildcards.referenceID}_%j.out_err.txt",
+    },
+ }

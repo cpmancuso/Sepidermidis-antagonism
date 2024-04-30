@@ -1,0 +1,102 @@
+ClusterBlast scores for contig_30
+
+Table of genes, locations, strands and annotations of query cluster:
+HCJGEJ_11270	4050	4842	+	Poly-gamma-glutamate hydrolase family protein	
+HCJGEJ_11280	5640	6873	-	aspartate aminotransferase	
+HCJGEJ_11285	6838	7054	-	GntR family transcriptional regulator	
+HCJGEJ_11290	7152	8124	+	fatty acid desaturase	
+HCJGEJ_11295	8128	8749	+	lysine transporter LysE	
+HCJGEJ_11300	8792	8966	+	hypothetical protein	
+HCJGEJ_11310	9373	10690	+	hypothetical protein	
+HCJGEJ_11315	10689	12471	+	ATP-binding protein	
+HCJGEJ_11320	12578	13181	+	Putative transposon Tn552 DNA-invertase bin3	
+HCJGEJ_11325	13324	14518	-	EciC protein	
+HCJGEJ_11330	14502	17436	-	EciB protein	
+HCJGEJ_11335	17422	18325	-	Protease	
+HCJGEJ_11340	18407	18578	-	Epicidin 280	
+HCJGEJ_11345	18639	18828	-	EciI protein	
+HCJGEJ_11350	18900	19644	-	Oxidoreductase	
+
+
+Significant hits: 
+1. BGC0000507	epicidin
+2. BGC0000543	pep5
+3. BGC0000509	epilancin 15x
+
+
+Details:
+
+>>
+1. BGC0000507
+Source: epicidin
+Type: RiPP:Lanthipeptide
+Number of proteins with BLAST hits to this cluster: 6
+Cumulative BLAST score: 3915.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+CAA74345.1	CAA74345.1	1	30	-	transposase
+CAA74346.1	CAA74346.1	874	1617	+	oxidoreductase
+CAA74347.1	CAA74347.1	1690	1878	+	EciI_protein
+CAA74348.1	CAA74348.1	1940	2110	+	epicidin_280
+CAA74349.1	CAA74349.1	2194	3096	+	protease
+CAA74350.1	CAA74350.1	3083	6013	+	EciB_protein
+CAA74351.1	CAA74351.1	5998	7191	+	EciC_protein
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+HCJGEJ_11325	CAA74351.1	100	780	100.0	1.6e-225
+HCJGEJ_11330	CAA74350.1	99	1896	100.0	0.0
+HCJGEJ_11335	CAA74349.1	99	589	100.0	5.1e-168
+HCJGEJ_11340	CAA74348.1	98	111	100.0	5.8e-25
+HCJGEJ_11345	CAA74347.1	97	112	100.0	2.9e-25
+HCJGEJ_11350	CAA74346.1	98	427	100.0	1.6e-119
+
+
+
+>>
+2. BGC0000543
+Source: pep5
+Type: RiPP:Lanthipeptide
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 1925.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+CAA90021.1	CAA90021.1	88	1803	-	PepT
+CAA90022.1	CAA90022.1	2028	2237	+	PepI
+CAA90023.1	CAA90023.1	2322	2504	+	PepA
+CAA90024.1	CAA90024.1	2566	3423	+	PepP
+CAA90025.1	CAA90025.1	3410	6313	+	PepB
+CAA90026.1	CAA90026.1	6310	7506	+	PepC
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+HCJGEJ_11325	CAA90026.1	60	477	99.74811083123426	2.2e-134
+HCJGEJ_11330	CAA90025.1	55	1015	100.0	5.5e-296
+HCJGEJ_11335	CAA90024.1	55	312	97.66666666666667	9.2e-85
+HCJGEJ_11340	CAA90023.1	55	58	107.14285714285714	4.5e-09
+HCJGEJ_11345	CAA90022.1	57	63	90.32258064516128	1.5e-10
+
+
+
+>>
+3. BGC0000509
+Source: epilancin 15x
+Type: RiPP:Lanthipeptide
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 515.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+AFN69429.1	AFN69429.1	4196	4729	+	recombinase
+AFN69430.1	AFN69430.1	4943	5689	-	ElxO
+AFN69431.1	AFN69431.1	5708	7429	-	ElxT
+AFN69432.1	AFN69432.1	7589	7756	+	ElxA
+AFN69433.1	AFN69433.1	7793	8728	+	ElxP
+AFN69434.1	AFN69434.1	8715	11675	+	ElxB
+AFN69435.1	AFN69435.1	11693	12901	+	ElxC
+AFN69436.1	AFN69436.1	12940	13158	+	Elx1
+AFN69437.1	AFN69437.1	13183	13908	+	Elx2
+AFN69438.1	AFN69438.1	13937	14152	+	Elx3
+AFN69439.1	AFN69439.1	14476	15261	-	OrdA
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+HCJGEJ_11320	AFN69429.1	77	290	99.0	1.9e-78
+HCJGEJ_11350	AFN69430.1	48	225	101.21457489878543	9.3e-59
+

@@ -1,0 +1,69 @@
+ClusterBlast scores for contig_12
+
+Table of genes, locations, strands and annotations of query cluster:
+HENJLN_07900	38786	39542	-	pyruvate formate-lyase-activating protein	
+HENJLN_07905	39563	41810	-	formate C-acetyltransferase	
+HENJLN_07910	42556	43747	-	MFS transporter	
+HENJLN_07915	43758	44508	-	peptide ABC transporter ATP-binding protein	
+HENJLN_07920	44500	45316	-	nickel import ATP-binding protein NikD	
+HENJLN_07925	45302	46181	-	peptide ABC transporter permease	
+HENJLN_07930	46177	47113	-	nickel ABC transporter permease subunit NikB	
+HENJLN_07935	47125	48724	-	staphylopine-dependent metal ABC transporter substrate-binding protein CntA	
+HENJLN_07940	48774	50067	-	staphylopine biosynthesis dehydrogenase	
+HENJLN_07945	50059	50875	-	staphylopine biosynthesis enzyme CntL	
+HENJLN_07950	50871	51711	-	histidine racemase CntK	
+HENJLN_07955	51898	52345	+	hypothetical protein	
+HENJLN_07960	52359	53049	+	multidrug ABC transporter ATP-binding protein	
+HENJLN_07965	53176	53950	-	Diacetyl reductase [(S)-acetoin forming]	
+HENJLN_07970	54118	55495	-	MFS transporter	
+HENJLN_07975	55523	58541	-	flavocytochrome c	
+HENJLN_07980	58623	59541	-	thiamine biosynthesis protein ApbE	
+
+
+Significant hits: 
+1. BGC0002487	staphylopine
+2. BGC0002488	bacillopaline
+
+
+Details:
+
+>>
+1. BGC0002487
+Source: staphylopine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4324.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+HENJLN_07910	SAV2462	77	596	97.97979797979798	5.5e-170
+HENJLN_07915	SAV2463	69	332	99.59839357429718	9.3e-91
+HENJLN_07920	SAV2464	69	375	99.63099630996311	8e-104
+HENJLN_07925	SAV2465	82	407	97.94520547945206	2.7e-113
+HENJLN_07930	SAV2466	81	497	100.0	2.1e-140
+HENJLN_07935	SAV2467	83	904	100.0	9.7e-263
+HENJLN_07940	SAV2468	62	521	99.06976744186046	1.9e-147
+HENJLN_07945	SAV2469	63	342	99.63099630996311	9.8e-94
+HENJLN_07950	SAV2470	61	350	97.84946236559139	2.8e-96
+
+
+
+>>
+2. BGC0002488
+Source: bacillopaline
+Type: Other
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 2249.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+HENJLN_07910	KNP414_01901	53	399	100.0	9.8e-111
+HENJLN_07915	KNP414_01900	50	241	97.59036144578313	1.7e-63
+HENJLN_07920	KNP414_01899	47	244	95.5719557195572	2.1e-64
+HENJLN_07925	KNP414_01898	49	269	95.8904109589041	8.7e-72
+HENJLN_07930	KNP414_01897	52	331	97.7491961414791	2e-90
+HENJLN_07935	KNP414_01896	52	549	98.49624060150376	7.9e-156
+HENJLN_07945	KNP414_01894	46	216	95.5719557195572	8.1e-56
+

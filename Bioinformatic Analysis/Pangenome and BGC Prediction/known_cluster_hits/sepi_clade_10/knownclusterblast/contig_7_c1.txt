@@ -1,0 +1,38 @@
+ClusterBlast scores for contig_7
+
+Table of genes, locations, strands and annotations of query cluster:
+HANIFL_05735	91621	92626	+	NADP-dependent oxidoreductase	
+HANIFL_05740	92724	93735	+	Zinc-type alcohol dehydrogenase-like protein SE_1777	
+HANIFL_05745	94531	95068	+	alkaline shock response membrane anchor protein AmaP	
+HANIFL_05750	95080	95320	+	DUF2273 domain-containing protein	
+HANIFL_05755	95393	95894	+	Alkaline shock protein 23	
+HANIFL_05760	95954	97916	-	sialic acid synthase	
+HANIFL_05765	98018	99200	+	MFS transporter	
+HANIFL_05770	99189	100947	+	siderophore synthetase	
+HANIFL_05775	100950	102012	+	alanine racemase	
+HANIFL_05780	102213	103209	+	ABC-type Fe3+-citrate transport system, periplasmic component	
+HANIFL_05785	103220	104252	+	iron-siderophore ABC transporter permease	
+HANIFL_05790	104248	105214	+	iron-dicitrate transporter subunit FecD	
+
+
+Significant hits: 
+1. BGC0000944	staphyloferrin A
+
+
+Details:
+
+>>
+1. BGC0000944
+Source: staphyloferrin A
+Type: Other:Non-NRP siderophore
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2549.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+HANIFL_05760	SAOUHSC_02436	60	782	100.91883614088822	8.9e-226
+HANIFL_05765	SAOUHSC_02435	75	585	100.25445292620864	9.6e-167
+HANIFL_05770	SAOUHSC_02434	64	729	100.0	4.7e-210
+HANIFL_05775	SAOUHSC_02433	63	453	98.30028328611898	5.1e-127
+

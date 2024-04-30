@@ -1,0 +1,69 @@
+ClusterBlast scores for contig_3
+
+Table of genes, locations, strands and annotations of query cluster:
+HANIFL_02935	76860	77634	-	ABC-2 family transporter protein	
+HANIFL_02940	77635	78331	-	lantibiotic ABC transporter ATP-binding protein	
+HANIFL_02945	79042	80233	-	MFS transporter	
+HANIFL_02950	80244	80994	-	peptide ABC transporter ATP-binding protein	
+HANIFL_02955	80986	81802	-	nickel import ATP-binding protein NikD	
+HANIFL_02960	81788	82667	-	peptide ABC transporter permease	
+HANIFL_02965	82663	83599	-	nickel ABC transporter permease subunit NikB	
+HANIFL_02970	83611	85210	-	staphylopine-dependent metal ABC transporter substrate-binding protein CntA	
+HANIFL_02975	85260	86553	-	staphylopine biosynthesis dehydrogenase	
+HANIFL_02980	86545	87361	-	staphylopine biosynthesis enzyme CntL	
+HANIFL_02985	87357	88197	-	histidine racemase CntK	
+HANIFL_02990	88384	88837	+	hypothetical protein	
+HANIFL_02995	88851	89541	+	multidrug ABC transporter ATP-binding protein	
+HANIFL_03000	89668	90442	-	Diacetyl reductase [(S)-acetoin forming]	
+HANIFL_03005	90610	91987	-	MFS transporter	
+HANIFL_03010	92015	95033	-	flavocytochrome c	
+HANIFL_03015	95115	96033	-	thiamine biosynthesis protein ApbE	
+
+
+Significant hits: 
+1. BGC0002487	staphylopine
+2. BGC0002488	bacillopaline
+
+
+Details:
+
+>>
+1. BGC0002487
+Source: staphylopine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4312.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+HANIFL_02945	SAV2462	77	594	97.97979797979798	1.2e-169
+HANIFL_02950	SAV2463	69	333	99.59839357429718	4.2e-91
+HANIFL_02955	SAV2464	69	374	98.8929889298893	1.8e-103
+HANIFL_02960	SAV2465	82	407	97.94520547945206	2.7e-113
+HANIFL_02965	SAV2466	81	497	100.0	2.1e-140
+HANIFL_02970	SAV2467	83	901	100.0	8.2e-262
+HANIFL_02975	SAV2468	62	516	99.06976744186046	6e-146
+HANIFL_02980	SAV2469	63	341	99.63099630996311	1.3e-93
+HANIFL_02985	SAV2470	61	349	97.84946236559139	4.8e-96
+
+
+
+>>
+2. BGC0002488
+Source: bacillopaline
+Type: Other
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 2242.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+HANIFL_02945	KNP414_01901	53	398	100.0	1.7e-110
+HANIFL_02950	KNP414_01900	50	241	97.59036144578313	2.2e-63
+HANIFL_02955	KNP414_01899	47	244	95.5719557195572	2.8e-64
+HANIFL_02960	KNP414_01898	49	269	95.8904109589041	8.7e-72
+HANIFL_02965	KNP414_01897	52	331	97.7491961414791	2e-90
+HANIFL_02970	KNP414_01896	52	543	98.49624060150376	4.3e-154
+HANIFL_02980	KNP414_01894	46	216	95.5719557195572	6.2e-56
+

@@ -1,0 +1,38 @@
+ClusterBlast scores for contig_7
+
+Table of genes, locations, strands and annotations of query cluster:
+JAJMKA_05030	82678	83683	+	NADP-dependent oxidoreductase	
+JAJMKA_05035	83781	84792	+	Zinc-type alcohol dehydrogenase-like protein SE_1777	
+JAJMKA_05040	85588	86125	+	alkaline shock response membrane anchor protein AmaP	
+JAJMKA_05045	86137	86377	+	DUF2273 domain-containing protein	
+JAJMKA_05050	86450	86951	+	Alkaline shock protein 23	
+JAJMKA_05055	87011	88973	-	siderophore biosynthesis protein, IucA/IucC family	
+JAJMKA_05060	89075	90257	+	MFS transporter	
+JAJMKA_05065	90246	92004	+	siderophore synthetase	
+JAJMKA_05070	92007	93069	+	alanine racemase	
+JAJMKA_05075	93271	94267	+	ABC-type Fe3+-citrate transport system, periplasmic component	
+JAJMKA_05080	94278	95310	+	iron-siderophore ABC transporter permease	
+JAJMKA_05085	95306	96272	+	iron-dicitrate transporter subunit FecD	
+
+
+Significant hits: 
+1. BGC0000944	staphyloferrin A
+
+
+Details:
+
+>>
+1. BGC0000944
+Source: staphyloferrin A
+Type: Other:Non-NRP siderophore
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2554.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JAJMKA_05055	SAOUHSC_02436	60	785	100.91883614088822	8.1e-227
+JAJMKA_05060	SAOUHSC_02435	75	585	100.25445292620864	9.6e-167
+JAJMKA_05065	SAOUHSC_02434	64	733	100.0	4.2e-211
+JAJMKA_05070	SAOUHSC_02433	63	451	98.30028328611898	1.5e-126
+

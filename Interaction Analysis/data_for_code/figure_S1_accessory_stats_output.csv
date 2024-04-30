@@ -1,0 +1,32 @@
+Group,Core Number,Noncore Number,Odds Ratio,p_value
+Total,1755,5672,0,0
+AMRfinder Database,0,28,8.70163005,0.007168937
+Virulence Factor Database,9,61,2.109071467,0.033434043
+DefenseFinder Database,0,87,27.32282901,2.48E-09
+RNA processing and modification,1,0,0,0.236299987
+Chromatin structure and dynamics,0,0,,1
+Energy production and conversion,106,118,0.330514808,5.13E-15
+"Cell cycle control, mitosis and meiosis",29,100,1.068148625,0.834589399
+Amino acid transport and metabolism,165,222,0.392527106,2.65E-17
+Nucleotide transport and metabolism,92,45,0.144557298,1.26E-27
+Carbohydrate transport and metabolism,97,153,0.473853212,5.36E-08
+Coenzyme transport and metabolism,94,99,0.313897553,2.11E-14
+Lipid transport and metabolism,51,69,0.411460247,3.92E-06
+Translation,164,68,0.117716439,1.10E-53
+Transcription,108,294,0.833674228,0.116858864
+"Replication, recombination and repair",90,540,1.946609509,1.82E-09
+Cell wall/membrane biogenesis,87,247,0.872919116,0.291796736
+Cell motility,4,14,1.083156592,1
+"Posttranslational modification, protein turnover, chaperones",54,76,0.427805575,5.34E-06
+Inorganic ion transport and metabolism,126,189,0.445650192,4.19E-11
+"Secondary metabolites biosynthesis, transport and catabolism",23,33,0.440688682,0.003916641
+General function prediction only,0,0,,1
+Function unknown,376,1209,0.993518218,0.920370017
+Signal transduction mechanisms,34,53,0.477439988,0.001319556
+Intracellular trafficking and secretion,25,75,0.927282473,0.723164356
+Defense mechanisms,27,142,1.643399638,0.017056752
+Extracellular structures,0,3,inf,1
+Other COG categories,0,0,,1
+Unassigned,0,0,,1
+Nuclear structure,0,0,,1
+Cytoskeleton,1,0,0,0.236299987

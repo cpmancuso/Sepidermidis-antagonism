@@ -1,0 +1,38 @@
+ClusterBlast scores for contig_1
+
+Table of genes, locations, strands and annotations of query cluster:
+KGKEPE_00060	10769	11735	-	iron-dicitrate transporter subunit FecD	
+KGKEPE_00065	11731	12763	-	iron-siderophore ABC transporter permease	
+KGKEPE_00070	12774	13770	-	ABC-type Fe3+-citrate transport system, periplasmic component	
+KGKEPE_00075	13972	15034	-	alanine racemase	
+KGKEPE_00080	15037	16795	-	siderophore synthetase	
+KGKEPE_00085	16784	17966	-	MFS transporter	
+KGKEPE_00090	18068	20030	+	aerobactin biosynthesis protein, IucA/IucC family	
+KGKEPE_00095	20090	20591	-	Alkaline shock protein 23	
+KGKEPE_00100	20664	20904	-	DUF2273 domain-containing protein	
+KGKEPE_00105	20916	21453	-	alkaline shock response membrane anchor protein AmaP	
+KGKEPE_00110	22245	23256	-	Zinc-type alcohol dehydrogenase-like protein SE_1777	
+KGKEPE_00115	23354	24359	-	NADP-dependent oxidoreductase	
+
+
+Significant hits: 
+1. BGC0000944	staphyloferrin A
+
+
+Details:
+
+>>
+1. BGC0000944
+Source: staphyloferrin A
+Type: Other:Non-NRP siderophore
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2538.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+KGKEPE_00075	SAOUHSC_02433	63	451	98.30028328611898	1.9e-126
+KGKEPE_00080	SAOUHSC_02434	63	725	100.0	6.8e-209
+KGKEPE_00085	SAOUHSC_02435	75	582	100.25445292620864	4.8e-166
+KGKEPE_00090	SAOUHSC_02436	60	780	100.91883614088822	2.6e-225
+

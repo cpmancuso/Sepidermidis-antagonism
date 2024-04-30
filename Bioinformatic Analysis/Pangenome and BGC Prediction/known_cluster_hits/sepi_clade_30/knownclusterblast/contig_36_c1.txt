@@ -1,0 +1,114 @@
+ClusterBlast scores for contig_36
+
+Table of genes, locations, strands and annotations of query cluster:
+JAJMKA_11080	523	1366	+	hypothetical protein	
+JAJMKA_11085	1915	3532	-	heme ABC exporter ATP-binding protein CcmA	
+JAJMKA_11090	3952	4555	+	Putative transposon Tn552 DNA-invertase bin3	
+JAJMKA_11095	4707	5400	-	BsaG protein	
+JAJMKA_11100	5389	6154	-	lantibiotic immunity ABC transporter MutE/EpiE family permease subunit	
+JAJMKA_11105	6155	6851	-	lantibiotic ABC transporter ATP-binding protein	
+JAJMKA_11110	7009	8002	+	Putative membrane protein	
+JAJMKA_11115	8017	9568	-	ABC transporter ATP-binding protein/permease	
+JAJMKA_11120	9817	9976	+	Lantibiotic gallidermin	
+JAJMKA_11125	10041	13002	+	Epidermin biosynthesis protein EpiB	
+JAJMKA_11130	12958	14245	+	Epidermin biosynthesis protein EpiC	
+JAJMKA_11135	14260	14806	+	Epidermin decarboxylase	
+JAJMKA_11140	14802	15420	-	Putative epidermin response regulator	
+JAJMKA_11145	15430	16816	-	Epidermin leader peptide-processing serine protease EpiP	
+
+
+Significant hits: 
+1. BGC0000514	gallidermin
+2. BGC0000508	epidermin
+3. BGC0001618	hyicin 3682
+
+
+Details:
+
+>>
+1. BGC0000514
+Source: gallidermin
+Type: RiPP:Lanthipeptide
+Number of proteins with BLAST hits to this cluster: 11
+Cumulative BLAST score: 5740.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+ABC94897.1	ABC94897.1	579	1271	-	GdmG
+ABC94898.1	ABC94898.1	1261	2025	-	GdmE
+ABC94899.1	ABC94899.1	2027	2581	-	GdmF
+ABC94900.1	ABC94900.1	2883	3875	+	GdmH
+ABC94901.1	ABC94901.1	3891	5165	-	GdmT
+ABC94902.1	ABC94902.1	5692	5850	+	GdmA
+ABC94903.1	ABC94903.1	5949	8876	+	GdmB
+ABC94904.1	ABC94904.1	8863	10119	+	GdmC
+ABC94905.1	ABC94905.1	10135	10680	+	GdmD
+ABC94906.1	ABC94906.1	10677	11294	-	GdmQ
+ABC94907.1	ABC94907.1	11306	12691	-	GdmP
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JAJMKA_11095	ABC94897.1	83	364	100.0	1.6e-100
+JAJMKA_11100	ABC94898.1	77	375	100.0	9.8e-104
+JAJMKA_11105	ABC94899.1	90	335	79.65367965367966	7.8e-92
+JAJMKA_11110	ABC94900.1	75	375	93.63636363636364	1.3e-103
+JAJMKA_11115	ABC94901.1	74	573	82.17054263565892	5e-163
+JAJMKA_11120	ABC94902.1	94	106	100.0	2.3e-23
+JAJMKA_11125	ABC94903.1	78	1527	98.88438133874239	0.0
+JAJMKA_11130	ABC94904.1	81	700	97.42990654205607	2.2e-201
+JAJMKA_11135	ABC94905.1	87	328	100.0	9.8e-90
+JAJMKA_11140	ABC94906.1	80	336	100.0	3.1e-92
+JAJMKA_11145	ABC94907.1	80	721	100.0	1.3e-207
+
+
+
+>>
+2. BGC0000508
+Source: epidermin
+Type: RiPP:Lanthipeptide
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 4905.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+CAA44250.1	CAA44250.1	1	827	-	
+CAA44251.1	CAA44251.1	781	1227	-	
+CAA44252.1	CAA44252.1	1381	1539	+	Epidermin_prepeptide
+CAA44253.1	CAA44253.1	1605	4565	+	
+CAA44254.1	CAA44254.1	4441	5808	+	
+CAA44255.1	CAA44255.1	5824	6369	+	
+CAA44256.1	CAA44256.1	6366	6983	-	
+CAA44257.1	CAA44257.1	6994	8379	-	
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JAJMKA_11115	CAA44250.1	99	443	53.48837209302325	4.5e-124
+JAJMKA_11120	CAA44252.1	100	110	100.0	1.2e-24
+JAJMKA_11125	CAA44253.1	98	1845	100.0	0.0
+JAJMKA_11130	CAA44254.1	100	857	100.0	8.4e-249
+JAJMKA_11135	CAA44255.1	99	365	100.0	7.2e-101
+JAJMKA_11140	CAA44256.1	99	400	100.0	1.8e-111
+JAJMKA_11145	CAA44257.1	99	885	100.0	4e-257
+
+
+
+>>
+3. BGC0001618
+Source: hyicin 3682
+Type: RiPP
+Number of proteins with BLAST hits to this cluster: 5
+Cumulative BLAST score: 1214.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+ARD24445.1	ARD24445.1	71	214	+	HyiA
+ARD24446.1	ARD24446.1	271	3264	+	HyiB
+ARD24447.1	ARD24447.1	3257	4501	+	HyiC
+ARD24448.1	ARD24448.1	4518	5048	+	HyiD
+ARD24449.1	ARD24449.1	5078	6430	+	HyiP
+ARD24450.1	ARD24450.1	6453	7142	+	HyiF
+ARD24451.1	ARD24451.1	7142	7900	+	HyiE
+ARD24452.1	ARD24452.1	7900	8595	+	HyiG
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JAJMKA_11100	ARD24451.1	52	212	99.21259842519686	8.4e-55
+JAJMKA_11105	ARD24450.1	70	319	98.26839826839827	4.4e-87
+JAJMKA_11120	ARD24445.1	68	64	84.61538461538461	9.9e-11
+JAJMKA_11135	ARD24448.1	56	209	95.58011049723757	6.6e-54
+JAJMKA_11145	ARD24449.1	50	410	95.01084598698482	6.5e-114
+

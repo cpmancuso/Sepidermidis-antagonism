@@ -1,0 +1,52 @@
+ClusterBlast scores for contig_26
+
+Table of genes, locations, strands and annotations of query cluster:
+OACHEK_08910	421	2020	-	staphylopine-dependent metal ABC transporter substrate-binding protein CntA	
+OACHEK_08915	2070	3363	-	staphylopine biosynthesis dehydrogenase	
+OACHEK_08920	3355	4171	-	staphylopine biosynthesis enzyme CntL	
+OACHEK_08925	4167	5007	-	histidine racemase CntK	
+OACHEK_08930	5194	5641	+	hypothetical protein	
+OACHEK_08935	5655	6345	+	multidrug ABC transporter ATP-binding protein	
+OACHEK_08940	6472	7246	-	Diacetyl reductase [(S)-acetoin forming]	
+OACHEK_08945	7414	8791	-	MFS transporter	
+OACHEK_08950	8819	11837	-	flavocytochrome c	
+OACHEK_08955	11919	12837	-	thiamine biosynthesis protein ApbE	
+
+
+Significant hits: 
+1. BGC0002487	staphylopine
+2. BGC0002488	bacillopaline
+
+
+Details:
+
+>>
+1. BGC0002487
+Source: staphylopine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2116.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+OACHEK_08910	SAV2467	83	904	100.0	9.7e-263
+OACHEK_08915	SAV2468	62	520	99.06976744186046	2.4e-147
+OACHEK_08920	SAV2469	63	343	99.63099630996311	3.4e-94
+OACHEK_08925	SAV2470	61	349	97.84946236559139	4.8e-96
+
+
+
+>>
+2. BGC0002488
+Source: bacillopaline
+Type: Other
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 766.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+OACHEK_08910	KNP414_01896	52	549	98.49624060150376	7.9e-156
+OACHEK_08920	KNP414_01894	46	217	95.5719557195572	4.7e-56
+

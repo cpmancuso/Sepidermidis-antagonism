@@ -1,0 +1,69 @@
+ClusterBlast scores for contig_11
+
+Table of genes, locations, strands and annotations of query cluster:
+ICKFIA_08505	15791	16709	+	thiamine biosynthesis protein ApbE	
+ICKFIA_08510	16791	19809	+	flavocytochrome c	
+ICKFIA_08515	19837	21214	+	MFS transporter	
+ICKFIA_08520	21382	22156	+	Diacetyl reductase [(S)-acetoin forming]	
+ICKFIA_08525	22283	22973	-	multidrug ABC transporter ATP-binding protein	
+ICKFIA_08530	22987	23434	-	hypothetical protein	
+ICKFIA_08535	23621	24461	+	histidine racemase CntK	
+ICKFIA_08540	24457	25273	+	staphylopine biosynthesis enzyme CntL	
+ICKFIA_08545	25265	26558	+	staphylopine biosynthesis dehydrogenase	
+ICKFIA_08550	26608	28207	+	staphylopine-dependent metal ABC transporter substrate-binding protein CntA	
+ICKFIA_08555	28219	29155	+	nickel ABC transporter permease subunit NikB	
+ICKFIA_08560	29151	30030	+	peptide ABC transporter permease	
+ICKFIA_08565	30016	30832	+	nickel import ATP-binding protein NikD	
+ICKFIA_08570	30824	31574	+	peptide ABC transporter ATP-binding protein	
+ICKFIA_08575	31585	32776	+	MFS transporter	
+ICKFIA_08580	33526	35773	+	formate C-acetyltransferase	
+ICKFIA_08585	35794	36550	+	pyruvate formate-lyase-activating protein	
+
+
+Significant hits: 
+1. BGC0002487	staphylopine
+2. BGC0002488	bacillopaline
+
+
+Details:
+
+>>
+1. BGC0002487
+Source: staphylopine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4322.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ICKFIA_08535	SAV2470	61	349	97.84946236559139	4.8e-96
+ICKFIA_08540	SAV2469	63	341	99.63099630996311	2.2e-93
+ICKFIA_08545	SAV2468	62	520	99.06976744186046	2.4e-147
+ICKFIA_08550	SAV2467	83	903	100.0	1.7e-262
+ICKFIA_08555	SAV2466	81	497	100.0	2.1e-140
+ICKFIA_08560	SAV2465	82	407	97.94520547945206	2.7e-113
+ICKFIA_08565	SAV2464	69	374	98.8929889298893	1.8e-103
+ICKFIA_08570	SAV2463	69	333	99.59839357429718	3.2e-91
+ICKFIA_08575	SAV2462	78	598	97.97979797979798	8.5e-171
+
+
+
+>>
+2. BGC0002488
+Source: bacillopaline
+Type: Other
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 2245.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+ICKFIA_08540	KNP414_01894	46	217	95.5719557195572	3.6e-56
+ICKFIA_08550	KNP414_01896	52	544	98.49624060150376	1.9e-154
+ICKFIA_08555	KNP414_01897	52	331	97.7491961414791	2e-90
+ICKFIA_08560	KNP414_01898	49	269	95.8904109589041	8.7e-72
+ICKFIA_08565	KNP414_01899	47	244	95.5719557195572	2.8e-64
+ICKFIA_08570	KNP414_01900	50	239	97.59036144578313	6.3e-63
+ICKFIA_08575	KNP414_01901	53	401	100.0	1.5e-111
+

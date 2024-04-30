@@ -1,0 +1,69 @@
+ClusterBlast scores for contig_16
+
+Table of genes, locations, strands and annotations of query cluster:
+LGCGCH_06575	23767	24523	-	pyruvate formate-lyase-activating protein	
+LGCGCH_06580	24544	26791	-	formate C-acetyltransferase	
+LGCGCH_06585	27531	28722	-	MFS transporter	
+LGCGCH_06590	28733	29483	-	peptide ABC transporter ATP-binding protein	
+LGCGCH_06595	29475	30291	-	nickel import ATP-binding protein NikD	
+LGCGCH_06600	30277	31156	-	peptide ABC transporter permease	
+LGCGCH_06605	31152	32088	-	nickel ABC transporter permease subunit NikB	
+LGCGCH_06610	32100	33699	-	staphylopine-dependent metal ABC transporter substrate-binding protein CntA	
+LGCGCH_06615	33749	35042	-	staphylopine biosynthesis dehydrogenase	
+LGCGCH_06620	35034	35850	-	staphylopine biosynthesis enzyme CntL	
+LGCGCH_06625	35846	36686	-	histidine racemase CntK	
+LGCGCH_06630	36873	37320	+	hypothetical protein	
+LGCGCH_06635	37396	38023	+	multidrug ABC transporter ATP-binding protein	
+LGCGCH_06640	38150	38924	-	Diacetyl reductase [(S)-acetoin forming]	
+LGCGCH_06645	39092	40469	-	MFS transporter	
+LGCGCH_06650	40497	43515	-	flavocytochrome c	
+LGCGCH_06655	43597	44515	-	thiamine biosynthesis protein ApbE	
+
+
+Significant hits: 
+1. BGC0002487	staphylopine
+2. BGC0002488	bacillopaline
+
+
+Details:
+
+>>
+1. BGC0002487
+Source: staphylopine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4319.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+LGCGCH_06585	SAV2462	78	598	97.97979797979798	1.1e-170
+LGCGCH_06590	SAV2463	69	334	99.59839357429718	1.9e-91
+LGCGCH_06595	SAV2464	69	375	98.8929889298893	1e-103
+LGCGCH_06600	SAV2465	81	405	97.94520547945206	7.8e-113
+LGCGCH_06605	SAV2466	81	492	100.0	5.1e-139
+LGCGCH_06610	SAV2467	83	904	100.0	7.4e-263
+LGCGCH_06615	SAV2468	62	520	99.06976744186046	4.2e-147
+LGCGCH_06620	SAV2469	63	342	99.63099630996311	5.7e-94
+LGCGCH_06625	SAV2470	61	349	97.84946236559139	8.2e-96
+
+
+
+>>
+2. BGC0002488
+Source: bacillopaline
+Type: Other
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 2237.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+LGCGCH_06585	KNP414_01901	53	401	100.0	2.6e-111
+LGCGCH_06590	KNP414_01900	50	240	97.59036144578313	4.8e-63
+LGCGCH_06595	KNP414_01899	47	243	95.5719557195572	3.6e-64
+LGCGCH_06600	KNP414_01898	49	268	95.8904109589041	1.5e-71
+LGCGCH_06605	KNP414_01897	52	326	97.7491961414791	4.9e-89
+LGCGCH_06610	KNP414_01896	52	544	98.49624060150376	3.3e-154
+LGCGCH_06620	KNP414_01894	46	215	95.5719557195572	1.4e-55
+

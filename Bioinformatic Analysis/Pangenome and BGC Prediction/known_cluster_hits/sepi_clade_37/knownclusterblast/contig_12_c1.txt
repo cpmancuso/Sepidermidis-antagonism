@@ -1,0 +1,38 @@
+ClusterBlast scores for contig_12
+
+Table of genes, locations, strands and annotations of query cluster:
+LOMBAB_06645	10791	11757	-	iron-dicitrate transporter subunit FecD	
+LOMBAB_06650	11753	12785	-	iron-siderophore ABC transporter permease	
+LOMBAB_06655	12796	13792	-	ABC-type Fe3+-citrate transport system, periplasmic component	
+LOMBAB_06660	13993	15055	-	alanine racemase	
+LOMBAB_06665	15058	16816	-	Siderophore synthetase	
+LOMBAB_06670	16805	17987	-	MFS transporter	
+LOMBAB_06675	18089	20051	+	Sialic acid synthase	
+LOMBAB_06680	20111	20612	-	Alkaline shock protein 23	
+LOMBAB_06685	20685	20925	-	DUF2273 domain-containing protein	
+LOMBAB_06690	20937	21474	-	alkaline shock response membrane anchor protein AmaP	
+LOMBAB_06695	22269	23280	-	Zinc-type alcohol dehydrogenase-like protein SE_1777	
+LOMBAB_06700	23378	24383	-	NADP-dependent oxidoreductase	
+
+
+Significant hits: 
+1. BGC0000944	staphyloferrin A
+
+
+Details:
+
+>>
+1. BGC0000944
+Source: staphyloferrin A
+Type: Other:Non-NRP siderophore
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2550.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+LOMBAB_06660	SAOUHSC_02433	63	453	98.30028328611898	5.1e-127
+LOMBAB_06665	SAOUHSC_02434	64	733	100.0	4.2e-211
+LOMBAB_06670	SAOUHSC_02435	75	585	100.25445292620864	9.6e-167
+LOMBAB_06675	SAOUHSC_02436	60	779	100.91883614088822	5.8e-225
+

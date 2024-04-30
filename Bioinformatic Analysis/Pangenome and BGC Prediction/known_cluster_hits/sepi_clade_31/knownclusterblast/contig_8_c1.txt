@@ -1,0 +1,38 @@
+ClusterBlast scores for contig_8
+
+Table of genes, locations, strands and annotations of query cluster:
+GAHNKE_06125	10787	11753	-	iron-dicitrate transporter subunit FecD	
+GAHNKE_06130	11749	12781	-	iron-siderophore ABC transporter permease	
+GAHNKE_06135	12792	13788	-	ABC-type Fe3+-citrate transport system, periplasmic component	
+GAHNKE_06140	13989	15051	-	alanine racemase	
+GAHNKE_06145	15054	16812	-	Siderophore synthetase	
+GAHNKE_06150	16801	17983	-	MFS transporter	
+GAHNKE_06155	18085	20047	+	Sialic acid synthase	
+GAHNKE_06160	20107	20608	-	Alkaline shock protein 23	
+GAHNKE_06165	20681	20921	-	DUF2273 domain-containing protein	
+GAHNKE_06170	20933	21470	-	alkaline shock response membrane anchor protein AmaP	
+GAHNKE_06175	22266	23277	-	Zinc-type alcohol dehydrogenase-like protein SE_1777	
+GAHNKE_06180	23375	24380	-	NADP-dependent oxidoreductase	
+
+
+Significant hits: 
+1. BGC0000944	staphyloferrin A
+
+
+Details:
+
+>>
+1. BGC0000944
+Source: staphyloferrin A
+Type: Other:Non-NRP siderophore
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2545.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GAHNKE_06140	SAOUHSC_02433	63	450	98.30028328611898	3.3e-126
+GAHNKE_06145	SAOUHSC_02434	64	729	100.0	4.7e-210
+GAHNKE_06150	SAOUHSC_02435	75	585	100.25445292620864	9.6e-167
+GAHNKE_06155	SAOUHSC_02436	59	781	100.91883614088822	1.5e-225
+

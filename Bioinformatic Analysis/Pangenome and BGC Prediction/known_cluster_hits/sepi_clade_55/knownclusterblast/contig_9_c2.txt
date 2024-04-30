@@ -1,0 +1,69 @@
+ClusterBlast scores for contig_9
+
+Table of genes, locations, strands and annotations of query cluster:
+OBNMPE_05415	51193	51949	-	pyruvate formate-lyase-activating protein	
+OBNMPE_05420	51970	54217	-	formate C-acetyltransferase	
+OBNMPE_05425	54962	56153	-	MFS transporter	
+OBNMPE_05430	56164	56914	-	peptide ABC transporter ATP-binding protein	
+OBNMPE_05435	56906	57722	-	nickel import ATP-binding protein NikD	
+OBNMPE_05440	57708	58587	-	peptide ABC transporter permease	
+OBNMPE_05445	58583	59519	-	nickel ABC transporter permease subunit NikB	
+OBNMPE_05450	59531	61130	-	staphylopine-dependent metal ABC transporter substrate-binding protein CntA	
+OBNMPE_05455	61180	62473	-	staphylopine biosynthesis dehydrogenase	
+OBNMPE_05460	62465	63281	-	staphylopine biosynthesis enzyme CntL	
+OBNMPE_05465	63277	64117	-	histidine racemase CntK	
+OBNMPE_05470	64304	64751	+	hypothetical protein	
+OBNMPE_05475	64765	65455	+	multidrug ABC transporter ATP-binding protein	
+OBNMPE_05480	65582	66356	-	Diacetyl reductase [(S)-acetoin forming]	
+OBNMPE_05485	66524	67901	-	MFS transporter	
+OBNMPE_05490	67929	70947	-	flavocytochrome c	
+OBNMPE_05495	71030	71948	-	thiamine biosynthesis protein ApbE	
+
+
+Significant hits: 
+1. BGC0002487	staphylopine
+2. BGC0002488	bacillopaline
+
+
+Details:
+
+>>
+1. BGC0002487
+Source: staphylopine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4318.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+OBNMPE_05425	SAV2462	77	592	97.97979797979798	6.1e-169
+OBNMPE_05430	SAV2463	69	333	99.59839357429718	4.2e-91
+OBNMPE_05435	SAV2464	69	375	99.63099630996311	1e-103
+OBNMPE_05440	SAV2465	82	407	97.94520547945206	2.7e-113
+OBNMPE_05445	SAV2466	81	497	100.0	2.1e-140
+OBNMPE_05450	SAV2467	83	908	100.0	8.8e-264
+OBNMPE_05455	SAV2468	62	517	99.06976744186046	2.7e-146
+OBNMPE_05460	SAV2469	63	342	99.63099630996311	9.8e-94
+OBNMPE_05465	SAV2470	60	347	97.84946236559139	1.8e-95
+
+
+
+>>
+2. BGC0002488
+Source: bacillopaline
+Type: Other
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 2239.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+OBNMPE_05425	KNP414_01901	53	393	100.0	4.1e-109
+OBNMPE_05430	KNP414_01900	50	239	97.59036144578313	8.2e-63
+OBNMPE_05435	KNP414_01899	47	244	95.5719557195572	2.8e-64
+OBNMPE_05440	KNP414_01898	49	269	95.8904109589041	8.7e-72
+OBNMPE_05445	KNP414_01897	52	331	97.7491961414791	2e-90
+OBNMPE_05450	KNP414_01896	52	547	98.49624060150376	3.9e-155
+OBNMPE_05460	KNP414_01894	46	216	95.5719557195572	8.1e-56
+

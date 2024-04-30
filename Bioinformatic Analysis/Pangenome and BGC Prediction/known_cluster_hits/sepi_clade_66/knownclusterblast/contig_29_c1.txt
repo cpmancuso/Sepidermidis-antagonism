@@ -1,0 +1,33 @@
+ClusterBlast scores for contig_29
+
+Table of genes, locations, strands and annotations of query cluster:
+HPIPFB_11035	10796	11762	-	iron-dicitrate transporter subunit FecD	
+HPIPFB_11040	11758	12790	-	iron-siderophore ABC transporter permease	
+HPIPFB_11045	12801	13797	-	ABC-type Fe3+-citrate transport system, periplasmic component	
+HPIPFB_11050	13999	15061	-	alanine racemase	
+HPIPFB_11055	15064	16822	-	siderophore synthetase	
+HPIPFB_11060	16811	17993	-	MFS transporter	
+HPIPFB_11065	18095	20057	+	siderophore biosynthesis protein, IucA/IucC family	
+
+
+Significant hits: 
+1. BGC0000944	staphyloferrin A
+
+
+Details:
+
+>>
+1. BGC0000944
+Source: staphyloferrin A
+Type: Other:Non-NRP siderophore
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2553.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+HPIPFB_11050	SAOUHSC_02433	63	451	98.30028328611898	1.1e-126
+HPIPFB_11055	SAOUHSC_02434	64	732	100.0	7.2e-211
+HPIPFB_11060	SAOUHSC_02435	75	585	100.25445292620864	9.6e-167
+HPIPFB_11065	SAOUHSC_02436	60	785	100.91883614088822	8.1e-227
+

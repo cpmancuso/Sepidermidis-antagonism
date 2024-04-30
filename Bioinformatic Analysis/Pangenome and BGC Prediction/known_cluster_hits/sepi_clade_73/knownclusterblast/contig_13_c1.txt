@@ -1,0 +1,38 @@
+ClusterBlast scores for contig_13
+
+Table of genes, locations, strands and annotations of query cluster:
+DGEKCC_05455	10770	11736	-	iron-dicitrate transporter subunit FecD	
+DGEKCC_05460	11732	12764	-	iron-siderophore ABC transporter permease	
+DGEKCC_05465	12775	13771	-	ABC-type Fe3+-citrate transport system, periplasmic component	
+DGEKCC_05470	13973	15035	-	alanine racemase	
+DGEKCC_05475	15038	16796	-	Siderophore synthetase	
+DGEKCC_05480	16785	17967	-	MFS transporter	
+DGEKCC_05485	18069	20031	+	Sialic acid synthase	
+DGEKCC_05490	20091	20592	-	Alkaline shock protein 23	
+DGEKCC_05495	20665	20905	-	DUF2273 domain-containing protein	
+DGEKCC_05500	20917	21454	-	alkaline shock response membrane anchor protein AmaP	
+DGEKCC_05505	22249	23260	-	Zinc-type alcohol dehydrogenase-like protein SE_1777	
+DGEKCC_05510	23358	24363	-	NADP-dependent oxidoreductase	
+
+
+Significant hits: 
+1. BGC0000944	staphyloferrin A
+
+
+Details:
+
+>>
+1. BGC0000944
+Source: staphyloferrin A
+Type: Other:Non-NRP siderophore
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2550.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+DGEKCC_05470	SAOUHSC_02433	63	451	98.30028328611898	1.9e-126
+DGEKCC_05475	SAOUHSC_02434	64	734	100.0	1.9e-211
+DGEKCC_05480	SAOUHSC_02435	75	585	100.25445292620864	9.6e-167
+DGEKCC_05485	SAOUHSC_02436	60	780	100.91883614088822	2e-225
+

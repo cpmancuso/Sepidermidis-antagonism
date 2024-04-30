@@ -1,0 +1,29 @@
+ClusterBlast scores for contig_38
+
+Table of genes, locations, strands and annotations of query cluster:
+AJPDJJ_10740	744	2931	-	lipase	
+AJPDJJ_10745	3300	3924	-	4'-phosphopantetheinyl transferase	
+AJPDJJ_10750	3933	11097	-	Thioester reductase domain of alpha aminoadipate reductase Lys2 and NRPSs	
+AJPDJJ_10755	11294	12536	-	MFS transporter	
+AJPDJJ_10760	13057	14476	-	MFS transporter	
+
+
+Significant hits: 
+1. BGC0000308	aureusimine A/aureusimine B/aureusimine C
+
+
+Details:
+
+>>
+1. BGC0000308
+Source: aureusimine A/aureusimine B/aureusimine C
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2577.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+AJPDJJ_10745	SAA6008_00158	46	199	102.41545893719808	7.8e-51
+AJPDJJ_10750	SAA6008_00157	53	2378	100.25136154168412	0.0
+

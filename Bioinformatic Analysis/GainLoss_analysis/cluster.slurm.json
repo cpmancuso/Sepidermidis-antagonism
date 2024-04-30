@@ -1,0 +1,49 @@
+{
+   "documenation":{
+      "cmdline":"Use with snakemake --cluster-config cluster.slurm.json --cluster 'sbatch --no-requeue --job-name {cluster.job-name} --ntasks {cluster.ntasks} --cpus-per-task {cluster.cpus-per-task} --mem {cluster.mem} --mem-per-cpu {cluster.mem-per-cpu} --partition {cluster.partition} --time {cluster.time} --mail-user {cluster.mail-user} --mail-type {cluster.mail-type} --error {cluster.error} --output {cluster.output}'"
+   },
+   "__default__":{
+      "job-name":"SM.{rule}",
+      "partition":"defq,sched_mem1TB,sched_mem4TB,sched_mem1TB_centos7",
+      "exclude": "node327,node088,node014,node033,node057",
+      "time":"1:00:00",
+      "ntasks":1,
+      "cpus-per-task":1,
+      "mem":8000,
+      "mem-per-cpu-mb":8000,
+      "output":"logs/%j_{rule}.out_err.txt",
+      "error":"logs/%j_{rule}.out_err.txt",
+      "mail-user":"mancusoc@mit.edu",
+      "mail-type":"FAIL"
+   },
+   "make_all_sample_data_links":{
+      "partition":"defq,sched_mem1TB,sched_mem4TB",
+      "time":"1:00:00"
+   },
+   "make_assembly_links":{
+      "partition":"quicktest,defq,sched_mem1TB,sched_mem4TB",
+      "time":"0:15:00"
+   },
+   "string_sampleID_names":{
+      "partition":"quicktest,defq,sched_mem1TB,sched_mem4TB",
+      "time":"0:15:00"
+   },
+    "string_diversity_mat":{
+      "partition":"quicktest,defq,sched_mem1TB,sched_mem4TB",
+      "time":"0:15:00"
+   },
+   "coverage_matrix_mat" : {
+      "partition":"sched_mem1TB_centos7",
+      "mem"            : 128000,
+      "mem-per-cpu-mb" : 128000, 
+      "cpus-per-task"  : 1,
+      "time"           : "12:00:00",
+   },
+   "gain_loss" : {
+      "partition":"sched_mem1TB_centos7",
+      "mem"            : 128000,
+      "mem-per-cpu-mb" : 128000, 
+      "cpus-per-task"  : 1,
+      "time"           : "12:00:00",
+   },
+}

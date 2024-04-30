@@ -1,0 +1,64 @@
+ClusterBlast scores for contig_11
+
+Table of genes, locations, strands and annotations of query cluster:
+OGGMJM_05275	52811	53567	-	pyruvate formate-lyase-activating protein	
+OGGMJM_05280	53588	55835	-	formate C-acetyltransferase	
+OGGMJM_05285	56580	57771	-	MFS transporter	
+OGGMJM_05290	57782	58532	-	peptide ABC transporter ATP-binding protein	
+OGGMJM_05295	58524	59340	-	nickel import ATP-binding protein NikD	
+OGGMJM_05300	59326	60205	-	peptide ABC transporter permease	
+OGGMJM_05305	60201	61137	-	nickel ABC transporter permease subunit NikB	
+OGGMJM_05310	61149	62748	-	staphylopine-dependent metal ABC transporter substrate-binding protein CntA	
+OGGMJM_05315	62798	64091	-	staphylopine biosynthesis dehydrogenase	
+OGGMJM_05320	64083	64899	-	staphylopine biosynthesis enzyme CntL	
+OGGMJM_05325	64895	65735	-	histidine racemase CntK	
+OGGMJM_05330	65922	66369	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0002487	staphylopine
+2. BGC0002488	bacillopaline
+
+
+Details:
+
+>>
+1. BGC0002487
+Source: staphylopine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4324.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+OGGMJM_05285	SAV2462	77	595	97.97979797979798	7.2e-170
+OGGMJM_05290	SAV2463	69	334	99.59839357429718	1.4e-91
+OGGMJM_05295	SAV2464	69	375	99.63099630996311	1e-103
+OGGMJM_05300	SAV2465	82	407	97.94520547945206	2.7e-113
+OGGMJM_05305	SAV2466	81	497	100.0	2.1e-140
+OGGMJM_05310	SAV2467	83	904	100.0	9.7e-263
+OGGMJM_05315	SAV2468	62	521	99.06976744186046	1.9e-147
+OGGMJM_05320	SAV2469	63	342	99.63099630996311	9.8e-94
+OGGMJM_05325	SAV2470	61	349	97.84946236559139	8.2e-96
+
+
+
+>>
+2. BGC0002488
+Source: bacillopaline
+Type: Other
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 2248.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+OGGMJM_05285	KNP414_01901	53	399	100.0	5.8e-111
+OGGMJM_05290	KNP414_01900	50	240	97.59036144578313	4.8e-63
+OGGMJM_05295	KNP414_01899	47	244	95.5719557195572	2.8e-64
+OGGMJM_05300	KNP414_01898	49	269	95.8904109589041	8.7e-72
+OGGMJM_05305	KNP414_01897	52	331	97.7491961414791	2e-90
+OGGMJM_05310	KNP414_01896	52	549	98.49624060150376	7.9e-156
+OGGMJM_05320	KNP414_01894	46	216	95.5719557195572	8.1e-56
+

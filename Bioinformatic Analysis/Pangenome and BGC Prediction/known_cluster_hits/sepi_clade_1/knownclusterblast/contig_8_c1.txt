@@ -1,0 +1,38 @@
+ClusterBlast scores for contig_8
+
+Table of genes, locations, strands and annotations of query cluster:
+POBCID_05515	71913	72918	+	NADP-dependent oxidoreductase	
+POBCID_05520	73016	74027	+	Zinc-type alcohol dehydrogenase-like protein SE_1777	
+POBCID_05525	74822	75359	+	alkaline shock response membrane anchor protein AmaP	
+POBCID_05530	75371	75611	+	DUF2273 domain-containing protein	
+POBCID_05535	75684	76185	+	Alkaline shock protein 23	
+POBCID_05540	76245	78207	-	Sialic acid synthase	
+POBCID_05545	78309	79491	+	MFS transporter	
+POBCID_05550	79480	81238	+	Siderophore synthetase	
+POBCID_05555	81241	82303	+	alanine racemase	
+POBCID_05560	82504	83500	+	ABC-type Fe3+-citrate transport system, periplasmic component	
+POBCID_05565	83511	84543	+	iron-siderophore ABC transporter permease	
+POBCID_05570	84539	85505	+	iron-dicitrate transporter subunit FecD	
+
+
+Significant hits: 
+1. BGC0000944	staphyloferrin A
+
+
+Details:
+
+>>
+1. BGC0000944
+Source: staphyloferrin A
+Type: Other:Non-NRP siderophore
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2550.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+POBCID_05540	SAOUHSC_02436	60	779	100.91883614088822	5.8e-225
+POBCID_05545	SAOUHSC_02435	75	585	100.25445292620864	9.6e-167
+POBCID_05550	SAOUHSC_02434	64	733	100.0	4.2e-211
+POBCID_05555	SAOUHSC_02433	63	453	98.30028328611898	5.1e-127
+

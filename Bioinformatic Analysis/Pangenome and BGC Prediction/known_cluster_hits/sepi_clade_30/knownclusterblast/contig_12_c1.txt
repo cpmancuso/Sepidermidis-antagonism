@@ -1,0 +1,42 @@
+ClusterBlast scores for contig_12
+
+Table of genes, locations, strands and annotations of query cluster:
+JAJMKA_06865	37138	37699	-	hypothetical protein	
+JAJMKA_06870	37861	39472	+	glycine/betaine ABC transporter permease	
+JAJMKA_06875	39635	40148	-	Putative immunodominant antigen B	
+JAJMKA_06880	40350	41628	-	2-oxo acid dehydrogenase subunit E2	
+JAJMKA_06885	41641	42682	-	alpha-ketoacid dehydrogenase subunit beta	
+JAJMKA_06890	42752	43706	-	ABC transporter substrate-binding protein	
+JAJMKA_06895	43747	45100	-	dihydrolipoyl dehydrogenase	
+JAJMKA_06900	45425	46844	+	anion permease	
+JAJMKA_06905	47158	48070	+	ABC transporter substrate-binding protein	
+JAJMKA_06910	48177	49083	-	EamA family transporter RarD	
+JAJMKA_06915	49214	49712	-	MepB protein	
+JAJMKA_06920	49806	51510	-	ABC-ATPase domain-containing protein	
+JAJMKA_06925	51664	53005	-	Glucose transporter GlcP	
+JAJMKA_06930	53285	55472	-	lipase	
+JAJMKA_06935	55841	56465	-	4'-phosphopantetheinyl transferase	
+JAJMKA_06940	56474	63638	-	Thioester reductase domain of alpha aminoadipate reductase Lys2 and NRPSs	
+JAJMKA_06945	63835	65077	-	MFS transporter	
+JAJMKA_06950	65586	67005	-	MFS transporter	
+
+
+Significant hits: 
+1. BGC0000308	aureusimine A/aureusimine B/aureusimine C
+
+
+Details:
+
+>>
+1. BGC0000308
+Source: aureusimine A/aureusimine B/aureusimine C
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2575.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+JAJMKA_06935	SAA6008_00158	46	199	102.41545893719808	7.8e-51
+JAJMKA_06940	SAA6008_00157	53	2376	100.25136154168412	0.0
+

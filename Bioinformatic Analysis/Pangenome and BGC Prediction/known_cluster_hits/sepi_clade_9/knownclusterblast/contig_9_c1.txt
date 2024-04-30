@@ -1,0 +1,69 @@
+ClusterBlast scores for contig_9
+
+Table of genes, locations, strands and annotations of query cluster:
+PJPLMI_05475	15600	16518	+	thiamine biosynthesis protein ApbE	
+PJPLMI_05480	16600	19618	+	flavocytochrome c	
+PJPLMI_05485	19646	21023	+	MFS transporter	
+PJPLMI_05490	21191	21965	+	Diacetyl reductase [(S)-acetoin forming]	
+PJPLMI_05495	22092	22782	-	multidrug ABC transporter ATP-binding protein	
+PJPLMI_05500	22796	23243	-	hypothetical protein	
+PJPLMI_05505	23430	24270	+	histidine racemase CntK	
+PJPLMI_05510	24266	25082	+	staphylopine biosynthesis enzyme CntL	
+PJPLMI_05515	25074	26367	+	staphylopine biosynthesis dehydrogenase	
+PJPLMI_05520	26417	28016	+	staphylopine-dependent metal ABC transporter substrate-binding protein CntA	
+PJPLMI_05525	28028	28964	+	nickel ABC transporter permease subunit NikB	
+PJPLMI_05530	28960	29839	+	peptide ABC transporter permease	
+PJPLMI_05535	29825	30641	+	nickel import ATP-binding protein NikD	
+PJPLMI_05540	30633	31383	+	peptide ABC transporter ATP-binding protein	
+PJPLMI_05545	31394	32585	+	MFS transporter	
+PJPLMI_05550	33325	35572	+	formate C-acetyltransferase	
+PJPLMI_05555	35593	36349	+	pyruvate formate-lyase-activating protein	
+
+
+Significant hits: 
+1. BGC0002487	staphylopine
+2. BGC0002488	bacillopaline
+
+
+Details:
+
+>>
+1. BGC0002487
+Source: staphylopine
+Type: Other
+Number of proteins with BLAST hits to this cluster: 9
+Cumulative BLAST score: 4325.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PJPLMI_05505	SAV2470	61	349	97.84946236559139	8.2e-96
+PJPLMI_05510	SAV2469	63	343	99.63099630996311	4.4e-94
+PJPLMI_05515	SAV2468	62	520	99.06976744186046	4.2e-147
+PJPLMI_05520	SAV2467	83	903	100.0	1.7e-262
+PJPLMI_05525	SAV2466	81	495	100.0	6.1e-140
+PJPLMI_05530	SAV2465	82	407	97.94520547945206	2.7e-113
+PJPLMI_05535	SAV2464	69	375	98.8929889298893	1e-103
+PJPLMI_05540	SAV2463	69	335	99.59839357429718	1.1e-91
+PJPLMI_05545	SAV2462	78	598	97.97979797979798	1.1e-170
+
+
+
+>>
+2. BGC0002488
+Source: bacillopaline
+Type: Other
+Number of proteins with BLAST hits to this cluster: 7
+Cumulative BLAST score: 2248.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PJPLMI_05510	KNP414_01894	46	217	95.5719557195572	4.7e-56
+PJPLMI_05520	KNP414_01896	52	545	98.49624060150376	8.7e-155
+PJPLMI_05525	KNP414_01897	52	332	97.7491961414791	1.2e-90
+PJPLMI_05530	KNP414_01898	49	269	95.8904109589041	8.7e-72
+PJPLMI_05535	KNP414_01899	47	243	95.5719557195572	3.6e-64
+PJPLMI_05540	KNP414_01900	50	241	97.59036144578313	2.2e-63
+PJPLMI_05545	KNP414_01901	53	401	100.0	2.6e-111
+

@@ -1,0 +1,48 @@
+ClusterBlast scores for contig_11
+
+Table of genes, locations, strands and annotations of query cluster:
+LOFAJH_08440	22	1687	-	ATPase	
+LOFAJH_08445	1841	3182	-	Glucose transporter GlcP	
+LOFAJH_08450	3462	5649	-	lipase	
+LOFAJH_08455	6018	6642	-	4'-phosphopantetheinyl transferase	
+LOFAJH_08460	6651	13815	-	Thioester reductase domain of alpha aminoadipate reductase Lys2 and NRPSs	
+LOFAJH_08465	14012	15254	-	MFS transporter	
+LOFAJH_08470	15763	17182	-	MFS transporter	
+LOFAJH_08475	17753	17999	-	hypothetical protein	
+LOFAJH_08480	18074	18971	-	LysR family transcriptional regulator	
+LOFAJH_08485	19108	20311	+	MFS transporter	
+LOFAJH_08490	20569	21166	+	Type I secretion system protein	
+LOFAJH_08495	21467	21842	-	PTS-dependent dihydroxyacetone kinase phosphotransferase subunit DhaM	
+LOFAJH_08500	21845	22421	-	dihydroxyacetone kinase subunit DhaL	
+LOFAJH_08505	22475	23438	-	dihydroxyacetone kinase subunit DhaK	
+LOFAJH_08510	23453	24557	-	glycerol dehydrogenase	
+LOFAJH_08515	24861	25827	-	biotin synthase BioB	
+LOFAJH_08520	26113	26989	-	5'-nucleotidase, lipoprotein e(P4) family	
+LOFAJH_08525	27096	27525	-	FosB family fosfomycin resistance bacillithiol transferase	
+LOFAJH_08530	27628	27853	-	hypothetical protein	
+LOFAJH_08535	28337	29339	+	ornithine carbamoyltransferase	
+LOFAJH_08540	29361	30294	+	carbamate kinase	
+LOFAJH_08545	30467	32024	+	C4-dicarboxylate anaerobic carrier	
+LOFAJH_08555	32328	33087	-	tributyrin esterase	
+LOFAJH_08560	33127	33775	-	ABC transporter permease	
+
+
+Significant hits: 
+1. BGC0000308	aureusimine A/aureusimine B/aureusimine C
+
+
+Details:
+
+>>
+1. BGC0000308
+Source: aureusimine A/aureusimine B/aureusimine C
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2573.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+LOFAJH_08455	SAA6008_00158	46	199	102.41545893719808	7.8e-51
+LOFAJH_08460	SAA6008_00157	53	2374	100.25136154168412	0.0
+

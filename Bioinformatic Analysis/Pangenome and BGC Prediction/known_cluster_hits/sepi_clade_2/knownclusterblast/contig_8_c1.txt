@@ -1,0 +1,38 @@
+ClusterBlast scores for contig_8
+
+Table of genes, locations, strands and annotations of query cluster:
+PABKOE_05915	71891	72896	+	NADP-dependent oxidoreductase	
+PABKOE_05920	72994	74005	+	Zinc-type alcohol dehydrogenase-like protein SE_1777	
+PABKOE_05925	74800	75337	+	alkaline shock response membrane anchor protein AmaP	
+PABKOE_05930	75349	75589	+	DUF2273 domain-containing protein	
+PABKOE_05935	75662	76163	+	Alkaline shock protein 23	
+PABKOE_05940	76223	78185	-	Sialic acid synthase	
+PABKOE_05945	78287	79469	+	MFS transporter	
+PABKOE_05950	79458	81216	+	Siderophore synthetase	
+PABKOE_05955	81219	82281	+	alanine racemase	
+PABKOE_05960	82482	83478	+	ABC-type Fe3+-citrate transport system, periplasmic component	
+PABKOE_05965	83489	84521	+	iron-siderophore ABC transporter permease	
+PABKOE_05970	84517	85483	+	iron-dicitrate transporter subunit FecD	
+
+
+Significant hits: 
+1. BGC0000944	staphyloferrin A
+
+
+Details:
+
+>>
+1. BGC0000944
+Source: staphyloferrin A
+Type: Other:Non-NRP siderophore
+Number of proteins with BLAST hits to this cluster: 4
+Cumulative BLAST score: 2550.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+PABKOE_05940	SAOUHSC_02436	60	779	100.91883614088822	5.8e-225
+PABKOE_05945	SAOUHSC_02435	75	585	100.25445292620864	9.6e-167
+PABKOE_05950	SAOUHSC_02434	64	733	100.0	4.2e-211
+PABKOE_05955	SAOUHSC_02433	63	453	98.30028328611898	5.1e-127
+

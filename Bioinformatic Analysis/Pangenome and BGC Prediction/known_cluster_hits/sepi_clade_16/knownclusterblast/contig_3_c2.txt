@@ -1,0 +1,59 @@
+ClusterBlast scores for contig_3
+
+Table of genes, locations, strands and annotations of query cluster:
+GDEGBB_02835	60899	61547	+	ABC transporter permease	
+GDEGBB_02840	61587	62346	+	tributyrin esterase	
+GDEGBB_02845	62650	64207	-	C4-dicarboxylate anaerobic carrier	
+GDEGBB_02850	64380	65313	-	carbamate kinase	
+GDEGBB_02855	65335	66337	-	ornithine carbamoyltransferase	
+GDEGBB_02860	66821	67046	+	hypothetical protein	
+GDEGBB_02865	67150	67579	+	FosB family fosfomycin resistance bacillithiol transferase	
+GDEGBB_02870	67686	68562	+	5'-nucleotidase, lipoprotein e(P4) family	
+GDEGBB_02875	68822	69788	+	biotin synthase BioB	
+GDEGBB_02880	70092	71196	+	glycerol dehydrogenase	
+GDEGBB_02885	71211	72174	+	dihydroxyacetone kinase subunit DhaK	
+GDEGBB_02890	72228	72804	+	dihydroxyacetone kinase subunit DhaL	
+GDEGBB_02895	72807	73182	+	PTS-dependent dihydroxyacetone kinase phosphotransferase subunit DhaM	
+GDEGBB_02900	73483	74080	-	Type I secretion system protein	
+GDEGBB_02905	74338	75541	-	MFS transporter	
+GDEGBB_02910	75678	76575	+	LysR family transcriptional regulator	
+GDEGBB_02915	76650	76896	+	hypothetical protein	
+GDEGBB_02920	77467	78886	+	MFS transporter	
+GDEGBB_02925	79407	80649	+	MFS transporter	
+GDEGBB_02930	80846	88010	+	Thioester reductase domain of alpha aminoadipate reductase Lys2 and NRPSs	
+GDEGBB_02935	88019	88643	+	4'-phosphopantetheinyl transferase	
+GDEGBB_02940	89012	91199	+	lipase	
+GDEGBB_02945	91479	92820	+	Glucose transporter GlcP	
+GDEGBB_02950	92974	94678	+	ABC-ATPase domain-containing protein	
+GDEGBB_02955	94772	95270	+	MepB protein	
+GDEGBB_02960	95401	96307	+	EamA family transporter RarD	
+GDEGBB_02965	96414	97326	-	ABC transporter substrate-binding protein	
+GDEGBB_02970	97639	99058	-	anion permease	
+GDEGBB_02975	99381	100734	+	dihydrolipoyl dehydrogenase	
+GDEGBB_02980	100775	101729	+	ABC transporter substrate-binding protein	
+GDEGBB_02985	101799	102840	+	alpha-ketoacid dehydrogenase subunit beta	
+GDEGBB_02990	102853	104131	+	2-oxo acid dehydrogenase subunit E2	
+GDEGBB_02995	104332	104845	+	Putative immunodominant antigen B	
+GDEGBB_03000	105008	106619	-	glycine/betaine ABC transporter permease	
+GDEGBB_03005	106781	107342	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0000308	aureusimine A/aureusimine B/aureusimine C
+
+
+Details:
+
+>>
+1. BGC0000308
+Source: aureusimine A/aureusimine B/aureusimine C
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2577.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+GDEGBB_02930	SAA6008_00157	53	2378	100.25136154168412	0.0
+GDEGBB_02935	SAA6008_00158	46	199	102.41545893719808	7.8e-51
+

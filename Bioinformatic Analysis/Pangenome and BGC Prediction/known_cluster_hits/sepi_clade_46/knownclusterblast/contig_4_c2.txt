@@ -1,0 +1,59 @@
+ClusterBlast scores for contig_4
+
+Table of genes, locations, strands and annotations of query cluster:
+KCCFPC_06040	164421	165069	+	ABC transporter permease	
+KCCFPC_06045	165109	165868	+	tributyrin esterase	
+KCCFPC_06050	166113	167670	-	C4-dicarboxylate anaerobic carrier	
+KCCFPC_06055	167843	168776	-	carbamate kinase	
+KCCFPC_06060	168798	169800	-	ornithine carbamoyltransferase	
+KCCFPC_06065	170284	170509	+	hypothetical protein	
+KCCFPC_06070	170613	171042	+	FosB family fosfomycin resistance bacillithiol transferase	
+KCCFPC_06075	171149	172025	+	5'-nucleotidase, lipoprotein e(P4) family	
+KCCFPC_06080	172285	173251	+	biotin synthase BioB	
+KCCFPC_06085	173555	174659	+	glycerol dehydrogenase	
+KCCFPC_06090	174674	175637	+	dihydroxyacetone kinase subunit DhaK	
+KCCFPC_06095	175691	176267	+	dihydroxyacetone kinase subunit DhaL	
+KCCFPC_06100	176270	176645	+	PTS-dependent dihydroxyacetone kinase phosphotransferase subunit DhaM	
+KCCFPC_06105	176946	177543	-	Type I secretion system protein	
+KCCFPC_06110	177801	179004	-	MFS transporter	
+KCCFPC_06115	179141	180038	+	LysR family transcriptional regulator	
+KCCFPC_06120	180113	180359	+	hypothetical protein	
+KCCFPC_06125	180930	182349	+	MFS transporter	
+KCCFPC_06130	182870	184112	+	MFS transporter	
+KCCFPC_06135	184309	191473	+	Thioester reductase domain of alpha aminoadipate reductase Lys2 and NRPSs	
+KCCFPC_06140	191482	192106	+	4'-phosphopantetheinyl transferase	
+KCCFPC_06145	192475	194662	+	lipase	
+KCCFPC_06150	194942	196283	+	Glucose transporter GlcP	
+KCCFPC_06155	196437	198141	+	ABC-ATPase domain-containing protein	
+KCCFPC_06160	198235	198733	+	MepB protein	
+KCCFPC_06165	198864	199770	+	EamA family transporter RarD	
+KCCFPC_06170	199877	200789	-	ABC transporter substrate-binding protein	
+KCCFPC_06175	201102	202521	-	anion permease	
+KCCFPC_06180	202844	204197	+	dihydrolipoyl dehydrogenase	
+KCCFPC_06185	204238	205192	+	ABC transporter substrate-binding protein	
+KCCFPC_06190	205262	206303	+	alpha-ketoacid dehydrogenase subunit beta	
+KCCFPC_06195	206316	207594	+	2-oxo acid dehydrogenase subunit E2	
+KCCFPC_06200	207795	208308	+	Putative immunodominant antigen B	
+KCCFPC_06205	208471	210082	-	glycine/betaine ABC transporter permease	
+KCCFPC_06210	210244	210805	+	hypothetical protein	
+
+
+Significant hits: 
+1. BGC0000308	aureusimine A/aureusimine B/aureusimine C
+
+
+Details:
+
+>>
+1. BGC0000308
+Source: aureusimine A/aureusimine B/aureusimine C
+Type: NRP
+Number of proteins with BLAST hits to this cluster: 2
+Cumulative BLAST score: 2577.0
+
+Table of genes, locations, strands and annotations of subject cluster:
+
+Table of Blast hits (query gene, subject gene, %identity, blast score, %coverage, e-value):
+KCCFPC_06135	SAA6008_00157	53	2378	100.25136154168412	0.0
+KCCFPC_06140	SAA6008_00158	46	199	102.41545893719808	7.8e-51
+
