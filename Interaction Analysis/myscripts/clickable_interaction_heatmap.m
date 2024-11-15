@@ -17,9 +17,10 @@ num = numel(plot_structure.metadata);
 labels = {plot_structure.metadata.(label_option)};
 fig_position = [10.6000 1009 2560 1.3168e+03]; %specific to monitor setup
 subfig_position = [227.4000 364.2000 810.4000 344]; %specific to monitor setup
-crop_dim=load('params.mat', 'crop_dim').crop_dim;
-crop_radius=load('params.mat', 'crop_radius').crop_radius;
-int_radius=load('params.mat', 'int_radius').int_radius;
+input = load('params.mat','params');
+crop_dim=input.params.crop_spot_dectect;
+crop_radius=input.params.crop_radius;
+int_radius=input.params.int_radius;
 
 % create figures
 subfignum = 123;
@@ -131,7 +132,7 @@ gridhandle.ButtonDownFcn = @mouse_click; %clickable
         % Load image from masked image saved in folder
         figure(subfignum)
         subplot(1,2,1)
-        filename = [imgprefix,sprintf('%02d',imgnum),'_rect_masked.jpg'];
+        filename = [imgprefix,sprintf('%03d',imgnum),'_rect_masked.jpg'];
 
         subimage = imcrop(imread(filename),[center(1)-crop_radius,center(2)-crop_radius,2*crop_radius,2*crop_radius]);
         imshow(subimage)

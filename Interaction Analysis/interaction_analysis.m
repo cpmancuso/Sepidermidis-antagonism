@@ -11,7 +11,7 @@ clc
 clear all
 close all
 analysis_dir = pwd();
-parent_dir = fileparts(analysis_dir);
+parent_dir = 'C:\Users\cmanc\Dropbox\Lieberman Lab\Personal lab notebooks\Chris Mancuso\Antagonism Paper\Revision Code';
 addpath([analysis_dir '/myscripts'])
 addpath([analysis_dir '/data_for_code'])
 
@@ -24,11 +24,11 @@ set(groot,'defaultTextInterpreter','none')
 % Point to data and load
 disp('Loading data...')
 folder_prefix = [parent_dir, '/Image Analysis/'];
-folder_name={[folder_prefix 'AutoZOIs_median_filter - Block1'];[folder_prefix 'AutoZOIs_median_filter - Block1v2'];[folder_prefix 'AutoZOIs_median_filter - Block2v1'];[folder_prefix 'AutoZOIs_median_filter - Block2']};
-datafiles={[folder_name{1} '/processed_data_2022_06_09_measured_16-Nov-2022.mat'];[folder_name{2} '/processed_data_2022_07_08_measured_16-Nov-2022.mat'];[folder_name{3} '/processed_data_2022_07_22_measured_16-Nov-2022.mat'];[folder_name{4} '/processed_data_2022_07_15_measured_16-Nov-2022.mat']};
-image_dir={[folder_name{1} '/Masked Images/220606_T72_'];[folder_name{2} '/Masked Images/220705_T72_'];[folder_name{3} '/Masked Images/220719_T72_'];[folder_name{4} '/Masked Images/220712_T72_']};
+folder_name={[folder_prefix 'Block_1v1_241104'];[folder_prefix 'Block_1v2_241106'];[folder_prefix 'Block_2v1_241106'];[folder_prefix 'Block_2v2_241104']};
+datafiles={[folder_name{1} '/automated_ZOI_results_2024_10_20_block1v1_analyzed_07-Nov-2024.mat'];[folder_name{2} '/automated_ZOI_results_2024_10_26_block1v2_analyzed_08-Nov-2024.mat'];[folder_name{3} '/automated_ZOI_results_2024_11_02_block2v1_analyzed_08-Nov-2024.mat'];[folder_name{4} '/automated_ZOI_results_2024_10_18_block2v2_analyzed_08-Nov-2024.mat']};
+image_dir={[folder_name{1} '/Masked Images/Block1v1_24_10_20_'];[folder_name{2} '/Masked Images/Block1v2_24_10_26_'];[folder_name{3} '/Masked Images/Block2v1_24_11_02_'];[folder_name{4} '/Masked Images/Block2v2_24_10_18_']};
 interaction_structure = build_interaction_structure(datafiles);
-metadata = readtable('all_header_data.csv','TextType','string');
+metadata = readtable('updated_header_data.csv','TextType','string');
 
 metadata.Name = strrep(metadata.Name,'_','-');
 
@@ -48,7 +48,8 @@ groupby_option = 'lineage'; %'isolate', 'lineage', 'none';
 minmax_option = 'max'; %'min' or 'max' interactions for group
 collapse_non_epi = false; %choose whether to collapse non S. epidermidis isolates into a single "lineage" per species, recommend false
 remove_idiosyncratic = false; %choose whether to remove isolates with idiosyncratic sensitivity, recommend false
-
+remove_superantagonists = false; %choose whether to remove isolates which antagonize most S. epi, recommend false
+remove_replacements = false; % choose whether to remove isolates that were replaced for the M9 screen (absent from TSA screen)
 if collapse_non_epi
     for n=1:numel(interaction_structure.metadata)
         interaction_structure.metadata(n).Lineage = round(interaction_structure.metadata(n).Lineage);
@@ -63,13 +64,38 @@ if remove_idiosyncratic
     end
 end
 
-%% Make ZOI calls then group interaction data
+if remove_superantagonists
+    for n=1:numel(interaction_structure.metadata)
+        if ismember(interaction_structure.metadata(n).Lineage,[34,36,51,14])
+            interaction_structure.metadata(n).Trustworthy = 'superantagonist';
+        end
+    end
+end
+
+if ~remove_replacements
+    for n=1:numel(interaction_structure.metadata)
+        if strcmp(interaction_structure.metadata(n).Trustworthy,'replacement')
+            interaction_structure.metadata(n).Trustworthy = 'TRUE';
+        end
+    end
+end
+
+%% Make ZOI calls then save interaction structure
 % Make ZOI calls
 disp('Making ZOI calls...')
 interaction_structure.ZOI_call = make_ZOI_calls(interaction_structure,ZOI_depth_threshold,ZOI_noise_threshold,ZOI_AUC_lower_threshold,ZOI_AUC_upper_threshold);
 % NOTE! 'interaction_structure' should remain unfiltered and sorted by index, create new variables for filtering, sorting purposes
 
-% Group interactions and remove problematic samples
+save('interaction_structure_M9.mat','interaction_structure')
+
+%% Optional: Merge interaction structures from multiple analyses
+merge_interactions = False;
+if merge_interactions
+    additional_interactions = load('interaction_structure_TSA.mat');
+    interaction_structure = merge_interaction_structure(interaction_structure,additional_interactions.interaction_structure,'or');
+end
+
+%% Group interactions and remove problematic samples
 disp('Grouping interactions...')
 % remove samples that were deemed untrustworthy for any reason (non "TRUE" values)
 idxs = contains(vertcat(interaction_structure.metadata.Trustworthy),'TRUE');
@@ -97,6 +123,7 @@ end
 % load composition table once this is done, or if skipped
 load('composition_table.mat')
 
+
 %% Make clickable interaction heatmap
 % For data exploration
 
@@ -122,6 +149,13 @@ interactions_by_isolate = sort_interaction_structure(interactions_by_isolate,{'L
 
 if fignum
     fighandle = overlay_interaction_heatmap(interactions_by_lineage,'Name',fignum,'Species');
+end
+
+%% Plot composition by antagonism
+% Unused analysis
+fignum=0; %makes several figures
+if fignum
+    plot_composition_vs_antagonism(composition_table,interactions_by_lineage_sepi,fignum)
 end
 
 %% Make ANI plots
@@ -308,14 +342,13 @@ if fignum
     [fighandle] = plot_between_group_differences(simulation_structure,'Species','Species',fignum);
 end
 
-
 %% Make heatmap to compare two families
 % Figure 3C
 
 fignum=0;
 if fignum
     % create duplicated ZOI data for the following subjects
-    samples_to_include = {'5PA1','5PB3','7AA1','7AB4','7PA1'};
+    samples_to_include = {'1AA1','1AA3','1AA4','1PA1','1PA2','1PA4','1PB2','1PB3','5PA1','5PB3'};
     included_idxs = [];
     included_labels = {};
     replicated_subject_labels = {};
@@ -343,13 +376,11 @@ if fignum
 end
 
 
-%% Make heatmap to compare two families
-% Figure 3C
-
+%% Make heatmap to compare all families
 fignum=0;
 if fignum
     % create duplicated ZOI data for the following subjects
-    samples_to_include = {'1AA1','1AA3','1AA4','1PA1'};
+    samples_to_include = {'1AA1','1AA3','1AA4','1PA1','1PA2','1PA4','1PB2','1PB3','2AA1','2AA3','2PA1','2PA3','2PB1','4AA1','4AB1','5PA1','5PB3','7AA1','7AA4','7AB4','7PA1','8AA4','8AB4','8AC4','8PA3','8PB1','8PB4'};
     included_idxs = [];
     included_labels = {};
     replicated_subject_labels = {};
@@ -374,9 +405,8 @@ if fignum
         interactions_with_replication.metadata(n).Subject = replicated_subject_labels{n};
     end
     fighandle = overlay_interaction_heatmap(interactions_with_replication,'Name',fignum,'Subject');
-
-
 end
+
 %% Are antagonizer lineages at higher abundance?
 % Figure 3D
 
@@ -395,7 +425,7 @@ end
 
 fignum=0;
 if fignum
-    % create duplicated ZOI data for the following subjects
+    % create duplicated ZOI data for the following lineages
     lineages_to_include = [7,12,21,35,57,20,37,58];
     idiosyncratic_idxs = [];
     replicated_subject_labels = {};
@@ -465,6 +495,26 @@ if fignum
     [fighandle] = plot_growthrate_vs_antagonism(interactions_by_lineage_sepi,interactions_by_isolate,composition_table,growth_filename,fignum);
 end
 
+%% Plot growth rate per lineage
+% Supplementary Figure 12B
+% Do antagonizers have different growth rates?
+fignum = 0; %creates 3 figs
+if fignum
+    figure(fignum)
+    clf(fignum)
+    growth_filename = "figure_S12_growth_rates_2308_2312";
+    [fighandle] = plot_growthrate_vs_antagonism(interactions_by_lineage_sepi,interactions_by_isolate,composition_table,growth_filename,fignum);
+end
+
+%% Plot growth rate vs abundance
+fignum = 0; %creates 3 figs
+if fignum
+    figure(fignum)
+    clf(fignum)
+    growth_filename = "figure_S12_growth_rates_2308_2312";
+    [fighandle] = plot_growthrate_vs_abundance(interactions_by_lineage_sepi,interactions_by_isolate,composition_table,growth_filename,fignum);
+end
+
 %% Plot growth rate of idiosyncratic isolates
 % Supplementary Figure 12D
 fignum = 0;
@@ -474,7 +524,7 @@ if fignum
 end
 
 %% Are antagonizer lineages more likely to be shared?
-% Supplemetary Figure 12C
+% Supplementary Figure 12C
 fignum = 0; 
 if fignum
     figure(fignum)
@@ -484,12 +534,45 @@ if fignum
     fighandle = plot_sharing_vs_antagonism(subsampled_composition_table,subsampled_composition_matrix,subsampled_ZOI_matrix,fignum);
 end
 
+
+
+
 %% Other helpful analyses
 list_option = false;
+
+% Permute "same timepoint" label for each subject
+fignum = 0;
+if fignum
+    plot_per_sample_interaction_frequency_difference(interactions_by_lineage_sepi,composition_table,groupby_option,shuffle_option,num_sims,fignum)
+end
+
 % Look for cases of potential resistance
 fignum=0;
 if fignum
     fighandle = plot_intralineage_variation(interactions_by_isolate,500,list_option,fignum);
+end
+
+% Do antagonizers affect shannon diversity?
+fignum = 0;
+if fignum
+    comp_idxs = 1:size(composition_table,1);
+    [subsampled_composition_table,subsampled_composition_matrix,subsampled_ZOI_matrix] = subsample_composition(composition_table,interactions_by_lineage_sepi, comp_idxs);
+    fighandle = plot_shannon_vs_antagonism(subsampled_composition_table,subsampled_composition_matrix,subsampled_ZOI_matrix,fignum);
+end
+
+% Do children have higer AF?
+fignum=0;
+if fignum
+    freq = weighted_freq_structure.per_subject_interaction_freq;
+    AF_child = freq(~contains(weighted_freq_structure.subjects,'P'));
+    AF_adult = freq(contains(weighted_freq_structure.subjects,'P'));
+    [H,P] = ttest2(AF_child,AF_adult)
+end
+
+% Compare dMRCA for antagonists vs non-antagonists
+fignum = 0;
+if fignum
+    fighandle = plot_dMRCA_vs_antagonism(interactions_by_lineage_sepi,'dMRCA_table.csv');
 end
 
 do_stats=1;

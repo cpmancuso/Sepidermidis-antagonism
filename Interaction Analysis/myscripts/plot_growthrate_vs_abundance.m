@@ -1,4 +1,4 @@
-function [fighandle] = plot_growthrate_vs_antagonism(interactions_by_lineage_sepi,interactions_by_isolate,composition_table,growth_filename,fignum)
+function [fighandle] = plot_growthrate_vs_abundance(interactions_by_lineage_sepi,interactions_by_isolate,composition_table,growth_filename,fignum)
 
 % Note, compositions are not normalized, so composition may not add to 1
 % due to lineages not represented in the experiment.
@@ -13,6 +13,8 @@ comp_idxs = 1:size(composition_table,1);
 % Unpack structure
 mean_antagonism_frequency = abundance_structure.mean_antagonism_frequency;
 mean_sensitivity_frequency = abundance_structure.mean_sensitivity_frequency;
+mean_abundance = abundance_structure.mean_abundance;
+
 
 growth_table = readtable(growth_filename);
 
@@ -62,72 +64,41 @@ xticklabels(lineages_represented)
 xlabel('Lineage')
 ylabel('Growth Rate [h-1]')
 
-% plot antagonism vs growth rate
+% plot abundance vs growth rate
 fighandle = figure(fignum+1);
 clf(fignum+1)
 fighandle.Position = [100 100 700 350];
-median_interaction_frequency = mean_antagonism_frequency;
+median_abundance = mean_abundance;
+plot_idxs =  ~isnan(lineage_median_growth) & ~isnan(median_abundance);
+median_growth_to_plot = lineage_median_growth(plot_idxs)';
+median_abundance_to_plot = median_abundance(plot_idxs)';
 subplot(1,2,1)
-scatter(median_interaction_frequency,lineage_median_growth)
-mdl = fitlm(median_interaction_frequency,lineage_median_growth);
+scatter(median_abundance_to_plot,median_growth_to_plot)
+mdl = fitlm(median_abundance_to_plot,median_growth_to_plot);
 hold on
 plot(mdl)
 
-plot_idxs =  ~isnan(lineage_median_growth) & ~isnan(median_interaction_frequency);
+plot_idxs =  ~isnan(lineage_median_growth) & ~isnan(median_abundance);
 median_growth_to_plot = lineage_median_growth(plot_idxs)';
-median_interaction_frequency_to_plot = median_interaction_frequency(plot_idxs)';
+median_abundance_to_plot = median_abundance(plot_idxs)';
 
-[linear_rho,linear_p] = corr(median_growth_to_plot,median_interaction_frequency_to_plot,'Type','Pearson');
-[spearman_rho,spearman_p] = corr(median_growth_to_plot,median_interaction_frequency_to_plot,'Type','Spearman');
+[linear_rho,linear_p] = corr(median_abundance_to_plot,median_growth_to_plot,'Type','Pearson');
+[spearman_rho,spearman_p] = corr(median_abundance_to_plot,median_growth_to_plot,'Type','Spearman');
 
-ylabel('Lineage Growth Rate')
-xlabel('Antagonism frequency (vs. All Lineages)')
-title(['Correlation of growth rate and antagonism' newline 'Linear rho = ' num2str(linear_rho) ' p = ' num2str(linear_p) newline 'Spearman rho = ' num2str(spearman_rho) ' p = ' num2str(spearman_p)])
+xlabel('Lineage Growth Rate')
+ylabel('Relative Abundance')
+title(['Correlation of growth rate and abundance' newline 'Linear rho = ' num2str(linear_rho) ' p = ' num2str(linear_p) newline 'Spearman rho = ' num2str(spearman_rho) ' p = ' num2str(spearman_p)])
 
 
 subplot(1,2,2)
-[sorted_interaction,idxs] = sort(median_interaction_frequency_to_plot);
-sorted_growth = median_growth_to_plot(idxs);
-bar(sorted_growth);
+[sorted_growth,idxs] = sort(median_growth_to_plot);
+sorted_abund = median_abundance_to_plot(idxs);
+bar(sorted_abund);
 hold on
-bar(-sorted_interaction);
+bar(-sorted_growth);
 xlabel('Lineage')
 ylabel('Frequency')
-legend('Growth Rate','Antagonism','Location','southwest')
-
-
-% plot sensitivity vs growth rate
-fighandle = figure(fignum+2);
-clf(fignum+2)
-fighandle.Position = [100 100 700 350];
-median_interaction_frequency = mean_sensitivity_frequency;
-subplot(1,2,1)
-scatter(median_interaction_frequency,lineage_median_growth)
-mdl = fitlm(median_interaction_frequency,lineage_median_growth);
-hold on
-plot(mdl)
-
-plot_idxs =  ~isnan(lineage_median_growth) & ~isnan(median_interaction_frequency);
-median_growth_to_plot = lineage_median_growth(plot_idxs)';
-median_interaction_frequency_to_plot = median_interaction_frequency(plot_idxs)';
-
-[linear_rho,linear_p] = corr(median_growth_to_plot,median_interaction_frequency_to_plot,'Type','Pearson');
-[spearman_rho,spearman_p] = corr(median_growth_to_plot,median_interaction_frequency_to_plot,'Type','Spearman');
-
-ylabel('Lineage Growth Rate')
-xlabel('Sensitivity frequency (vs. All Lineages)')
-title(['Correlation of growth rate and sensitivity' newline 'Linear rho = ' num2str(linear_rho) ' p = ' num2str(linear_p) newline 'Spearman rho = ' num2str(spearman_rho) ' p = ' num2str(spearman_p)])
-
-
-subplot(1,2,2)
-[sorted_interaction,idxs] = sort(median_interaction_frequency_to_plot);
-sorted_growth = median_growth_to_plot(idxs);
-bar(sorted_growth);
-hold on
-bar(-sorted_interaction);
-xlabel('Lineage')
-ylabel('Frequency')
-legend('Growth Rate','Sensitivity','Location','southwest')
+legend('Relative Abundance','Growth Rate','Location','southwest')
 
 
 %% Subfunctions
