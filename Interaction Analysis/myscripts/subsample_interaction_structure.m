@@ -18,3 +18,17 @@ if any(contains(fieldnames(interaction_structure),'centers'))
     subsample_structure.norm_int = interaction_structure.norm_int(idxs_to_keep,idxs_to_keep,:); %3D
     subsample_structure.norm_x = interaction_structure.norm_x(idxs_to_keep,idxs_to_keep,:); %3D
 end
+
+% retain ZOI calls from multiple experiments, if exist, needed for some
+% analyses
+
+if any(contains(fieldnames(interaction_structure),'ZOI_call1'))
+    subsample_structure.ZOI_depth1 = interaction_structure.ZOI_depth1(idxs_to_keep,idxs_to_keep);
+    subsample_structure.ZOI_AUC1 = interaction_structure.ZOI_AUC1(idxs_to_keep,idxs_to_keep);
+    subsample_structure.ZOI_width1 = interaction_structure.ZOI_width1(idxs_to_keep,idxs_to_keep);
+    subsample_structure.ZOI_call1 = interaction_structure.ZOI_call1(idxs_to_keep,idxs_to_keep);
+    subsample_structure.ZOI_depth2 = interaction_structure.ZOI_depth2(idxs_to_keep,idxs_to_keep);
+    subsample_structure.ZOI_AUC2 = interaction_structure.ZOI_AUC2(idxs_to_keep,idxs_to_keep);
+    subsample_structure.ZOI_width2 = interaction_structure.ZOI_width2(idxs_to_keep,idxs_to_keep);
+    subsample_structure.ZOI_call2 = interaction_structure.ZOI_call2(idxs_to_keep,idxs_to_keep);
+end

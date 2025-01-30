@@ -1,4 +1,4 @@
-function [fighandle p] = plot_interaction_frequency_stem(expected_freq,per_group_interaction_freq,group_labels,groupname,fignum)
+function [fighandle p] = plot_interaction_frequency_stem(expected_freq,per_group_interaction_freq,per_group_error,group_labels,groupname,fignum)
 fighandle = figure(fignum);
 clf(fignum)
 fighandle.Position=[fighandle.Position(1) fighandle.Position(2) 300 200]; %approx 2in sq
@@ -14,6 +14,13 @@ else
     plot_order = 1:numel(per_group_interaction_freq);
 end
 
+% First, plot error bars, if any
+if ~isempty(per_group_error)
+    plot_error = per_group_error(plot_order) - plot_data; %positive only
+    er = errorbar(1:numel(plot_data),plot_data,nan(size(plot_data)),plot_error,'b.');
+    
+end
+
 sh = stem(plot_data,'BaseValue',expected_freq,'MarkerFaceColor','w','Color','k');
 ylim([0 0.5])
 ylabel('Within Sample Interaction Frequency')
@@ -26,6 +33,14 @@ sh.BaseLine.Color = 'r';
 sh.BaseLine.LineWidth = 2;
 xlabel(groupname)
 set(gca,'box','off')
+hold on
+
+% First, plot error bars, if any
+if ~isempty(per_group_error)
+    plot_error = per_group_error(plot_order) - plot_data; %positive only
+    er = errorbar(1:numel(plot_data),plot_data,zeros(size(plot_data)),plot_error,'b.');
+    
+end
 
 delta_interaction_freq = per_group_interaction_freq - expected_freq;
 [h,p,ci,stats] = ttest(delta_interaction_freq);

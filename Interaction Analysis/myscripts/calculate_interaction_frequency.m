@@ -36,7 +36,7 @@ switch weight_option
         
         % Calculate expected frequency of all off-diagonal interactions
         scaled_interaction_matrix = ZOI_matrix.*total_abundance_scaling_matrix.*(1-eye(N));
-        expected_freq = sum(scaled_interaction_matrix,'all')./sum(total_abundance_scaling_matrix.*(1-eye(N)),'all');
+        expected_freq = nansum(scaled_interaction_matrix,'all')./nansum(total_abundance_scaling_matrix.*(1-eye(N)),'all');
 
     case 'nonweighted'
         % Calculate total abundance and per sample abundance using equal composition
@@ -53,7 +53,7 @@ switch weight_option
         
         % Calculate expected frequency of all off-diagonal interactions
         scaled_interaction_matrix = ZOI_matrix.*total_abundance_scaling_matrix.*(1-eye(N));
-        expected_freq = sum(scaled_interaction_matrix,'all')./sum(total_abundance_scaling_matrix.*(1-eye(N)),'all');
+        expected_freq = nansum(scaled_interaction_matrix,'all')./nansum(total_abundance_scaling_matrix.*(1-eye(N)),'all');
 end
 
 %% Calculate per subject interaction, antagonism, and sensitivity frequency
@@ -66,13 +66,26 @@ for m=1:M
     outgroup_lineages = ~sample_lineages;
     sample_abundance_scaling_matrix = sample_abundance'*sample_abundance;
     S = sum(sample_lineages);
+
+    % calculate potential contribution from missing lineages
+    missing_abundance = 1-sum(sample_abundance);
+
+
     if S>1
         sample_scaled_interaction_matrix = ZOI_matrix(sample_lineages,sample_lineages).*sample_abundance_scaling_matrix.*(1-eye(S));
-        per_sample_interaction_num(m) = sum(sample_scaled_interaction_matrix>0,'all');
-        per_sample_interaction_freq(m) = sum(sample_scaled_interaction_matrix,'all')./sum(sample_abundance_scaling_matrix.*(1-eye(S)),'all');
+        per_sample_interaction_num(m) = nansum(sample_scaled_interaction_matrix>0,'all');
+        per_sample_interaction_freq(m) = nansum(sample_scaled_interaction_matrix,'all')./nansum(sample_abundance_scaling_matrix.*(1-eye(S)),'all');
+        
     else
         per_sample_interaction_freq(m) = 0;
+        per_sample_interaction_num(m) = 0;
     end
+    upperbound_scaling_matrix = [sample_abundance missing_abundance]'*[sample_abundance missing_abundance];
+    upperbound_interaction_matrix = expected_freq.*(1-eye(S+1,S+1)); %assume expected freq interactions
+    upperbound_interaction_matrix(1:S,1:S) = ZOI_matrix(sample_lineages,sample_lineages); %add real data back in
+    upperbound_interaction_matrix = upperbound_interaction_matrix.*upperbound_scaling_matrix.*(1-eye(S+1));
+    per_sample_interaction_freq_upperbound(m) = nansum(upperbound_interaction_matrix,'all')./nansum(upperbound_scaling_matrix.*(1-eye(S+1)),'all');
+
 end
 
 for g=1:numel(subjects)
@@ -84,3 +97,4 @@ freq_structure.per_sample_interaction_freq = per_sample_interaction_freq;
 freq_structure.per_subject_interaction_freq = per_subject_interaction_freq;
 freq_structure.subjects = subjects;
 freq_structure.per_sample_interaction_num = per_sample_interaction_num;
+freq_structure.per_sample_interaction_freq_upperbound = per_sample_interaction_freq_upperbound;

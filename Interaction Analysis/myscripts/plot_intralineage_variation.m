@@ -1,5 +1,4 @@
-function fighandle = plot_intralineage_variation(interactions_by_isolate,variation_threshold,list_option,fignum)
-%list_option list out all potential cases of intralineage varaition? True/False
+function [fighandle, ant_outliers_table, sen_outliers_table] = plot_intralineage_variation(interactions_by_isolate,fignum)
 
 fighandle = figure(fignum);
 clf(fignum)
@@ -37,11 +36,6 @@ for a =1:numel(id) %antagonist
                 ZOI_AUCs_vector = ZOI_AUCs_vector(:);
 
                 if any(ZOI_call_vector) && ~all(ZOI_call_vector)
-                    if max(ZOI_AUCs_vector)-min(ZOI_AUCs_vector) >variation_threshold
-                        if list_option
-                            disp([num2str(id(a)) ' varies antagonizing ' num2str(id(b))])
-                        end
-                    end
                     num_variant_ant = num_variant_ant+1;
                     variant_ant_table = [variant_ant_table; table(id(a),id(b),{ZOI_AUCs_vector},{ZOI_call_vector},'VariableNames',{'Antagonist','Bait','AUCs','Calls'})];
                 elseif all(ZOI_call_vector)
@@ -61,11 +55,6 @@ for a =1:numel(id) %antagonist
                 ZOI_AUCs_vector = ZOI_AUCs_vector(:);
 
                 if any(ZOI_call_vector) && ~all(ZOI_call_vector)
-                    if max(ZOI_AUCs_vector)-min(ZOI_AUCs_vector) >variation_threshold
-                        if list_option
-                            disp([num2str(id(a)) ' causes variable sensitivity in ' num2str(id(b))])
-                        end
-                    end
                     num_variant_sen = num_variant_sen+1;
                     variant_sen_table = [variant_sen_table; table(id(a),id(b),{ZOI_AUCs_vector},{ZOI_call_vector},'VariableNames',{'Antagonist','Bait','AUCs','Calls'})];
                 elseif all(ZOI_call_vector)
@@ -85,6 +74,8 @@ fraction_variant_sen = num_variant_sen./(num_variant_sen+num_invariant_sen+num_i
 disp([num2str(fraction_variant_ant,3) ' of antagonisms vary across lineage'])
 disp([num2str(fraction_variant_sen,3) ' of sensitivities vary across lineage'])
 
+
+
 %%
 figure(fignum)
 ant_range = zeros(num_variant_ant,1);
@@ -103,13 +94,13 @@ plot(1:num_variant_ant,ant_range,'.')
 ylim([0 max(max(interactions_by_isolate.ZOI_AUC))])
 title('Intralineage Variation in Antagonism')
 hold on
-plot([0 num_variant_ant],[variation_threshold, variation_threshold],'r')
+ant_outliers = find(isoutlier(ant_range));
+plot(ant_outliers,ant_range(ant_outliers),'r.')
 
 subplot(2,2,2)
 histogram(ant_range,[0:100:3000])
 title('Intralineage Variation in Antagonism')
 hold on
-plot([variation_threshold variation_threshold],[0 100],'r')
 ylim([0 100])
 
 
@@ -118,12 +109,15 @@ plot(1:num_variant_sen,sen_range,'.')
 ylim([0 max(max(interactions_by_isolate.ZOI_AUC))])
 title('Intralineage Variation in Sensitivity')
 hold on
-plot([0 num_variant_sen],[variation_threshold, variation_threshold],'r')
+sen_outliers = find(isoutlier(sen_range));
+plot(sen_outliers,sen_range(sen_outliers),'r.')
 
 subplot(2,2,4)
 histogram(sen_range,[0:100:3000])
 title('Intralineage Variation in Sensitivity')
 hold on
-plot([variation_threshold variation_threshold],[0 100],'r')
 ylim([0 100])
+
+ant_outliers_table = variant_ant_table(ant_outliers,:);
+sen_outliers_table = variant_sen_table(sen_outliers,:);
 
