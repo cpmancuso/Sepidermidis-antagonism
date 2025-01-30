@@ -13,7 +13,7 @@ spls = config['sample_table']
 
 from gus_helper_functions import *
 from itertools import compress
-[PATH_ls, SAMPLE_ls, FILENAME_ls, _, _, _] = read_samples_CSV(spls)
+[PATH_ls, SAMPLE_ls, FILENAME_ls, FOLDER_ls, _, _] = read_samples_CSV(spls)
 
 
 ''' VARIABLES '''
@@ -37,17 +37,18 @@ rule all:
         expand('01-antismash/{sampleID}/index.html',sampleID=SAMPLE_ls),
         '02-regions/results_summary.txt',
         '03-bigscape/index.html',
-        '04-roary/pan_genome_reference.fa'
+        '04-roary/pan_genome_reference.fa',
+        '05-summarize-results/merged_tables.csv'
 
 
 rule make_data_links:
     input:
-        input_file=expand('{path}/{sampleID}/{fn}',zip,path=PATH_ls,sampleID=SAMPLE_ls,fn=FILENAME_ls),
+        input_file=expand('{path}/{folder}/{fn}',zip,path=PATH_ls,folder=FOLDER_ls,fn=FILENAME_ls),
     output:
         genbank_links=expand('data/{sampleID}/{sampleID}.gbff',sampleID=SAMPLE_ls),
     run:
         for i in range(len(SAMPLE_ls)):
-            sourcefile = PATH_ls[i] + '/' + SAMPLE_ls[i] + '/' + FILENAME_ls[i]
+            sourcefile = PATH_ls[i] + '/' + FOLDER_ls[i] + '/' + FILENAME_ls[i]
             linkfile = 'data/' + SAMPLE_ls[i] + '/' + SAMPLE_ls[i] + '.gbff'
             subprocess.run( 'ln -fs -T ' + sourcefile + ' ' + linkfile,shell=True)
 
@@ -80,6 +81,14 @@ rule concatentate_antismash_results:
                 new_file_name =  SAMPLE_ls[i] + '_' + file_name
                 destination_name = os.path.join('02-regions', new_file_name)
                 shutil.copy(file_path, destination_name)
+            # also copy json
+            pattern = '01-antismash/' + SAMPLE_ls[i] + '/*.json'
+            matching_files = glob.glob(pattern)
+            for file_path in matching_files:
+                file_name = os.path.basename(file_path)
+                new_file_name =  file_name
+                destination_name = os.path.join('02-regions', new_file_name)
+                shutil.copy(file_path, destination_name)
         # list all regions
         files = os.listdir('02-regions')
         with open('02-regions/results_summary.txt', 'w') as file:
@@ -95,11 +104,11 @@ rule bigscape:
     params:
         in_dir='02-regions',
         out_dir='03-bigscape',
-        db='/nfs/pool002/users/mancusoc/BiG-SCAPE-1.1.5/',
+        db='/nfs/pool002/users/mancusoc/BiG-SCAPE/Pfam-A.hmm'
     conda:
-        'envs/bigscape.yaml',
+        'bigscape', #since beta version install require
     shell:
-        "python {params.db}/bigscape.py -i {params.in_dir} -o {params.out_dir} -c 8 --pfam_dir {params.db}"
+        "bigscape cluster -i {params.in_dir} -o {params.out_dir} -c 8 -p {params.db} --classify legacy"
 
 
 rule roary_prep:
@@ -132,3 +141,16 @@ rule roary:
         rm -rf '{params.out_dir}'
         roary -p 8 {params.in_dir}/*.gff -f {params.out_dir} -e --mafft
         """
+
+rule summarize_results:
+    input:
+        bigscape_file = '03-bigscape/index.html',
+        antismash_file = '02-regions/results_summary.txt',
+    output:
+        merged_tables = '05-summarize-results/merged_tables.csv'
+    shell:
+        """
+        python scripts/parse_BGC_results_and_merge.py
+        """
+
+

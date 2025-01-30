@@ -1,0 +1,120 @@
+# Assembly and annotation snakemake
+
+''' GLOBAL '''
+import sys
+import glob
+import shutil
+
+# Global variables: In theory do not need to be changed
+CURRENT_DIRECTORY = os.getcwd()
+SCRIPTS_DIRECTORY = config['myscripts_directory']
+sys.path.insert(0, SCRIPTS_DIRECTORY)
+spls = config['sample_table']
+
+from gus_helper_functions import *
+from itertools import compress
+[PATH_ls, SAMPLE_ls, FILENAME_ls, _, _, _] = read_samples_CSV(spls)
+
+
+''' VARIABLES '''
+
+# User defined variables: Make sure these are right before run!
+
+
+
+''' FUNCTIONS '''
+
+# User defined functions called by snakemake
+
+
+''' SNAKEMAKE '''
+
+rule all:
+    # Special snakemake rule that defines which output files need to be created by the pipeline. 
+    # Snakemake will only execute the steps (rules) necessary to create these output files.
+    input:
+        expand('tmp/{sampleID}_filt/filt1.fq.gz',sampleID=SAMPLE_ls),
+        expand('tmp/{sampleID}_filt/filt2.fq.gz',sampleID=SAMPLE_ls),
+        expand('01-assembly/{sampleID}/contigs.fasta',sampleID=SAMPLE_ls),
+        expand('02-annotation/{sampleID}/{sampleID}.gbff',sampleID=SAMPLE_ls),
+
+
+rule make_data_links:
+    input:
+        input_files=expand('{path}{fn}_1.fastq.gz',zip,path=PATH_ls,fn=FILENAME_ls),
+    output:
+        fq1_links=expand('links/{sampleID}/R1.fq.gz',sampleID=SAMPLE_ls),
+        fq2_links=expand('links/{sampleID}/R2.fq.gz',sampleID=SAMPLE_ls),
+    run:
+        for i in range(len(SAMPLE_ls)):
+            source1 = PATH_ls[i] + FILENAME_ls[i] + '_1.fastq.gz'
+            source2 = PATH_ls[i] + FILENAME_ls[i] + '_2.fastq.gz'
+            fq1_link = 'links/' + SAMPLE_ls[i] + '/R1.fq.gz'
+            fq2_link = 'links/' + SAMPLE_ls[i] + '/R2.fq.gz'
+
+            subprocess.run( 'ln -fs -T ' + source1 + ' ' + fq1_link,shell=True)
+            subprocess.run( 'ln -fs -T ' + source2 + ' ' + fq2_link,shell=True)
+
+
+# Removes adapters from reads
+rule cutadapt:
+    input:
+        fq1 = 'links/{sampleID}/R1.fq.gz',
+        fq2 = 'links/{sampleID}/R2.fq.gz',
+    output:
+        fq1o = 'tmp/{sampleID}_R1_trim.fq.gz',
+        fq2o = 'tmp/{sampleID}_R2_trim.fq.gz',
+    log:
+        log = 'logs/cutadapt_{sampleID}.txt',
+    conda:
+        'envs/cutadapt.yaml',
+    shell:
+        'cutadapt -a CTGTCTCTTAT --cores=4 -o {output.fq1o} {input.fq1} 1> {log};'
+        'cutadapt -a CTGTCTCTTAT --cores=4 -o {output.fq2o} {input.fq2} 1>> {log};'
+
+
+# Trims reads based on quality
+rule sickle2050:
+    input:
+        fq1o = 'tmp/{sampleID}_R1_trim.fq.gz',
+        fq2o = 'tmp/{sampleID}_R2_trim.fq.gz',
+    output:
+        fq1o = 'tmp/{sampleID}_filt/filt1.fq.gz',
+        fq2o = 'tmp/{sampleID}_filt/filt2.fq.gz',
+        fqSo = 'tmp/{sampleID}_filt/filt_sgls.fq.gz',
+    log:
+        log = 'logs/sickle2050_{sampleID}.txt',
+    conda:
+        'envs/sickle-trim.yaml',
+    shell:
+        'sickle pe -g -f {input.fq1o} -r {input.fq2o} -t sanger -o {output.fq1o} -p {output.fq2o} -s {output.fqSo} -q 20 -l 20 -x -n 1> {log} ;'
+
+# Assemble a genome from reads from a given sample using SPAdes
+rule spades:
+    input:
+        fastq1=rules.sickle2050.output.fq1o,
+        fastq2=rules.sickle2050.output.fq2o,
+    params:
+        outdir='01-assembly/{sampleID}'
+    conda:
+        'envs/spades.yaml'
+    threads: 16
+    output:
+        fasta='01-assembly/{sampleID}/contigs.fasta', # produced by spades''
+    shell:
+        'spades.py -m 250 -k 21,33,55,77 --phred-offset 33 --careful -t {threads} -1 {input.fastq1} -2 {input.fastq2} -o {params.outdir}'
+
+# Annotate a genome using Bakta
+
+rule bakta:
+    input:
+        genome='01-assembly/{sampleID}/contigs.fasta',
+    output:
+        annotation = '02-annotation/{sampleID}/{sampleID}.gbff',
+        bakta_faa = '02-annotation/{sampleID}/{sampleID}.faa',
+    conda:
+        'envs/bakta.yaml',
+    params:
+        db_path = '/orcd/nese/tami/001/databases/bakta/db/'
+    shell:
+        'bakta --db {params.db_path} --min-contig-length 200 --prefix {wildcards.sampleID} --output 02-annotation/{wildcards.sampleID}/ --threads 8 {input.genome} --force'

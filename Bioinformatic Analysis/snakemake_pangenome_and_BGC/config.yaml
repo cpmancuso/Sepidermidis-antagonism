@@ -36,7 +36,7 @@ cluster:
 
 
 default-resources:
-   - partition="sched_mit_tami"
+   - partition="sched_mit_tami,sched_mit_hill,sched_any"
    - time="1:00:00"
    - ntasks=1
    - cpus_per_task=1
