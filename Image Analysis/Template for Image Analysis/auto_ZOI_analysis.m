@@ -7,7 +7,7 @@ addpath([pwd '/myscripts'])
 %% Choose which steps to complete
 
 % Choose image directory
-imagedir = 'C:\Users\cmanc\Dropbox\Lieberman Lab\Personal lab notebooks\Chris Mancuso\Data\2024_10_18_block2v2';
+imagedir = 'C:\Users\cmanc\Dropbox\Lieberman Lab\Personal lab notebooks\Chris Mancuso\Antagonism Paper\Revision Code\Image Analysis\Template for Image Analysis\TSA_extras';
 if isdir(imagedir)
     image_names = dir(imagedir);
     image_names=image_names(contains({image_names.name},'JPG')); % to find images later
