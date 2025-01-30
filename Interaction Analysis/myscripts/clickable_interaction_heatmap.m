@@ -132,7 +132,7 @@ gridhandle.ButtonDownFcn = @mouse_click; %clickable
         % Load image from masked image saved in folder
         figure(subfignum)
         subplot(1,2,1)
-        filename = [imgprefix,sprintf('%03d',imgnum),'_rect_masked.jpg'];
+        filename = [imgprefix,sprintf('%02d',imgnum),'_rect_masked.jpg'];
 
         subimage = imcrop(imread(filename),[center(1)-crop_radius,center(2)-crop_radius,2*crop_radius,2*crop_radius]);
         imshow(subimage)

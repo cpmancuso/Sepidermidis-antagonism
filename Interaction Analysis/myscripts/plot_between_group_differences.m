@@ -1,7 +1,7 @@
 function [fighandle] = plot_between_group_differences(simulation_structure,groupby_option,label,fignum)
 fighandle = figure(fignum);
 clf(fignum)
-fighandle.Position=[fighandle.Position(1) fighandle.Position(2) 1200 400]; %approx 2in tall
+fighandle.Position=[fighandle.Position(1) fighandle.Position(2) 600 200]; %approx 2in tall
 formatSpec = '%.3f';
 
 %% Plot Fisher's Exact
@@ -30,7 +30,7 @@ ylim([0 0.25])
 
 ylabel('Frequency of Antagonism')
 xticks([1 2])
-xticklabels({['Same (' num2str(rel_fish_n(1)) ')'],['Different (' num2str(rel_fish_n(2)) ')']})
+xticklabels({['Same\newline(' num2str(rel_fish_n(1)) ')'],['Different\newline(' num2str(rel_fish_n(2)) ')']})
 xtickangle(0)
 xlabel(label)
 title(['Fisher''s Exact p = ' num2str(p,formatSpec)])
@@ -53,6 +53,7 @@ pval_high = sum(observed_deltaIF>simulated_deltaIF)./numel(simulated_deltaIF);
 pval_low = sum(observed_deltaIF<simulated_deltaIF)./numel(simulated_deltaIF);
 pval = min(pval_high,pval_low)*2;
 title(['Permutation 2-sided p-value: ' num2str(pval)])
+ylabel('Simulations')
 
 %% Plot AUC comparison for nonzero data
 subplot(1,3,3)
@@ -70,7 +71,9 @@ legend({['Same ' label],['Diff ' label]})
 title(['KS-test p = ' num2str(pks,formatSpec)])
 ylabel('AUC of ZOI')
 xticks([1 2])
-xticklabels({['Same (' num2str(rel_fish_n(1)) ')'],['Different (' num2str(rel_fish_n(2)) ')']})
+xticklabels({['Same\newline(' num2str(rel_fish_n(1)) ')'],['Different\newline(' num2str(rel_fish_n(2)) ')']})
+xtickangle(0)
+
 xlabel(label)
 pbaspect([1 1 1])
 

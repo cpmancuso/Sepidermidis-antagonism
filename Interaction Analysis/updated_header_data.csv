@@ -188,6 +188,6 @@ Index,Block,Well,Stock,Name,PlateName,Species,Lineage,Phylogroup,Agr_Type,Family
 187,2,H7,346,11.2,7PA1F_28JC_58,Staphylococcus epidermidis,11,A-Sepi,2,7,7PA,7PA1,TRUE,116,50,5
 188,2,H8,347,29.4,7AA1C_28JC_6,Staphylococcus epidermidis,29,A-Sepi,3,7,7AA,7AA1,TRUE,102,49,20
 189,2,H9,348,69.5,7PA1K_28JC_65,Staphylococcus epidermidis,69,A-Sepi,1,7,7PA,7PA1,TRUE,119,55,22
-190,2,H10,371,92.1,1PB3C_8YDS_65,Staphylococcus epidermidis,92,A-Sepi,1,1,1PB,1PB3,replacement,0,0,0
+190,2,H10,371,92.1,1PB3C_8YDS_65,Staphylococcus epidermidis,92,A-Sepi,1,1,1PB,1PB3,poor growth,0,0,0
 191,2,H11,349,12.3,7PA1C_28JC_68,Staphylococcus epidermidis,12,A-Sepi,3,7,7PA,7PA1,TRUE,114,54,55
 192,2,H12,350,55.2,7PA1C_28JC_84,Staphylococcus epidermidis,55,A-Sepi,3,7,7PA,7PA1,TRUE,115,51,30

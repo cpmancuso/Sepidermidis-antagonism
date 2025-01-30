@@ -1,6 +1,6 @@
-% function fighandle = plot_dMRCA_vs_antagonism(interactions_by_lineage_sepi,dMRCA_filename,ant_option,fignum)
-dMRCA_filename = 'dMRCA_table';
-ant_option = 'sensitivity';
+function fighandle = plot_dMRCA_vs_antagonism(interactions_by_lineage_sepi,composition_table,dMRCA_filename,ant_option,fignum)
+% dMRCA_filename = 'dMRCA_table';
+% ant_option = 'sensitivity';
 
 fighandle = figure(fignum);
 clf(fignum)

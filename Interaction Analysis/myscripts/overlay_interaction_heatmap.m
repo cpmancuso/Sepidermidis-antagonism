@@ -32,7 +32,9 @@ colormap(intensity_map.*default_color)
 % Make heatmap 
 plot_data = log10(plot_structure.ZOI_AUC.*plot_structure.ZOI_call);
 plot_data = plot_data'; %transpose for imagesc
+
 image_handle = imagesc(plot_data,[0 steps]);
+set(image_handle, 'AlphaData', ~isnan(plot_data))
 colorbar
 hold on
 xlabel('Reciever Lawn')
@@ -44,6 +46,7 @@ xtickangle(90)
 yticks(1:num)
 yticklabels(labels)
 h=gca; h.YAxis.TickLength = [0 0];
+set(h,'Color','#3C2415')
 
 % Make grid
 xrange = [1 num];

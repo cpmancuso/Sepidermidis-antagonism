@@ -1,6 +1,4 @@
-function sorted_structure = sort_interaction_structure(interaction_structure,sorting_vars)
-lineage_order = [];
-load("lineage_order.mat")
+function sorted_structure = sort_interaction_structure(interaction_structure,sorting_vars,lineage_order)
 table = struct2table(interaction_structure.metadata);
 if contains(sorting_vars,'Lineage')
     idxs = [];

@@ -302,4 +302,6 @@ for f=1:8
         ylabel('Lineage Abundance')
     end
 end
-
+%% Make table for supplement
+supp_table = [composition_table; MG_table];
+writetable(supp_table,'supplemental_composition_table.csv')

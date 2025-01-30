@@ -28,6 +28,10 @@ for g =1:numel(id)
             num_interactions =  sum(interaction_structure.ZOI_call(idxs,:),2);
             [~,i] = max(num_interactions);
             rep_idxs(g) = idxs(i);
+        case 'mode'
+            num_interactions =  sum(interaction_structure.ZOI_call(idxs,:),2);
+            [~,i] = max(num_interactions);
+            rep_idxs(g) = idxs(i);
     end
     % carry over AAI/ANI/Treedist info from groupmate if necessary
     if interaction_structure.metadata(rep_idxs(g)).ANI_index==0
@@ -54,7 +58,7 @@ interactions_by_group.metadata =  interaction_structure.metadata(rep_idxs);
 interactions_by_group.ZOI_depth = zeros(numel(id));
 interactions_by_group.ZOI_AUC = zeros(numel(id));
 interactions_by_group.ZOI_width = zeros(numel(id));
-interactions_by_group.ZOI_call = false(numel(id));
+interactions_by_group.ZOI_call = zeros(numel(id));
 
 for g =1:numel(id)
     gidxs = find(group==g);
@@ -66,6 +70,16 @@ for g =1:numel(id)
             interactions_by_group.ZOI_AUC(g,h) = interaction_structure.ZOI_AUC(gidxs,hidxs);
             interactions_by_group.ZOI_width(g,h) = interaction_structure.ZOI_width(gidxs,hidxs);
             interactions_by_group.ZOI_call(g,h) = interaction_structure.ZOI_call(gidxs,hidxs);
+            if any(contains(fieldnames(interaction_structure),'ZOI_call1'))
+                interactions_by_group.ZOI_depth1(g,h) = interaction_structure.ZOI_depth1(gidxs,hidxs);
+                interactions_by_group.ZOI_AUC1(g,h) = interaction_structure.ZOI_AUC1(gidxs,hidxs);
+                interactions_by_group.ZOI_width1(g,h) = interaction_structure.ZOI_width1(gidxs,hidxs);
+                interactions_by_group.ZOI_call1(g,h) = interaction_structure.ZOI_call1(gidxs,hidxs);
+                interactions_by_group.ZOI_depth2(g,h) = interaction_structure.ZOI_depth2(gidxs,hidxs);
+                interactions_by_group.ZOI_AUC2(g,h) = interaction_structure.ZOI_AUC2(gidxs,hidxs);
+                interactions_by_group.ZOI_width2(g,h) = interaction_structure.ZOI_width2(gidxs,hidxs);
+                interactions_by_group.ZOI_call2(g,h) = interaction_structure.ZOI_call2(gidxs,hidxs);
+            end
         else
             group_call = interaction_structure.ZOI_AUC(gidxs,hidxs).*interaction_structure.ZOI_call(gidxs,hidxs);
             % take min or max
@@ -74,6 +88,17 @@ for g =1:numel(id)
                 [~,idx] = min(group_call(:));
                 case 'max'
                 [~,idx] = max(group_call(:));
+                case 'mode'
+                    switch groupby_option
+                        case 'isolate'
+                            [~,idx] = max(group_call(:));
+                        case 'lineage'
+                            if sum(group_call>0,'all')>=(numel(group_call)./2)
+                                [~,idx] = max(group_call(:));
+                            else
+                                [~,idx] = min(group_call(:));
+                            end
+                    end
             end
             % convert linear index to local subscripts
             [row,col] = ind2sub([numel(gidxs) numel(hidxs)],idx);
@@ -81,6 +106,16 @@ for g =1:numel(id)
             interactions_by_group.ZOI_AUC(g,h) = interaction_structure.ZOI_AUC(gidxs(row),hidxs(col));
             interactions_by_group.ZOI_width(g,h) = interaction_structure.ZOI_width(gidxs(row),hidxs(col));
             interactions_by_group.ZOI_call(g,h) = interaction_structure.ZOI_call(gidxs(row),hidxs(col));
+            if any(contains(fieldnames(interaction_structure),'ZOI_call1'))
+                interactions_by_group.ZOI_depth1(g,h) = interaction_structure.ZOI_depth1(gidxs(row),hidxs(col));
+                interactions_by_group.ZOI_AUC1(g,h) = interaction_structure.ZOI_AUC1(gidxs(row),hidxs(col));
+                interactions_by_group.ZOI_width1(g,h) = interaction_structure.ZOI_width1(gidxs(row),hidxs(col));
+                interactions_by_group.ZOI_call1(g,h) = interaction_structure.ZOI_call1(gidxs(row),hidxs(col));
+                interactions_by_group.ZOI_depth2(g,h) = interaction_structure.ZOI_depth2(gidxs(row),hidxs(col));
+                interactions_by_group.ZOI_AUC2(g,h) = interaction_structure.ZOI_AUC2(gidxs(row),hidxs(col));
+                interactions_by_group.ZOI_width2(g,h) = interaction_structure.ZOI_width2(gidxs(row),hidxs(col));
+                interactions_by_group.ZOI_call2(g,h) = interaction_structure.ZOI_call2(gidxs(row),hidxs(col));
+            end
         end
     end
 end
