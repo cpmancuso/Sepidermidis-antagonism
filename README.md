@@ -15,7 +15,7 @@ This repository is grouped into three major parts:
 - **Interaction Analysis**: contains the MATLAB pipeline and data sturctures needed to generate all the plots in the manuscript. 
 
 **Instructions** \
-See "instructions_for_use" document in this folder
+See "instructions_to_run" document in this folder
 
 **Dependencies** \
 **Bioinformatic Analysis**: All conda environments used for SLURM cluster operation are included in the relevant snakemake folders. Installation of all required conda environments may take up to 1-2h depending on your system and the download speed of external databases. As these scripts are written for execution on the MIT Engaging computing cluster (a SLURM system), they will need significant modifications before running on your system. The v.1.0 (original GitHub commit) pipeline was tested on Snakemake version 7.32.3. \
