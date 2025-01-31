@@ -1,0 +1,566 @@
+GBK,Record_Number_x,Class,Category,Record_Number_y,CC,Family,Sample_Name,Source,Type,Proteins_with_BLAST_Hits,Cumulative_BLAST_Score,Lowest_Identity
+sepi_clade_68_contig_26.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_68,,,,,
+sepi_clade_35_contig_21.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_35,,,,,
+sepi_clade_33_contig_29.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_33,staphyloferrin A,Other:Non-NRP siderophore,4.0,2556.0,60.0
+shom_clade_507_contig_14.region001,1.0,NI-siderophore,other,1.0,13.0,FAM_00002,shom_clade_507,staphyloferrin A,Other:Non-NRP siderophore,3.0,1713.0,55.0
+sepi_clade_39_contig_12.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_39,,,,,
+sepi_clade_4_contig_13.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_4,staphylopine,Other,9.0,4339.0,61.0
+sepi_clade_4_contig_20.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_4,,,,,
+sepi_clade_49_contig_27.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_49,,,,,
+saur_clade_305_contig_7.region001,1.0,terpene,terpene,1.0,33.0,FAM_00036,saur_clade_305,,,,,
+sepi_clade_35_contig_5.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_35,staphyloferrin A,Other:Non-NRP siderophore,4.0,2549.0,60.0
+sepi_clade_53_contig_2.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_53,,,,,
+shom_clade_508_contig_5.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00022,shom_clade_508,,,,,
+sepi_clade_44_contig_20.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_44,,,,,
+sepi_clade_37_contig_19.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_37,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_92_contig_24.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_92,,,,,
+sepi_clade_34_contig_54.region001,1.0,RiPP-like,RiPP,1.0,61.0,FAM_00023,sepi_clade_34,,,,,
+sepi_clade_12_contig_9.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_12,,,,,
+sepi_clade_53_contig_10.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_53,,,,,
+sepi_clade_40_contig_4.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_40,,,,,
+sepi_clade_47_contig_25.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_47,,,,,
+shom_clade_504_contig_5.region001,1.0,NI-siderophore,other,1.0,13.0,FAM_00002,shom_clade_504,staphyloferrin A,Other:Non-NRP siderophore,3.0,1719.0,55.0
+sepi_clade_58_contig_8.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_58,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_17_contig_56.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_17,,,,,
+sepi_clade_24_contig_3.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_24,,,,,
+sepi_clade_35_contig_13.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_35,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_28_contig_5.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_28,,,,,
+sepi_clade_40_contig_11.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_40,staphylopine,Other,9.0,4322.0,61.0
+sepi_clade_63_contig_19.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_63,,,,,
+sepi_clade_38_contig_6.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_38,,,,,
+sepi_clade_43_contig_5.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_43,,,,,
+saur_clade_305_contig_3.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00005,saur_clade_305,staphylopine,Other,9.0,5816.0,97.0
+sepi_clade_44_contig_9.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_44,staphyloferrin A,Other:Non-NRP siderophore,4.0,2535.0,60.0
+sepi_clade_50_contig_85.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_50,,,,,
+sepi_clade_32_contig_10.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00004,sepi_clade_32,staphylopine,Other,9.0,4315.0,60.0
+shom_clade_502_contig_6.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00022,shom_clade_502,kijanimicin,Polyketide,2.0,714.0,46.0
+sepi_clade_92_contig_11.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_92,staphyloferrin A,Other:Non-NRP siderophore,4.0,2552.0,60.0
+sepi_clade_72_contig_19.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_72,,,,,
+sepi_clade_29_contig_12.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_29,,,,,
+sepi_clade_50_contig_12.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_50,staphyloferrin A,Other:Non-NRP siderophore,4.0,2547.0,60.0
+saur_clade_304_contig_2.region002,2.0,NRPS,NRPS,2.0,161.0,FAM_00032,saur_clade_304,aureusimine A/aureusimine B/aureusimine C,NRP,2.0,5083.0,98.0
+sepi_clade_46_contig_4.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_46,staphylopine,Other,9.0,4313.0,61.0
+saur_clade_302_contig_4.region002,2.0,T3PKS,PKS,2.0,29.0,FAM_00040,saur_clade_302,,,,,
+sepi_clade_3_contig_3.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_3,,,,,
+sepi_clade_9_contig_18.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_9,,,,,
+sepi_clade_77_contig_5.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_77,,,,,
+sepi_clade_2_contig_10.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_2,,,,,
+sepi_clade_53_contig_8.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_53,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+scap_clade_203_contig_1.region001,1.0,lanthipeptide-class-v.opine-like-metallophore,other.RiPP,1.0,21.0,FAM_00003,scap_clade_203,staphylopine,Other,9.0,4435.0,61.0
+sepi_clade_9_contig_9.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_9,,,,,
+saur_clade_306_contig_2.region002,2.0,NI-siderophore,other,2.0,209.0,FAM_00006,saur_clade_306,staphyloferrin B,Other,11.0,8508.0,97.0
+sepi_clade_22_contig_16.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_22,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+sepi_clade_36_contig_26.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_36,,,,,
+sepi_clade_45_contig_31.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_45,,,,,
+sepi_clade_72_contig_11.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_72,staphyloferrin A,Other:Non-NRP siderophore,4.0,2531.0,60.0
+sepi_clade_56_contig_17.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_56,,,,,
+sepi_clade_1_contig_5.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_1,,,,,
+saur_clade_304_contig_5.region001,1.0,T3PKS.terpene,PKS.terpene,1.0,237.0,FAM_00007,saur_clade_304,,,,,
+sepi_clade_6_contig_2.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_6,,,,,
+sepi_clade_73_contig_7.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_73,,,,,
+sepi_clade_71_contig_3.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_71,,,,,
+saur_clade_302_contig_27.region001,1.0,RiPP-like,RiPP,1.0,261.0,FAM_00025,saur_clade_302,,,,,
+sepi_clade_58_contig_2.region002,2.0,NI-siderophore,other,2.0,9.0,FAM_00001,sepi_clade_58,staphyloferrin A,Other:Non-NRP siderophore,4.0,2531.0,60.0
+sepi_clade_23_contig_13.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00004,sepi_clade_23,staphylopine,Other,9.0,4322.0,61.0
+slug_clade_601_contig_1.region004,4.0,LAP.NRPS,NRPS.RiPP,4.0,273.0,FAM_00008,slug_clade_601,listeriolysin S,RiPP:LAP,4.0,1211.0,46.0
+sepi_clade_72_contig_36.region001,1.0,RiPP-like,RiPP,1.0,282.0,FAM_00026,sepi_clade_72,,,,,
+sepi_clade_31_contig_6.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00004,sepi_clade_31,staphylopine,Other,9.0,4323.0,61.0
+saur_clade_303_contig_2.region002,2.0,NRPS,NRPS,2.0,161.0,FAM_00032,saur_clade_303,aureusimine A/aureusimine B/aureusimine C,NRP,2.0,5083.0,98.0
+sepi_clade_7_contig_3.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_7,,,,,
+sepi_clade_40_contig_11.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_40,,,,,
+saur_clade_305_contig_1.region001,1.0,NRPS,NRPS,1.0,161.0,FAM_00032,saur_clade_305,aureusimine A/aureusimine B/aureusimine C,NRP,2.0,5172.0,100.0
+sepi_clade_66_contig_8.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_66,aureusimine A/aureusimine B/aureusimine C,NRP,2.0,2577.0,46.0
+sepi_clade_24_contig_17.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_24,,,,,
+scap_clade_204_contig_10.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00020,scap_clade_204,kijanimicin,Polyketide,2.0,722.0,47.0
+sepi_clade_13_contig_30.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_13,,,,,
+scap_clade_203_contig_13.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00020,scap_clade_203,,,,,
+sepi_clade_15_contig_12.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00004,sepi_clade_15,staphylopine,Other,9.0,4327.0,61.0
+sepi_clade_2_contig_19.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_2,,,,,
+sepi_clade_58_contig_2.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_58,,,,,
+shom_clade_503_contig_3.region001,1.0,NI-siderophore,other,1.0,13.0,FAM_00002,shom_clade_503,staphyloferrin A,Other:Non-NRP siderophore,3.0,1721.0,55.0
+sepi_clade_77_contig_10.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_77,staphylopine,Other,9.0,4325.0,61.0
+sepi_clade_32_contig_10.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_32,,,,,
+scap_clade_202_contig_3.region001,1.0,lanthipeptide-class-i,RiPP,1.0,350.0,FAM_00028,scap_clade_202,gallidermin,RiPP:Lanthipeptide,4.0,1470.0,49.0
+sepi_clade_54_contig_9.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_54,staphylopine,Other,9.0,4331.0,61.0
+sepi_clade_38_contig_6.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_38,staphylopine,Other,9.0,4321.0,61.0
+sepi_clade_55_contig_9.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_55,,,,,
+sepi_clade_67_contig_10.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_67,,,,,
+sepi_clade_36_contig_18.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_36,,,,,
+sepi_clade_50_contig_16.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_50,staphylopine,Other,9.0,4319.0,61.0
+sepi_clade_64_contig_27.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_64,staphyloferrin A,Other:Non-NRP siderophore,4.0,2549.0,60.0
+sepi_clade_28_contig_34.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_28,,,,,
+sepi_clade_56_contig_10.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_56,,,,,
+sepi_clade_30_contig_24.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_30,,,,,
+sepi_clade_5_contig_2.region002,2.0,T3PKS,PKS,2.0,29.0,FAM_00040,sepi_clade_5,,,,,
+sepi_clade_13_contig_6.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_13,,,,,
+scap_clade_202_contig_10.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00020,scap_clade_202,,,,,
+sepi_clade_29_contig_3.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_29,,,,,
+saur_clade_304_contig_10.region001,1.0,lanthipeptide-class-i,RiPP,1.0,410.0,FAM_00029,saur_clade_304,hyicin 3682,RiPP,8.0,3472.0,48.0
+mlut_clade_704_contig_29.region001,1.0,terpene,terpene,1.0,414.0,FAM_00037,mlut_clade_704,carotenoid,Terpene,4.0,1188.0,47.0
+sepi_clade_23_contig_7.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_23,staphyloferrin A,Other:Non-NRP siderophore,4.0,2552.0,60.0
+sepi_clade_17_contig_7.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_17,,,,,
+sepi_clade_15_contig_35.region001,1.0,RiPP-like,RiPP,1.0,282.0,FAM_00026,sepi_clade_15,,,,,
+sepi_clade_7_contig_21.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_7,,,,,
+sepi_clade_25_contig_27.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_25,,,,,
+sepi_clade_93_contig_45.region001,1.0,CDPS,NRPS,1.0,438.0,FAM_00009,sepi_clade_93,,,,,
+sepi_clade_59_contig_9.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_59,staphylopine,Other,9.0,4321.0,60.0
+sepi_clade_22_contig_5.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_22,,,,,
+sepi_clade_6_contig_3.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_6,,,,,
+sepi_clade_17_contig_46.region001,1.0,RiPP-like,RiPP,1.0,282.0,FAM_00027,sepi_clade_17,,,,,
+sepi_clade_64_contig_7.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_64,,,,,
+sepi_clade_16_contig_26.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_16,,,,,
+sepi_clade_23_contig_18.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_23,,,,,
+sepi_clade_10_contig_21.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_10,,,,,
+sepi_clade_72_contig_17.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_72,,,,,
+sepi_clade_19_contig_20.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00004,sepi_clade_19,staphylopine,Other,9.0,4324.0,61.0
+sepi_clade_31_contig_17.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_31,,,,,
+sepi_clade_34_contig_17.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_34,,,,,
+scap_clade_201_contig_1.region002,2.0,T3PKS.terpene,terpene.PKS,2.0,490.0,FAM_00010,scap_clade_201,,,,,
+scap_clade_201_contig_6.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00020,scap_clade_201,kijanimicin,Polyketide,2.0,720.0,47.0
+scap_clade_203_contig_1.region002,2.0,NRPS,NRPS,2.0,506.0,FAM_00033,scap_clade_203,aureusimine A/aureusimine B/aureusimine C,NRP,2.0,2633.0,46.0
+sepi_clade_38_contig_27.region001,1.0,RiPP-like,RiPP,1.0,282.0,FAM_00027,sepi_clade_38,,,,,
+saur_clade_306_contig_19.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,saur_clade_306,staphyloferrin A,Other:Non-NRP siderophore,4.0,3874.0,98.0
+sepi_clade_52_contig_15.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_52,,,,,
+shom_clade_505_contig_5.region001,1.0,RiPP-like,RiPP,1.0,61.0,FAM_00023,shom_clade_505,,,,,
+sepi_clade_54_contig_16.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_54,,,,,
+sepi_clade_19_contig_23.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_19,,,,,
+sepi_clade_49_contig_22.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_49,,,,,
+sepi_clade_30_contig_49.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_30,,,,,
+sepi_clade_38_contig_18.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_38,,,,,
+sepi_clade_63_contig_11.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_63,aureusimine A/aureusimine B/aureusimine C,NRP,2.0,2573.0,46.0
+sepi_clade_14_contig_1.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_14,staphylopine,Other,9.0,4335.0,61.0
+sepi_clade_10_contig_3.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_10,,,,,
+sepi_clade_86_contig_25.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_86,,,,,
+sepi_clade_22_contig_20.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_22,,,,,
+sepi_clade_42_contig_2.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_42,staphyloferrin A,Other:Non-NRP siderophore,4.0,2551.0,60.0
+sepi_clade_59_contig_24.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_59,,,,,
+sepi_clade_70_contig_20.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_70,,,,,
+sepi_clade_21_contig_5.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_21,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+sepi_clade_60_contig_17.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_60,staphylopine,Other,10.0,4329.0,61.0
+sepi_clade_49_contig_93.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_49,,,,,
+sepi_clade_62_contig_9.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00004,sepi_clade_62,staphylopine,Other,9.0,4322.0,61.0
+sepi_clade_64_contig_7.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_64,staphylopine,Other,9.0,4323.0,61.0
+shom_clade_508_contig_2.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00041,shom_clade_508,,,,,
+shom_clade_502_contig_4.region001,1.0,NI-siderophore,other,1.0,13.0,FAM_00002,shom_clade_502,staphyloferrin A,Other:Non-NRP siderophore,3.0,1693.0,55.0
+mlut_clade_704_contig_38.region001,1.0,betalactone,other,1.0,606.0,FAM_00011,mlut_clade_704,microansamycin,Polyketide,2.0,663.0,53.0
+sepi_clade_5_contig_5.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_5,staphylopine,Other,9.0,4334.0,61.0
+sepi_clade_72_contig_15.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_72,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_33_contig_7.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_33,staphylopine,Other,9.0,4332.0,61.0
+spas_clade_401_contig_7.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00021,spas_clade_401,kijanimicin,Polyketide,2.0,719.0,47.0
+sepi_clade_93_contig_24.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_93,,,,,
+sepi_clade_25_contig_15.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_25,staphylopine,Other,9.0,4323.0,61.0
+saur_clade_302_contig_3.region001,1.0,NRPS,NRPS,1.0,161.0,FAM_00032,saur_clade_302,aureusimine A/aureusimine B/aureusimine C,NRP,2.0,5172.0,100.0
+sepi_clade_52_contig_18.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_52,,,,,
+sepi_clade_39_contig_48.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_39,,,,,
+sepi_clade_1_contig_16.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_1,,,,,
+sepi_clade_71_contig_11.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_71,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_73_contig_7.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_73,staphylopine,Other,9.0,4322.0,61.0
+sepi_clade_55_contig_9.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00004,sepi_clade_55,staphylopine,Other,9.0,4318.0,60.0
+sepi_clade_65_contig_5.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_65,staphyloferrin A,Other:Non-NRP siderophore,4.0,2546.0,60.0
+sepi_clade_12_contig_9.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_12,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_30_contig_12.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_30,aureusimine A/aureusimine B/aureusimine C,NRP,2.0,2575.0,46.0
+sepi_clade_41_contig_13.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_41,staphyloferrin A,Other:Non-NRP siderophore,4.0,2546.0,60.0
+sepi_clade_69_contig_28.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_69,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+saur_clade_302_contig_11.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00021,saur_clade_302,kijanimicin,Polyketide,2.0,710.0,47.0
+saur_clade_301_contig_13.region001,1.0,lanthipeptide-class-i,RiPP,1.0,410.0,FAM_00029,saur_clade_301,hyicin 3682,RiPP,8.0,3472.0,48.0
+sepi_clade_21_contig_22.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_21,,,,,
+mlut_clade_704_contig_42.region001,1.0,RRE-containing,RiPP,1.0,698.0,FAM_00030,mlut_clade_704,,,,,
+sepi_clade_19_contig_3.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_19,,,,,
+sepi_clade_60_contig_24.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_60,,,,,
+sepi_clade_48_contig_21.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_48,,,,,
+spas_clade_401_contig_13.region001,1.0,terpene,terpene,1.0,714.0,FAM_00038,spas_clade_401,,,,,
+sepi_clade_32_contig_7.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_32,,,,,
+saur_clade_302_contig_19.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,saur_clade_302,staphyloferrin A,Other:Non-NRP siderophore,4.0,3874.0,98.0
+slug_clade_602_contig_3.region001,1.0,NRPS,NRPS,1.0,726.0,FAM_00034,slug_clade_602,equibactin,NRP,4.0,2100.0,52.0
+sepi_clade_30_contig_30.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_30,,,,,
+sepi_clade_25_contig_11.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_25,staphyloferrin A,Other:Non-NRP siderophore,4.0,2533.0,60.0
+saur_clade_306_contig_6.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00005,saur_clade_306,staphylopine,Other,9.0,5791.0,96.0
+sepi_clade_20_contig_3.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_20,staphylopine,Other,9.0,4326.0,61.0
+sepi_clade_41_contig_20.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_41,,,,,
+mlut_clade_702_contig_24.region001,1.0,RRE-containing,RiPP,1.0,698.0,FAM_00030,mlut_clade_702,,,,,
+sepi_clade_23_contig_5.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_23,,,,,
+sepi_clade_44_contig_6.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_44,,,,,
+mlut_clade_702_contig_17.region001,1.0,betalactone,other,1.0,606.0,FAM_00011,mlut_clade_702,microansamycin,Polyketide,2.0,663.0,53.0
+sepi_clade_18_contig_40.region001,1.0,RiPP-like,RiPP,1.0,282.0,FAM_00027,sepi_clade_18,,,,,
+sepi_clade_61_contig_92.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_61,,,,,
+sepi_clade_41_contig_6.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00004,sepi_clade_41,staphylopine,Other,9.0,4312.0,61.0
+sepi_clade_48_contig_4.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00004,sepi_clade_48,staphylopine,Other,9.0,4312.0,61.0
+sepi_clade_25_contig_8.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_25,,,,,
+mlut_clade_701_contig_73.region001,1.0,NI-siderophore,other,1.0,790.0,FAM_00012,mlut_clade_701,,,,,
+sepi_clade_18_contig_15.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_18,staphyloferrin A,Other:Non-NRP siderophore,4.0,2552.0,60.0
+sepi_clade_8_contig_7.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_8,staphylopine,Other,9.0,4337.0,61.0
+sepi_clade_56_contig_59.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_56,,,,,
+sepi_clade_47_contig_21.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_47,staphylopine,Other,10.0,4320.0,61.0
+scap_clade_201_contig_1.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,scap_clade_201,staphyloferrin A,Other:Non-NRP siderophore,4.0,2648.0,61.0
+shom_clade_504_contig_8.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00022,shom_clade_504,,,,,
+sepi_clade_16_contig_50.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_16,,,,,
+sepi_clade_43_contig_16.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_43,,,,,
+sepi_clade_21_contig_13.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_21,,,,,
+scap_clade_204_contig_5.region001,1.0,NRPS,NRPS,1.0,506.0,FAM_00033,scap_clade_204,,,,,
+sepi_clade_48_contig_29.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_48,,,,,
+sepi_clade_24_contig_10.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_24,,,,,
+slug_clade_601_contig_16.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00020,slug_clade_601,kijanimicin,Polyketide,2.0,717.0,48.0
+sepi_clade_68_contig_33.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_68,staphylopine,Other,9.0,4322.0,60.0
+sepi_clade_41_contig_6.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_41,,,,,
+saur_clade_303_contig_2.region001,1.0,NI-siderophore,other,1.0,209.0,FAM_00006,saur_clade_303,staphyloferrin B,Other,11.0,8622.0,100.0
+saur_clade_301_contig_1.region003,3.0,terpene,terpene,3.0,33.0,FAM_00036,saur_clade_301,,,,,
+sepi_clade_40_contig_7.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_40,staphyloferrin A,Other:Non-NRP siderophore,4.0,2548.0,59.0
+sepi_clade_31_contig_8.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_31,staphyloferrin A,Other:Non-NRP siderophore,4.0,2545.0,59.0
+sepi_clade_61_contig_17.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_61,,,,,
+sepi_clade_65_contig_27.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_65,,,,,
+sepi_clade_17_contig_23.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_17,,,,,
+sepi_clade_30_contig_14.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_30,staphylopine,Other,9.0,4319.0,61.0
+sepi_clade_12_contig_25.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_12,,,,,
+sepi_clade_21_contig_13.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_21,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_35_contig_53.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_35,,,,,
+sepi_clade_46_contig_5.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_46,,,,,
+sepi_clade_29_contig_12.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_29,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_71_contig_11.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_71,,,,,
+sepi_clade_32_contig_16.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_32,,,,,
+sepi_clade_66_contig_4.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_66,,,,,
+sepi_clade_52_contig_9.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_52,,,,,
+sepi_clade_50_contig_31.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_50,,,,,
+sepi_clade_13_contig_23.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_13,,,,,
+sepi_clade_56_contig_4.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_56,,,,,
+sepi_clade_20_contig_4.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_20,,,,,
+sepi_clade_4_contig_16.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_4,,,,,
+sepi_clade_8_contig_1.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_8,staphyloferrin A,Other:Non-NRP siderophore,4.0,2536.0,60.0
+sepi_clade_49_contig_68.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_49,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_65_contig_12.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00004,sepi_clade_65,staphylopine,Other,3.0,1203.0,61.0
+sepi_clade_68_contig_27.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_68,,,,,
+sepi_clade_14_contig_1.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_14,,,,,
+mlut_clade_701_contig_27.region001,1.0,betalactone,other,1.0,606.0,FAM_00011,mlut_clade_701,microansamycin,Polyketide,2.0,664.0,53.0
+saur_clade_305_contig_1.region002,2.0,NI-siderophore,other,2.0,209.0,FAM_00006,saur_clade_305,staphyloferrin B,Other,11.0,8528.0,97.0
+sepi_clade_62_contig_4.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_62,staphyloferrin A,Other:Non-NRP siderophore,4.0,2552.0,60.0
+scap_clade_202_contig_1.region004,4.0,NI-siderophore,other,4.0,9.0,FAM_00001,scap_clade_202,staphyloferrin A,Other:Non-NRP siderophore,4.0,2647.0,61.0
+sepi_clade_69_contig_9.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_69,staphylopine,Other,9.0,4325.0,61.0
+sepi_clade_2_contig_6.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_2,,,,,
+sepi_clade_21_contig_21.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_21,,,,,
+mlut_clade_704_contig_80.region001,1.0,NI-siderophore,other,1.0,790.0,FAM_00012,mlut_clade_704,,,,,
+sepi_clade_83_contig_1.region002,2.0,T3PKS,PKS,2.0,29.0,FAM_00040,sepi_clade_83,,,,,
+sepi_clade_70_contig_26.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_70,,,,,
+slug_clade_601_contig_1.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00041,slug_clade_601,,,,,
+sepi_clade_36_contig_49.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_36,,,,,
+sepi_clade_43_contig_5.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_43,staphylopine,Other,9.0,4321.0,61.0
+saur_clade_302_contig_8.region001,1.0,terpene,terpene,1.0,33.0,FAM_00036,saur_clade_302,,,,,
+sepi_clade_26_contig_38.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_26,aureusimine A/aureusimine B/aureusimine C,NRP,2.0,2577.0,46.0
+sepi_clade_18_contig_9.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_18,,,,,
+sepi_clade_93_contig_8.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_93,staphylopine,Other,9.0,4323.0,61.0
+shom_clade_506_contig_32.region001,1.0,NI-siderophore,other,1.0,13.0,FAM_00002,shom_clade_506,staphyloferrin A,Other:Non-NRP siderophore,3.0,1720.0,56.0
+saur_clade_306_contig_6.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,saur_clade_306,,,,,
+saur_clade_305_contig_3.region002,2.0,T3PKS,PKS,2.0,29.0,FAM_00040,saur_clade_305,,,,,
+sepi_clade_33_contig_20.region001,1.0,T3PKS.terpene,terpene.PKS,1.0,1046.0,FAM_00013,sepi_clade_33,,,,,
+saur_clade_301_contig_5.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00005,saur_clade_301,staphylopine,Other,9.0,5837.0,99.0
+sepi_clade_10_contig_7.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_10,staphyloferrin A,Other:Non-NRP siderophore,4.0,2549.0,60.0
+shom_clade_503_contig_4.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00041,shom_clade_503,,,,,
+sepi_clade_2_contig_8.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_2,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+saur_clade_304_contig_2.region001,1.0,NI-siderophore,other,1.0,209.0,FAM_00006,saur_clade_304,staphyloferrin B,Other,11.0,8622.0,100.0
+sepi_clade_46_contig_4.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_46,aureusimine A/aureusimine B/aureusimine C,NRP,2.0,2577.0,46.0
+sepi_clade_39_contig_12.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00004,sepi_clade_39,staphylopine,Other,9.0,4324.0,61.0
+sepi_clade_77_contig_18.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_77,,,,,
+sepi_clade_37_contig_25.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_37,,,,,
+sepi_clade_11_contig_15.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_11,staphyloferrin A,Other:Non-NRP siderophore,4.0,2547.0,59.0
+slug_clade_601_contig_1.region003,3.0,terpene,terpene,3.0,1095.0,FAM_00039,slug_clade_601,,,,,
+sepi_clade_73_contig_23.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_73,,,,,
+sepi_clade_83_contig_8.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_83,,,,,
+sepi_clade_22_contig_9.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_22,,,,,
+sepi_clade_71_contig_15.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_71,staphyloferrin A,Other:Non-NRP siderophore,4.0,2552.0,60.0
+sepi_clade_16_contig_52.region001,1.0,RiPP-like,RiPP,1.0,282.0,FAM_00027,sepi_clade_16,,,,,
+sepi_clade_51_contig_3.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_51,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+sepi_clade_11_contig_19.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_11,,,,,
+sepi_clade_59_contig_9.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_59,,,,,
+sepi_clade_36_contig_51.region001,1.0,CDPS,NRPS,1.0,438.0,FAM_00009,sepi_clade_36,,,,,
+sepi_clade_1_contig_11.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_1,,,,,
+saur_clade_303_contig_16.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,saur_clade_303,staphyloferrin A,Other:Non-NRP siderophore,4.0,3915.0,100.0
+sepi_clade_83_contig_8.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_83,staphylopine,Other,9.0,4327.0,61.0
+sepi_clade_65_contig_3.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_65,,,,,
+sepi_clade_32_contig_8.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_32,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+sepi_clade_38_contig_14.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_38,staphyloferrin A,Other:Non-NRP siderophore,4.0,2552.0,60.0
+sepi_clade_41_contig_45.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_41,,,,,
+saur_clade_305_contig_27.region001,1.0,RiPP-like,RiPP,1.0,261.0,FAM_00025,saur_clade_305,,,,,
+sepi_clade_14_contig_20.region001,1.0,CDPS,NRPS,1.0,438.0,FAM_00009,sepi_clade_14,,,,,
+sepi_clade_17_contig_18.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_17,,,,,
+scap_clade_204_contig_3.region002,2.0,T3PKS.terpene,terpene.PKS,2.0,490.0,FAM_00010,scap_clade_204,,,,,
+sepi_clade_41_contig_16.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_41,,,,,
+shom_clade_505_contig_6.region001,1.0,NI-siderophore,other,1.0,13.0,FAM_00002,shom_clade_505,staphyloferrin A,Other:Non-NRP siderophore,3.0,1723.0,56.0
+sepi_clade_57_contig_15.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_57,,,,,
+scap_clade_203_contig_1.region004,4.0,NI-siderophore,other,4.0,9.0,FAM_00001,scap_clade_203,staphyloferrin A,Other:Non-NRP siderophore,4.0,2650.0,61.0
+slug_clade_602_contig_15.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00020,slug_clade_602,kijanimicin,Polyketide,2.0,717.0,48.0
+sepi_clade_1_contig_8.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_1,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+sepi_clade_63_contig_11.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_63,staphylopine,Other,9.0,4329.0,61.0
+sepi_clade_67_contig_33.region001,1.0,CDPS,NRPS,1.0,438.0,FAM_00009,sepi_clade_67,,,,,
+sepi_clade_39_contig_23.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_39,,,,,
+sepi_clade_3_contig_17.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_3,,,,,
+sepi_clade_59_contig_14.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_59,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+sepi_clade_70_contig_41.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_70,,,,,
+sepi_clade_62_contig_3.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_62,,,,,
+sepi_clade_6_contig_9.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_6,staphyloferrin A,Other:Non-NRP siderophore,4.0,2535.0,60.0
+sepi_clade_42_contig_35.region001,1.0,RiPP-like,RiPP,1.0,282.0,FAM_00026,sepi_clade_42,,,,,
+shom_clade_506_contig_2.region001,1.0,T3PKS.terpene,terpene.PKS,1.0,1247.0,FAM_00014,shom_clade_506,,,,,
+sepi_clade_53_contig_10.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00004,sepi_clade_53,staphylopine,Other,9.0,4324.0,61.0
+sepi_clade_20_contig_20.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_20,,,,,
+shom_clade_507_contig_3.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00041,shom_clade_507,,,,,
+mlut_clade_702_contig_37.region001,1.0,NAPAA,NRPS,1.0,1271.0,FAM_00035,mlut_clade_702,stenothricin,NRP:Cyclic depsipeptide,7.0,2939.0,52.0
+mlut_clade_702_contig_50.region001,1.0,terpene,terpene,1.0,414.0,FAM_00037,mlut_clade_702,carotenoid,Terpene,4.0,1189.0,48.0
+sepi_clade_57_contig_14.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_57,staphyloferrin A,Other:Non-NRP siderophore,4.0,2547.0,60.0
+sepi_clade_27_contig_26.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_27,,,,,
+sepi_clade_38_contig_4.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_38,,,,,
+saur_clade_303_contig_4.region001,1.0,T3PKS.terpene,terpene.PKS,1.0,237.0,FAM_00007,saur_clade_303,,,,,
+sepi_clade_18_contig_3.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_18,,,,,
+shom_clade_509_contig_2.region001,1.0,T3PKS.terpene,PKS.terpene,1.0,1247.0,FAM_00014,shom_clade_509,,,,,
+shom_clade_503_contig_9.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00022,shom_clade_503,,,,,
+sepi_clade_92_contig_5.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_92,staphylopine,Other,9.0,4319.0,60.0
+sepi_clade_18_contig_19.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_18,,,,,
+mlut_clade_701_contig_46.region001,1.0,ectoine,other,1.0,1331.0,FAM_00015,mlut_clade_701,,,,,
+sepi_clade_16_contig_3.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_16,aureusimine A/aureusimine B/aureusimine C,NRP,2.0,2577.0,46.0
+sepi_clade_15_contig_22.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_15,,,,,
+sepi_clade_60_contig_4.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_60,staphyloferrin A,Other:Non-NRP siderophore,4.0,2549.0,60.0
+sepi_clade_57_contig_20.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_57,staphylopine,Other,9.0,4318.0,61.0
+sepi_clade_43_contig_10.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_43,staphyloferrin A,Other:Non-NRP siderophore,4.0,2547.0,60.0
+sepi_clade_42_contig_24.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_42,,,,,
+sepi_clade_2_contig_10.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00004,sepi_clade_2,staphylopine,Other,9.0,4315.0,60.0
+sepi_clade_13_contig_10.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_13,staphyloferrin A,Other:Non-NRP siderophore,4.0,2547.0,60.0
+sepi_clade_66_contig_11.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_66,staphylopine,Other,9.0,4319.0,61.0
+sepi_clade_12_contig_16.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_12,staphyloferrin A,Other:Non-NRP siderophore,4.0,2552.0,60.0
+sepi_clade_12_contig_26.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_12,,,,,
+sepi_clade_28_contig_10.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_28,,,,,
+sepi_clade_45_contig_5.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00004,sepi_clade_45,staphylopine,Other,9.0,4326.0,61.0
+sepi_clade_70_contig_10.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_70,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_51_contig_22.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_51,,,,,
+sepi_clade_64_contig_31.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_64,,,,,
+sepi_clade_27_contig_4.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00004,sepi_clade_27,staphylopine,Other,9.0,4312.0,61.0
+sepi_clade_42_contig_25.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_42,,,,,
+sepi_clade_26_contig_16.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_26,staphylopine,Other,9.0,4319.0,61.0
+sepi_clade_25_contig_20.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_25,,,,,
+sepi_clade_60_contig_27.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_60,,,,,
+sepi_clade_62_contig_22.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_62,,,,,
+sepi_clade_69_contig_17.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_69,,,,,
+sepi_clade_66_contig_29.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_66,staphyloferrin A,Other:Non-NRP siderophore,4.0,2553.0,60.0
+sepi_clade_1_contig_11.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00004,sepi_clade_1,staphylopine,Other,9.0,4315.0,60.0
+sepi_clade_44_contig_17.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_44,staphylopine,Other,9.0,4333.0,60.0
+sepi_clade_24_contig_15.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_24,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+sepi_clade_54_contig_8.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_54,,,,,
+saur_clade_303_contig_12.region001,1.0,lanthipeptide-class-i,RiPP,1.0,410.0,FAM_00029,saur_clade_303,hyicin 3682,RiPP,8.0,3472.0,48.0
+sepi_clade_27_contig_4.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_27,,,,,
+sepi_clade_10_contig_19.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_10,,,,,
+slug_clade_601_contig_2.region001,1.0,NI-siderophore.NRPS.NRPS-like,NRPS.other,1.0,1487.0,FAM_00016,slug_clade_601,lugdunin,NRP,14.0,18265.0,94.0
+sepi_clade_67_contig_4.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_67,,,,,
+sepi_clade_24_contig_10.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_24,staphylopine,Other,9.0,4322.0,61.0
+sepi_clade_66_contig_35.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_66,,,,,
+sepi_clade_68_contig_22.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_68,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+sepi_clade_59_contig_16.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_59,,,,,
+sepi_clade_72_contig_9.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_72,,,,,
+sepi_clade_3_contig_2.region001,1.0,T3PKS.terpene,PKS.terpene,1.0,1046.0,FAM_00013,sepi_clade_3,,,,,
+shom_clade_502_contig_2.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00041,shom_clade_502,,,,,
+sepi_clade_14_contig_1.region003,3.0,T3PKS,PKS,3.0,29.0,FAM_00040,sepi_clade_14,,,,,
+saur_clade_306_contig_2.region001,1.0,NRPS,NRPS,1.0,161.0,FAM_00032,saur_clade_306,aureusimine A/aureusimine B/aureusimine C,NRP,2.0,5055.0,98.0
+sepi_clade_15_contig_12.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_15,,,,,
+spas_clade_401_contig_115.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,spas_clade_401,,,,,
+sepi_clade_92_contig_47.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_92,,,,,
+sepi_clade_21_contig_42.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_21,,,,,
+sepi_clade_27_contig_13.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_27,staphyloferrin A,Other:Non-NRP siderophore,4.0,2546.0,60.0
+sepi_clade_56_contig_10.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_56,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_13_contig_36.region001,1.0,CDPS,NRPS,1.0,438.0,FAM_00009,sepi_clade_13,,,,,
+sepi_clade_48_contig_4.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_48,,,,,
+slug_clade_602_contig_4.region002,2.0,terpene,terpene,2.0,1095.0,FAM_00039,slug_clade_602,,,,,
+sepi_clade_68_contig_16.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_68,,,,,
+sepi_clade_73_contig_19.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_73,,,,,
+sepi_clade_26_contig_47.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_26,,,,,
+sepi_clade_9_contig_13.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_9,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+saur_clade_301_contig_21.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,saur_clade_301,staphyloferrin A,Other:Non-NRP siderophore,4.0,3915.0,100.0
+slug_clade_601_contig_4.region001,1.0,NRPS,NRPS,1.0,726.0,FAM_00034,slug_clade_601,equibactin,NRP,4.0,2100.0,52.0
+sepi_clade_8_contig_7.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_8,,,,,
+sepi_clade_45_contig_17.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_45,,,,,
+sepi_clade_28_contig_11.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_28,,,,,
+sepi_clade_33_contig_7.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_33,,,,,
+sepi_clade_54_contig_9.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_54,,,,,
+sepi_clade_61_contig_5.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_61,staphyloferrin A,Other:Non-NRP siderophore,4.0,2546.0,60.0
+sepi_clade_58_contig_8.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_58,,,,,
+shom_clade_507_contig_10.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00022,shom_clade_507,,,,,
+mlut_clade_701_contig_33.region001,1.0,NAPAA,NRPS,1.0,1271.0,FAM_00035,mlut_clade_701,stenothricin,NRP:Cyclic depsipeptide,7.0,2958.0,52.0
+sepi_clade_40_contig_2.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_40,,,,,
+sepi_clade_83_contig_21.region001,1.0,terpene,terpene,1.0,714.0,FAM_00038,sepi_clade_83,,,,,
+sepi_clade_93_contig_22.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_93,,,,,
+sepi_clade_18_contig_9.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_18,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_45_contig_5.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_45,,,,,
+sepi_clade_54_contig_1.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_54,staphyloferrin A,Other:Non-NRP siderophore,4.0,2535.0,60.0
+sepi_clade_45_contig_28.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_45,staphyloferrin A,Other:Non-NRP siderophore,4.0,2548.0,59.0
+sepi_clade_62_contig_9.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_62,,,,,
+sepi_clade_5_contig_4.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_5,,,,,
+sepi_clade_5_contig_2.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_5,staphyloferrin A,Other:Non-NRP siderophore,4.0,2547.0,60.0
+sepi_clade_13_contig_6.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_13,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_66_contig_18.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_66,,,,,
+saur_clade_303_contig_8.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00005,saur_clade_303,staphylopine,Other,9.0,5835.0,99.0
+sepi_clade_7_contig_10.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_7,,,,,
+sepi_clade_14_contig_7.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_14,,,,,
+sepi_clade_26_contig_6.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_26,,,,,
+scap_clade_202_contig_1.region002,2.0,NRPS,NRPS,2.0,506.0,FAM_00033,scap_clade_202,aureusimine A/aureusimine B/aureusimine C,NRP,2.0,2634.0,46.0
+sepi_clade_55_contig_4.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_55,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+saur_clade_303_contig_5.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00021,saur_clade_303,kijanimicin,Polyketide,2.0,708.0,47.0
+sepi_clade_61_contig_21.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_61,,,,,
+sepi_clade_37_contig_15.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_37,,,,,
+sepi_clade_29_contig_19.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_29,,,,,
+mlut_clade_702_contig_20.region001,1.0,ectoine,other,1.0,1331.0,FAM_00015,mlut_clade_702,,,,,
+saur_clade_302_contig_3.region002,2.0,NI-siderophore,other,2.0,209.0,FAM_00006,saur_clade_302,staphyloferrin B,Other,11.0,8528.0,97.0
+slug_clade_602_contig_1.region001,1.0,NI-siderophore.NRPS.NRPS-like,NRPS.other,1.0,1487.0,FAM_00016,slug_clade_602,lugdunin,NRP,14.0,18265.0,94.0
+sepi_clade_11_contig_9.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00004,sepi_clade_11,staphylopine,Other,10.0,4323.0,61.0
+sepi_clade_16_contig_27.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_16,staphyloferrin A,Other:Non-NRP siderophore,4.0,2552.0,60.0
+sepi_clade_49_contig_12.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_49,staphyloferrin A,Other:Non-NRP siderophore,4.0,2552.0,60.0
+shom_clade_509_contig_4.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00022,shom_clade_509,,,,,
+saur_clade_306_contig_21.region001,1.0,RiPP-like,RiPP,1.0,261.0,FAM_00025,saur_clade_306,,,,,
+mlut_clade_704_contig_16.region001,1.0,NAPAA,NRPS,1.0,1271.0,FAM_00035,mlut_clade_704,stenothricin,NRP:Cyclic depsipeptide,7.0,2942.0,52.0
+scap_clade_202_contig_1.region001,1.0,lanthipeptide-class-v.opine-like-metallophore,other.RiPP,1.0,21.0,FAM_00003,scap_clade_202,staphylopine,Other,9.0,4440.0,61.0
+sepi_clade_19_contig_55.region001,1.0,RiPP-like,RiPP,1.0,282.0,FAM_00027,sepi_clade_19,,,,,
+sepi_clade_51_contig_71.region001,1.0,CDPS,NRPS,1.0,438.0,FAM_00009,sepi_clade_51,,,,,
+sepi_clade_25_contig_5.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_25,,,,,
+sepi_clade_86_contig_11.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_86,staphylopine,Other,9.0,4324.0,61.0
+sepi_clade_55_contig_6.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_55,,,,,
+sepi_clade_11_contig_9.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_11,,,,,
+sepi_clade_15_contig_21.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_15,,,,,
+sepi_clade_39_contig_5.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_39,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+scap_clade_204_contig_3.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,scap_clade_204,staphyloferrin A,Other:Non-NRP siderophore,4.0,2651.0,61.0
+sepi_clade_69_contig_7.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_69,,,,,
+sepi_clade_28_contig_7.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_28,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+sepi_clade_42_contig_11.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_42,,,,,
+saur_clade_304_contig_4.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00005,saur_clade_304,staphylopine,Other,9.0,5835.0,99.0
+sepi_clade_47_contig_29.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_47,,,,,
+sepi_clade_51_contig_21.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00004,sepi_clade_51,staphylopine,Other,9.0,4318.0,61.0
+sepi_clade_92_contig_16.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_92,,,,,
+sepi_clade_57_contig_45.region001,1.0,RiPP-like,RiPP,1.0,282.0,FAM_00026,sepi_clade_57,,,,,
+saur_clade_301_contig_1.region001,1.0,NRPS,NRPS,1.0,161.0,FAM_00032,saur_clade_301,aureusimine A/aureusimine B/aureusimine C,NRP,2.0,5085.0,98.0
+sepi_clade_7_contig_14.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_7,staphyloferrin A,Other:Non-NRP siderophore,4.0,2551.0,60.0
+sepi_clade_86_contig_29.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_86,,,,,
+slug_clade_601_contig_1.region002,2.0,CDPS,NRPS,2.0,1881.0,FAM_00017,slug_clade_601,,,,,
+sepi_clade_9_contig_5.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_9,,,,,
+sepi_clade_7_contig_10.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_7,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_83_contig_7.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_83,,,,,
+sepi_clade_37_contig_3.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_37,,,,,
+sepi_clade_31_contig_6.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_31,,,,,
+saur_clade_301_contig_12.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,saur_clade_301,,,,,
+saur_clade_302_contig_4.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00005,saur_clade_302,staphylopine,Other,9.0,5816.0,97.0
+sepi_clade_3_contig_8.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_3,staphyloferrin A,Other:Non-NRP siderophore,4.0,2535.0,60.0
+sepi_clade_37_contig_46.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_37,,,,,
+saur_clade_305_contig_19.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00021,saur_clade_305,kijanimicin,Polyketide,2.0,710.0,47.0
+sepi_clade_42_contig_36.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_42,,,,,
+sepi_clade_6_contig_15.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_6,,,,,
+sepi_clade_70_contig_10.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_70,,,,,
+sepi_clade_16_contig_3.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_16,staphylopine,Other,9.0,4322.0,61.0
+sepi_clade_11_contig_25.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_11,,,,,
+slug_clade_602_contig_4.region001,1.0,LAP.NRPS,NRPS.RiPP,1.0,273.0,FAM_00008,slug_clade_602,listeriolysin S,RiPP:LAP,4.0,1211.0,46.0
+sepi_clade_46_contig_6.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_46,,,,,
+sepi_clade_10_contig_3.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00004,sepi_clade_10,staphylopine,Other,9.0,4312.0,61.0
+shom_clade_504_contig_6.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00041,shom_clade_504,,,,,
+sepi_clade_46_contig_20.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_46,,,,,
+scap_clade_203_contig_1.region003,3.0,T3PKS.terpene,PKS.terpene,3.0,490.0,FAM_00010,scap_clade_203,,,,,
+sepi_clade_15_contig_8.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_15,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+sepi_clade_46_contig_12.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_46,staphyloferrin A,Other:Non-NRP siderophore,4.0,2553.0,60.0
+sepi_clade_29_contig_6.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_29,staphyloferrin A,Other:Non-NRP siderophore,4.0,2552.0,60.0
+saur_clade_304_contig_6.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00021,saur_clade_304,kijanimicin,Polyketide,2.0,708.0,47.0
+sepi_clade_67_contig_15.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_67,staphyloferrin A,Other:Non-NRP siderophore,4.0,2552.0,60.0
+sepi_clade_58_contig_6.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_58,,,,,
+sepi_clade_22_contig_9.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_22,staphylopine,Other,9.0,4325.0,61.0
+sepi_clade_28_contig_11.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00004,sepi_clade_28,staphylopine,Other,9.0,4324.0,61.0
+saur_clade_306_contig_7.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00021,saur_clade_306,kijanimicin,Polyketide,2.0,710.0,47.0
+sepi_clade_4_contig_9.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_4,staphyloferrin A,Other:Non-NRP siderophore,4.0,2535.0,60.0
+sepi_clade_52_contig_9.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_52,staphylopine,Other,9.0,4327.0,61.0
+sepi_clade_60_contig_20.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_60,,,,,
+sepi_clade_31_contig_16.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_31,,,,,
+spas_clade_401_contig_27.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,spas_clade_401,,,,,
+sepi_clade_26_contig_30.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_26,staphyloferrin A,Other:Non-NRP siderophore,4.0,2552.0,60.0
+spas_clade_401_contig_3.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,spas_clade_401,staphylopine,Other,9.0,4495.0,64.0
+sepi_clade_3_contig_3.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_3,staphylopine,Other,9.0,4335.0,61.0
+saur_clade_301_contig_15.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00021,saur_clade_301,kijanimicin,Polyketide,2.0,708.0,47.0
+sepi_clade_52_contig_17.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_52,staphyloferrin A,Other:Non-NRP siderophore,4.0,2547.0,60.0
+sepi_clade_51_contig_15.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_51,,,,,
+sepi_clade_64_contig_18.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_64,,,,,
+scap_clade_202_contig_12.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,scap_clade_202,,,,,
+sepi_clade_1_contig_42.region001,1.0,RiPP-like,RiPP,1.0,282.0,FAM_00027,sepi_clade_1,,,,,
+spas_clade_401_contig_1.region002,2.0,NI-siderophore,other,2.0,9.0,FAM_00001,spas_clade_401,staphyloferrin A,Other:Non-NRP siderophore,4.0,2574.0,60.0
+sepi_clade_34_contig_6.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_34,staphyloferrin A,Other:Non-NRP siderophore,4.0,2549.0,60.0
+sepi_clade_86_contig_11.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_86,,,,,
+sepi_clade_44_contig_11.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_44,,,,,
+scap_clade_202_contig_1.region003,3.0,T3PKS.terpene,PKS.terpene,3.0,490.0,FAM_00010,scap_clade_202,,,,,
+sepi_clade_6_contig_3.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_6,staphylopine,Other,9.0,4335.0,61.0
+sepi_clade_63_contig_23.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_63,staphyloferrin A,Other:Non-NRP siderophore,4.0,2554.0,60.0
+sepi_clade_35_contig_32.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_35,,,,,
+sepi_clade_36_contig_7.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_36,,,,,
+sepi_clade_9_contig_9.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_9,staphylopine,Other,9.0,4325.0,61.0
+sepi_clade_56_contig_14.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_56,staphyloferrin A,Other:Non-NRP siderophore,4.0,2549.0,60.0
+sepi_clade_35_contig_39.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_35,,,,,
+sepi_clade_23_contig_13.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_23,,,,,
+sepi_clade_55_contig_19.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_55,,,,,
+sepi_clade_69_contig_9.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_69,,,,,
+sepi_clade_71_contig_17.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_71,,,,,
+sepi_clade_47_contig_18.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_47,staphyloferrin A,Other:Non-NRP siderophore,4.0,2548.0,60.0
+sepi_clade_19_contig_53.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_19,,,,,
+sepi_clade_42_contig_11.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00004,sepi_clade_42,staphylopine,Other,9.0,4326.0,61.0
+sepi_clade_27_contig_68.region001,1.0,RiPP-like,RiPP,1.0,93.0,FAM_00024,sepi_clade_27,,,,,
+sepi_clade_20_contig_3.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_20,,,,,
+sepi_clade_36_contig_7.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_36,staphylopine,Other,10.0,4329.0,61.0
+sepi_clade_36_contig_3.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_36,staphyloferrin A,Other:Non-NRP siderophore,4.0,2547.0,60.0
+sepi_clade_8_contig_1.region002,2.0,T3PKS,PKS,2.0,29.0,FAM_00040,sepi_clade_8,,,,,
+slug_clade_602_contig_4.region003,3.0,CDPS,NRPS,3.0,1881.0,FAM_00017,slug_clade_602,,,,,
+saur_clade_301_contig_1.region002,2.0,NI-siderophore,other,2.0,209.0,FAM_00006,saur_clade_301,staphyloferrin B,Other,11.0,8622.0,100.0
+sepi_clade_63_contig_7.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_63,,,,,
+sepi_clade_50_contig_13.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_50,,,,,
+mlut_clade_701_contig_59.region001,1.0,terpene,terpene,1.0,414.0,FAM_00037,mlut_clade_701,carotenoid,Terpene,4.0,1188.0,47.0
+sepi_clade_67_contig_17.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_67,,,,,
+sepi_clade_70_contig_17.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_70,staphyloferrin A,Other:Non-NRP siderophore,4.0,2552.0,60.0
+sepi_clade_37_contig_12.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_37,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+sepi_clade_27_contig_23.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_27,,,,,
+scap_clade_204_contig_5.region002,2.0,lanthipeptide-class-v.opine-like-metallophore,other.RiPP,2.0,21.0,FAM_00003,scap_clade_204,staphylopine,Other,9.0,4415.0,58.0
+mlut_clade_704_contig_12.region001,1.0,ectoine,other,1.0,1331.0,FAM_00015,mlut_clade_704,,,,,
+sepi_clade_8_contig_9.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_8,,,,,
+sepi_clade_30_contig_7.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_30,staphyloferrin A,Other:Non-NRP siderophore,4.0,2554.0,60.0
+slug_clade_602_contig_1.region002,2.0,T3PKS,PKS,2.0,29.0,FAM_00041,slug_clade_602,,,,,
+sepi_clade_48_contig_11.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_48,staphyloferrin A,Other:Non-NRP siderophore,4.0,2549.0,60.0
+sepi_clade_51_contig_19.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_51,,,,,
+sepi_clade_67_contig_10.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_67,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_57_contig_13.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_57,,,,,
+sepi_clade_61_contig_26.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_61,staphylopine,Other,4.0,2116.0,61.0
+sepi_clade_73_contig_13.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_73,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+sepi_clade_20_contig_23.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_20,staphyloferrin A,Other:Non-NRP siderophore,4.0,2549.0,60.0
+saur_clade_305_contig_18.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,saur_clade_305,staphyloferrin A,Other:Non-NRP siderophore,4.0,3875.0,99.0
+shom_clade_505_contig_15.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00022,shom_clade_505,,,,,
+mlut_clade_702_contig_63.region001,1.0,NI-siderophore,other,1.0,790.0,FAM_00012,mlut_clade_702,,,,,
+scap_clade_201_contig_3.region001,1.0,lanthipeptide-class-i,RiPP,1.0,350.0,FAM_00028,scap_clade_201,gallidermin,RiPP:Lanthipeptide,5.0,1466.0,48.0
+sepi_clade_77_contig_10.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_77,,,,,
+sepi_clade_51_contig_70.region001,1.0,RiPP-like,RiPP,1.0,282.0,FAM_00027,sepi_clade_51,,,,,
+sepi_clade_93_contig_8.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_93,,,,,
+sepi_clade_83_contig_1.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_83,staphyloferrin A,Other:Non-NRP siderophore,4.0,2538.0,60.0
+shom_clade_505_contig_3.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00041,shom_clade_505,,,,,
+sepi_clade_86_contig_9.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_86,staphyloferrin A,Other:Non-NRP siderophore,4.0,2549.0,60.0
+saur_clade_306_contig_14.region001,1.0,terpene,terpene,1.0,33.0,FAM_00036,saur_clade_306,,,,,
+sepi_clade_14_contig_1.region004,4.0,NI-siderophore,other,4.0,9.0,FAM_00001,sepi_clade_14,staphyloferrin A,Other:Non-NRP siderophore,4.0,2535.0,60.0
+sepi_clade_34_contig_13.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_34,,,,,
+sepi_clade_65_contig_15.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_65,,,,,
+sepi_clade_92_contig_5.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_92,,,,,
+sepi_clade_17_contig_7.region002,2.0,opine-like-metallophore,other,2.0,21.0,FAM_00003,sepi_clade_17,staphylopine,Other,9.0,4323.0,61.0
+sepi_clade_43_contig_14.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_43,,,,,
+sepi_clade_4_contig_2.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_4,,,,,
+saur_clade_304_contig_13.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,saur_clade_304,staphyloferrin A,Other:Non-NRP siderophore,4.0,3915.0,100.0
+sepi_clade_19_contig_18.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_19,,,,,
+sepi_clade_26_contig_22.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_26,,,,,
+sepi_clade_39_contig_18.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_39,,,,,
+sepi_clade_77_contig_16.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_77,staphyloferrin A,Other:Non-NRP siderophore,4.0,2550.0,60.0
+sepi_clade_33_contig_15.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_33,,,,,
+sepi_clade_34_contig_14.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_34,,,,,
+sepi_clade_57_contig_19.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_57,,,,,
+scap_clade_203_contig_2.region001,1.0,lanthipeptide-class-i,RiPP,1.0,350.0,FAM_00028,scap_clade_203,gallidermin,RiPP:Lanthipeptide,4.0,1470.0,48.0
+sepi_clade_5_contig_5.region002,2.0,NRPS,NRPS,2.0,17.0,FAM_00031,sepi_clade_5,,,,,
+sepi_clade_16_contig_5.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00019,sepi_clade_16,,,,,
+sepi_clade_93_contig_4.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_93,staphyloferrin A,Other:Non-NRP siderophore,4.0,2549.0,60.0
+sepi_clade_47_contig_16.region001,1.0,T3PKS,PKS,1.0,29.0,FAM_00040,sepi_clade_47,,,,,
+sepi_clade_19_contig_15.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_19,staphyloferrin A,Other:Non-NRP siderophore,4.0,2542.0,59.0
+shom_clade_509_contig_32.region001,1.0,NI-siderophore,other,1.0,13.0,FAM_00002,shom_clade_509,staphyloferrin A,Other:Non-NRP siderophore,3.0,1720.0,56.0
+sepi_clade_34_contig_18.region001,1.0,opine-like-metallophore,other,1.0,21.0,FAM_00003,sepi_clade_34,staphylopine,Other,9.0,4318.0,61.0
+sepi_clade_49_contig_28.region001,1.0,NRPS,NRPS,1.0,17.0,FAM_00031,sepi_clade_49,,,,,
+shom_clade_506_contig_5.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00022,shom_clade_506,,,,,
+shom_clade_508_contig_9.region001,1.0,NI-siderophore,other,1.0,13.0,FAM_00002,shom_clade_508,staphyloferrin A,Other:Non-NRP siderophore,3.0,1713.0,55.0
+sepi_clade_53_contig_9.region001,1.0,cyclic-lactone-autoinducer,RiPP,1.0,1.0,FAM_00018,sepi_clade_53,,,,,
+sepi_clade_17_contig_29.region001,1.0,NI-siderophore,other,1.0,9.0,FAM_00001,sepi_clade_17,staphyloferrin A,Other:Non-NRP siderophore,4.0,2548.0,59.0
+scap_clade_201_contig_1.region003,,,,,,,scap_clade_201,aureusimine A/aureusimine B/aureusimine C,NRP,2.0,2632.0,46.0
+scap_clade_204_contig_2.region001,,,,,,,scap_clade_204,gallidermin,RiPP:Lanthipeptide,3.0,1506.0,51.0
+shom_clade_503_contig_18.region001,,,,,,,shom_clade_503,epilancin 15x,RiPP:Lanthipeptide,2.0,509.0,58.0
+sepi_clade_30_contig_36.region001,,,,,,,sepi_clade_30,gallidermin,RiPP:Lanthipeptide,11.0,5740.0,74.0
+sepi_clade_19_contig_30.region001,,,,,,,sepi_clade_19,epicidin,RiPP:Lanthipeptide,6.0,3915.0,97.0

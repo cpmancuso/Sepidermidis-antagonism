@@ -7,7 +7,7 @@ addpath([pwd '/myscripts'])
 %% Choose which steps to complete
 
 % Choose image directory
-imagedir = 'C:\Users\cmanc\Dropbox\Lieberman Lab\Personal lab notebooks\Chris Mancuso\Antagonism Paper\Revision Code\Image Analysis\Template for Image Analysis\TSA_extras';
+imagedir = 'path\goes\here';
 if isdir(imagedir)
     image_names = dir(imagedir);
     image_names=image_names(contains({image_names.name},'JPG')); % to find images later
@@ -24,7 +24,7 @@ end
 % example_step2 = ''
 
 % define default spot locations (same for all plates
-default_spot_locations_file = 'default_spot_locations.mat';
+default_spot_locations_file = '';
 
 % automate detection of spot edges 
 automated_spot_results_file = '';
