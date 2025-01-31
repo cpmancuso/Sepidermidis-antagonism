@@ -1,9 +1,10 @@
 These steps should be performed in order to run the breseq analysis descriped in this work:
 
 Inputs:
-fastq files (see Bioproject #SUB14054091, not included here), genome assembly (*.gbff files)
+fastq files (see Bioproject #PRJNA1052084, not included here), genome assembly (*.gbff files)
 
 Steps:
+- Edit samples.csv to point to files
 - Run Snakemake pipeline to produce breseq results
 
 Results:

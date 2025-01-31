@@ -1,0 +1,244 @@
+Sample Name,Contig Name,Region Name,Source,Type,Proteins with BLAST Hits,Cumulative BLAST Score,Lowest Identity
+sepi_clade_20,contig_3,contig_3_c2,staphylopine,Other,9,4326.0,61.0
+sepi_clade_20,contig_23,contig_23_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2549.0,60.0
+sepi_clade_47,contig_18,contig_18_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2548.0,60.0
+sepi_clade_47,contig_21,contig_21_c1,staphylopine,Other,10,4320.0,61.0
+saur_clade_303,contig_2,contig_2_c1,staphyloferrin B,Other,11,8622.0,100.0
+saur_clade_303,contig_2,contig_2_c2,aureusimine A/aureusimine B/aureusimine C,NRP,2,5083.0,98.0
+saur_clade_303,contig_5,contig_5_c1,kijanimicin,Polyketide,2,708.0,47.0
+saur_clade_303,contig_8,contig_8_c1,staphylopine,Other,9,5835.0,99.0
+saur_clade_303,contig_12,contig_12_c1,hyicin 3682,RiPP,8,3472.0,48.0
+saur_clade_303,contig_16,contig_16_c1,staphyloferrin A,Other:Non-NRP siderophore,4,3915.0,100.0
+sepi_clade_71,contig_11,contig_11_c1,staphylopine,Other,9,4323.0,61.0
+sepi_clade_71,contig_15,contig_15_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2552.0,60.0
+sepi_clade_21,contig_5,contig_5_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_21,contig_13,contig_13_c1,staphylopine,Other,9,4323.0,61.0
+sepi_clade_72,contig_11,contig_11_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2531.0,60.0
+sepi_clade_72,contig_15,contig_15_c1,staphylopine,Other,9,4323.0,61.0
+sepi_clade_3,contig_3,contig_3_c2,staphylopine,Other,9,4335.0,61.0
+sepi_clade_3,contig_8,contig_8_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2535.0,60.0
+sepi_clade_48,contig_4,contig_4_c2,staphylopine,Other,9,4312.0,61.0
+sepi_clade_48,contig_11,contig_11_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2549.0,60.0
+saur_clade_304,contig_2,contig_2_c1,staphyloferrin B,Other,11,8622.0,100.0
+saur_clade_304,contig_2,contig_2_c2,aureusimine A/aureusimine B/aureusimine C,NRP,2,5083.0,98.0
+saur_clade_304,contig_4,contig_4_c1,staphylopine,Other,9,5835.0,99.0
+saur_clade_304,contig_6,contig_6_c1,kijanimicin,Polyketide,2,708.0,47.0
+saur_clade_304,contig_10,contig_10_c1,hyicin 3682,RiPP,8,3472.0,48.0
+saur_clade_304,contig_13,contig_13_c1,staphyloferrin A,Other:Non-NRP siderophore,4,3915.0,100.0
+saur_clade_305,contig_1,contig_1_c1,aureusimine A/aureusimine B/aureusimine C,NRP,2,5172.0,100.0
+saur_clade_305,contig_1,contig_1_c2,staphyloferrin B,Other,11,8528.0,97.0
+saur_clade_305,contig_3,contig_3_c1,staphylopine,Other,9,5816.0,97.0
+saur_clade_305,contig_18,contig_18_c1,staphyloferrin A,Other:Non-NRP siderophore,4,3875.0,99.0
+saur_clade_305,contig_19,contig_19_c1,kijanimicin,Polyketide,2,710.0,47.0
+sepi_clade_49,contig_12,contig_12_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2552.0,60.0
+sepi_clade_49,contig_68,contig_68_c1,staphylopine,Other,9,4323.0,61.0
+scap_clade_201,contig_1,contig_1_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2648.0,61.0
+scap_clade_201,contig_1,contig_1_c3,aureusimine A/aureusimine B/aureusimine C,NRP,2,2632.0,46.0
+scap_clade_201,contig_3,contig_3_c1,gallidermin,RiPP:Lanthipeptide,5,1466.0,48.0
+scap_clade_201,contig_6,contig_6_c1,kijanimicin,Polyketide,2,720.0,47.0
+sepi_clade_22,contig_9,contig_9_c2,staphylopine,Other,9,4325.0,61.0
+sepi_clade_22,contig_16,contig_16_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_73,contig_7,contig_7_c1,staphylopine,Other,9,4322.0,61.0
+sepi_clade_73,contig_13,contig_13_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_5,contig_2,contig_2_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2547.0,60.0
+sepi_clade_5,contig_5,contig_5_c1,staphylopine,Other,9,4334.0,61.0
+sepi_clade_23,contig_7,contig_7_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2552.0,60.0
+sepi_clade_23,contig_13,contig_13_c2,staphylopine,Other,9,4322.0,61.0
+sepi_clade_27,contig_4,contig_4_c1,staphylopine,Other,9,4312.0,61.0
+sepi_clade_27,contig_13,contig_13_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2546.0,60.0
+sepi_clade_92,contig_5,contig_5_c1,staphylopine,Other,9,4319.0,60.0
+sepi_clade_92,contig_11,contig_11_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2552.0,60.0
+shom_clade_504,contig_5,contig_5_c1,staphyloferrin A,Other:Non-NRP siderophore,3,1719.0,55.0
+shom_clade_506,contig_32,contig_32_c1,staphyloferrin A,Other:Non-NRP siderophore,3,1720.0,56.0
+sepi_clade_9,contig_9,contig_9_c1,staphylopine,Other,9,4325.0,61.0
+sepi_clade_9,contig_13,contig_13_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_55,contig_4,contig_4_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_55,contig_9,contig_9_c2,staphylopine,Other,9,4318.0,60.0
+sepi_clade_93,contig_4,contig_4_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2549.0,60.0
+sepi_clade_93,contig_8,contig_8_c1,staphylopine,Other,9,4323.0,61.0
+shom_clade_505,contig_6,contig_6_c1,staphyloferrin A,Other:Non-NRP siderophore,3,1723.0,56.0
+sepi_clade_29,contig_6,contig_6_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2552.0,60.0
+sepi_clade_29,contig_12,contig_12_c2,staphylopine,Other,9,4323.0,61.0
+sepi_clade_54,contig_1,contig_1_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2535.0,60.0
+sepi_clade_54,contig_9,contig_9_c2,staphylopine,Other,9,4331.0,61.0
+scap_clade_204,contig_2,contig_2_c1,gallidermin,RiPP:Lanthipeptide,3,1506.0,51.0
+scap_clade_204,contig_3,contig_3_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2651.0,61.0
+scap_clade_204,contig_5,contig_5_c2,staphylopine,Other,9,4415.0,58.0
+scap_clade_204,contig_10,contig_10_c1,kijanimicin,Polyketide,2,722.0,47.0
+sepi_clade_77,contig_10,contig_10_c2,staphylopine,Other,9,4325.0,61.0
+sepi_clade_77,contig_16,contig_16_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_28,contig_7,contig_7_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_28,contig_11,contig_11_c1,staphylopine,Other,9,4324.0,61.0
+sepi_clade_53,contig_8,contig_8_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_53,contig_10,contig_10_c1,staphylopine,Other,9,4324.0,61.0
+shom_clade_508,contig_9,contig_9_c1,staphyloferrin A,Other:Non-NRP siderophore,3,1713.0,55.0
+shom_clade_502,contig_4,contig_4_c1,staphyloferrin A,Other:Non-NRP siderophore,3,1693.0,55.0
+shom_clade_502,contig_6,contig_6_c1,kijanimicin,Polyketide,2,714.0,46.0
+sepi_clade_50,contig_12,contig_12_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2547.0,60.0
+sepi_clade_50,contig_16,contig_16_c1,staphylopine,Other,9,4319.0,61.0
+sepi_clade_8,contig_1,contig_1_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2536.0,60.0
+sepi_clade_8,contig_7,contig_7_c1,staphylopine,Other,9,4337.0,61.0
+sepi_clade_24,contig_10,contig_10_c2,staphylopine,Other,9,4322.0,61.0
+sepi_clade_24,contig_15,contig_15_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_51,contig_3,contig_3_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_51,contig_21,contig_21_c1,staphylopine,Other,9,4318.0,61.0
+sepi_clade_26,contig_16,contig_16_c1,staphylopine,Other,9,4319.0,61.0
+sepi_clade_26,contig_30,contig_30_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2552.0,60.0
+sepi_clade_26,contig_38,contig_38_c1,aureusimine A/aureusimine B/aureusimine C,NRP,2,2577.0,46.0
+shom_clade_503,contig_3,contig_3_c1,staphyloferrin A,Other:Non-NRP siderophore,3,1721.0,55.0
+shom_clade_503,contig_18,contig_18_c1,epilancin 15x,RiPP:Lanthipeptide,2,509.0,58.0
+sepi_clade_25,contig_11,contig_11_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2533.0,60.0
+sepi_clade_25,contig_15,contig_15_c1,staphylopine,Other,9,4323.0,61.0
+sepi_clade_86,contig_9,contig_9_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2549.0,60.0
+sepi_clade_86,contig_11,contig_11_c2,staphylopine,Other,9,4324.0,61.0
+sepi_clade_52,contig_9,contig_9_c2,staphylopine,Other,9,4327.0,61.0
+sepi_clade_52,contig_17,contig_17_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2547.0,60.0
+sepi_clade_83,contig_1,contig_1_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2538.0,60.0
+sepi_clade_83,contig_8,contig_8_c1,staphylopine,Other,9,4327.0,61.0
+sepi_clade_56,contig_10,contig_10_c2,staphylopine,Other,9,4323.0,61.0
+sepi_clade_56,contig_14,contig_14_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2549.0,60.0
+sepi_clade_30,contig_7,contig_7_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2554.0,60.0
+sepi_clade_30,contig_12,contig_12_c1,aureusimine A/aureusimine B/aureusimine C,NRP,2,2575.0,46.0
+sepi_clade_30,contig_14,contig_14_c1,staphylopine,Other,9,4319.0,61.0
+sepi_clade_30,contig_36,contig_36_c1,gallidermin,RiPP:Lanthipeptide,11,5740.0,74.0
+shom_clade_509,contig_32,contig_32_c1,staphyloferrin A,Other:Non-NRP siderophore,3,1720.0,56.0
+sepi_clade_57,contig_14,contig_14_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2547.0,60.0
+sepi_clade_57,contig_20,contig_20_c1,staphylopine,Other,9,4318.0,61.0
+shom_clade_507,contig_14,contig_14_c1,staphyloferrin A,Other:Non-NRP siderophore,3,1713.0,55.0
+sepi_clade_61,contig_5,contig_5_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2546.0,60.0
+sepi_clade_61,contig_26,contig_26_c1,staphylopine,Other,4,2116.0,61.0
+sepi_clade_31,contig_6,contig_6_c2,staphylopine,Other,9,4323.0,61.0
+sepi_clade_31,contig_8,contig_8_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2545.0,59.0
+sepi_clade_58,contig_2,contig_2_c2,staphyloferrin A,Other:Non-NRP siderophore,4,2531.0,60.0
+sepi_clade_58,contig_8,contig_8_c2,staphylopine,Other,9,4323.0,61.0
+sepi_clade_32,contig_8,contig_8_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_32,contig_10,contig_10_c1,staphylopine,Other,9,4315.0,60.0
+spas_clade_401,contig_1,contig_1_c2,staphyloferrin A,Other:Non-NRP siderophore,4,2574.0,60.0
+spas_clade_401,contig_3,contig_3_c1,staphylopine,Other,9,4495.0,64.0
+spas_clade_401,contig_7,contig_7_c1,kijanimicin,Polyketide,2,719.0,47.0
+sepi_clade_59,contig_9,contig_9_c1,staphylopine,Other,9,4321.0,60.0
+sepi_clade_59,contig_14,contig_14_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+slug_clade_602,contig_1,contig_1_c1,lugdunin,NRP,14,18265.0,94.0
+slug_clade_602,contig_3,contig_3_c1,equibactin,NRP,4,2100.0,52.0
+slug_clade_602,contig_4,contig_4_c1,listeriolysin S,RiPP:LAP,4,1211.0,46.0
+slug_clade_602,contig_15,contig_15_c1,kijanimicin,Polyketide,2,717.0,48.0
+sepi_clade_33,contig_7,contig_7_c2,staphylopine,Other,9,4332.0,61.0
+sepi_clade_33,contig_29,contig_29_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2556.0,60.0
+mlut_clade_702,contig_17,contig_17_c1,microansamycin,Polyketide,2,663.0,53.0
+mlut_clade_702,contig_37,contig_37_c1,stenothricin,NRP:Cyclic depsipeptide,7,2939.0,52.0
+mlut_clade_702,contig_50,contig_50_c1,carotenoid,Terpene,4,1189.0,48.0
+sepi_clade_6,contig_3,contig_3_c2,staphylopine,Other,9,4335.0,61.0
+sepi_clade_6,contig_9,contig_9_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2535.0,60.0
+sepi_clade_34,contig_6,contig_6_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2549.0,60.0
+sepi_clade_34,contig_18,contig_18_c1,staphylopine,Other,9,4318.0,61.0
+sepi_clade_35,contig_5,contig_5_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2549.0,60.0
+sepi_clade_35,contig_13,contig_13_c1,staphylopine,Other,9,4323.0,61.0
+sepi_clade_1,contig_8,contig_8_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_1,contig_11,contig_11_c1,staphylopine,Other,9,4315.0,60.0
+sepi_clade_60,contig_4,contig_4_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2549.0,60.0
+sepi_clade_60,contig_17,contig_17_c1,staphylopine,Other,10,4329.0,61.0
+sepi_clade_10,contig_3,contig_3_c2,staphylopine,Other,9,4312.0,61.0
+sepi_clade_10,contig_7,contig_7_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2549.0,60.0
+sepi_clade_36,contig_3,contig_3_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2547.0,60.0
+sepi_clade_36,contig_7,contig_7_c2,staphylopine,Other,10,4329.0,61.0
+sepi_clade_37,contig_12,contig_12_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_37,contig_19,contig_19_c1,staphylopine,Other,9,4323.0,61.0
+scap_clade_203,contig_1,contig_1_c1,staphylopine,Other,9,4435.0,61.0
+scap_clade_203,contig_1,contig_1_c2,aureusimine A/aureusimine B/aureusimine C,NRP,2,2633.0,46.0
+scap_clade_203,contig_1,contig_1_c4,staphyloferrin A,Other:Non-NRP siderophore,4,2650.0,61.0
+scap_clade_203,contig_2,contig_2_c1,gallidermin,RiPP:Lanthipeptide,4,1470.0,48.0
+sepi_clade_11,contig_9,contig_9_c2,staphylopine,Other,10,4323.0,61.0
+sepi_clade_11,contig_15,contig_15_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2547.0,59.0
+sepi_clade_62,contig_4,contig_4_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2552.0,60.0
+sepi_clade_62,contig_9,contig_9_c1,staphylopine,Other,9,4322.0,61.0
+sepi_clade_38,contig_6,contig_6_c2,staphylopine,Other,9,4321.0,61.0
+sepi_clade_38,contig_14,contig_14_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2552.0,60.0
+sepi_clade_63,contig_11,contig_11_c1,aureusimine A/aureusimine B/aureusimine C,NRP,2,2573.0,46.0
+sepi_clade_63,contig_11,contig_11_c2,staphylopine,Other,9,4329.0,61.0
+sepi_clade_63,contig_23,contig_23_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2554.0,60.0
+sepi_clade_12,contig_9,contig_9_c1,staphylopine,Other,9,4323.0,61.0
+sepi_clade_12,contig_16,contig_16_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2552.0,60.0
+sepi_clade_64,contig_7,contig_7_c2,staphylopine,Other,9,4323.0,61.0
+sepi_clade_64,contig_27,contig_27_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2549.0,60.0
+sepi_clade_13,contig_6,contig_6_c2,staphylopine,Other,9,4323.0,61.0
+sepi_clade_13,contig_10,contig_10_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2547.0,60.0
+sepi_clade_14,contig_1,contig_1_c1,staphylopine,Other,9,4335.0,61.0
+sepi_clade_14,contig_1,contig_1_c4,staphyloferrin A,Other:Non-NRP siderophore,4,2535.0,60.0
+slug_clade_601,contig_1,contig_1_c4,listeriolysin S,RiPP:LAP,4,1211.0,46.0
+slug_clade_601,contig_2,contig_2_c1,lugdunin,NRP,14,18265.0,94.0
+slug_clade_601,contig_4,contig_4_c1,equibactin,NRP,4,2100.0,52.0
+slug_clade_601,contig_16,contig_16_c1,kijanimicin,Polyketide,2,717.0,48.0
+sepi_clade_39,contig_5,contig_5_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_39,contig_12,contig_12_c2,staphylopine,Other,9,4324.0,61.0
+scap_clade_202,contig_1,contig_1_c1,staphylopine,Other,9,4440.0,61.0
+scap_clade_202,contig_1,contig_1_c2,aureusimine A/aureusimine B/aureusimine C,NRP,2,2634.0,46.0
+scap_clade_202,contig_1,contig_1_c4,staphyloferrin A,Other:Non-NRP siderophore,4,2647.0,61.0
+scap_clade_202,contig_3,contig_3_c1,gallidermin,RiPP:Lanthipeptide,4,1470.0,49.0
+sepi_clade_15,contig_8,contig_8_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_15,contig_12,contig_12_c2,staphylopine,Other,9,4327.0,61.0
+sepi_clade_66,contig_8,contig_8_c1,aureusimine A/aureusimine B/aureusimine C,NRP,2,2577.0,46.0
+sepi_clade_66,contig_11,contig_11_c1,staphylopine,Other,9,4319.0,61.0
+sepi_clade_66,contig_29,contig_29_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2553.0,60.0
+sepi_clade_42,contig_2,contig_2_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2551.0,60.0
+sepi_clade_42,contig_11,contig_11_c2,staphylopine,Other,9,4326.0,61.0
+sepi_clade_18,contig_9,contig_9_c1,staphylopine,Other,9,4323.0,61.0
+sepi_clade_18,contig_15,contig_15_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2552.0,60.0
+sepi_clade_69,contig_9,contig_9_c2,staphylopine,Other,9,4325.0,61.0
+sepi_clade_69,contig_28,contig_28_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_65,contig_5,contig_5_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2546.0,60.0
+sepi_clade_65,contig_12,contig_12_c1,staphylopine,Other,3,1203.0,61.0
+sepi_clade_4,contig_9,contig_9_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2535.0,60.0
+sepi_clade_4,contig_13,contig_13_c1,staphylopine,Other,9,4339.0,61.0
+saur_clade_301,contig_1,contig_1_c1,aureusimine A/aureusimine B/aureusimine C,NRP,2,5085.0,98.0
+saur_clade_301,contig_1,contig_1_c2,staphyloferrin B,Other,11,8622.0,100.0
+saur_clade_301,contig_5,contig_5_c1,staphylopine,Other,9,5837.0,99.0
+saur_clade_301,contig_13,contig_13_c1,hyicin 3682,RiPP,8,3472.0,48.0
+saur_clade_301,contig_15,contig_15_c1,kijanimicin,Polyketide,2,708.0,47.0
+saur_clade_301,contig_21,contig_21_c1,staphyloferrin A,Other:Non-NRP siderophore,4,3915.0,100.0
+sepi_clade_17,contig_7,contig_7_c2,staphylopine,Other,9,4323.0,61.0
+sepi_clade_17,contig_29,contig_29_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2548.0,59.0
+sepi_clade_68,contig_22,contig_22_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_68,contig_33,contig_33_c1,staphylopine,Other,9,4322.0,60.0
+sepi_clade_16,contig_3,contig_3_c1,staphylopine,Other,9,4322.0,61.0
+sepi_clade_16,contig_3,contig_3_c2,aureusimine A/aureusimine B/aureusimine C,NRP,2,2577.0,46.0
+sepi_clade_16,contig_27,contig_27_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2552.0,60.0
+mlut_clade_701,contig_27,contig_27_c1,microansamycin,Polyketide,2,664.0,53.0
+mlut_clade_701,contig_33,contig_33_c1,stenothricin,NRP:Cyclic depsipeptide,7,2958.0,52.0
+mlut_clade_701,contig_59,contig_59_c1,carotenoid,Terpene,4,1188.0,47.0
+sepi_clade_40,contig_7,contig_7_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2548.0,59.0
+sepi_clade_40,contig_11,contig_11_c1,staphylopine,Other,9,4322.0,61.0
+sepi_clade_43,contig_5,contig_5_c1,staphylopine,Other,9,4321.0,61.0
+sepi_clade_43,contig_10,contig_10_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2547.0,60.0
+sepi_clade_46,contig_4,contig_4_c1,staphylopine,Other,9,4313.0,61.0
+sepi_clade_46,contig_4,contig_4_c2,aureusimine A/aureusimine B/aureusimine C,NRP,2,2577.0,46.0
+sepi_clade_46,contig_12,contig_12_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2553.0,60.0
+sepi_clade_19,contig_15,contig_15_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2542.0,59.0
+sepi_clade_19,contig_20,contig_20_c1,staphylopine,Other,9,4324.0,61.0
+sepi_clade_19,contig_30,contig_30_c1,epicidin,RiPP:Lanthipeptide,6,3915.0,97.0
+sepi_clade_7,contig_10,contig_10_c1,staphylopine,Other,9,4323.0,61.0
+sepi_clade_7,contig_14,contig_14_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2551.0,60.0
+sepi_clade_67,contig_10,contig_10_c1,staphylopine,Other,9,4323.0,61.0
+sepi_clade_67,contig_15,contig_15_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2552.0,60.0
+sepi_clade_41,contig_6,contig_6_c2,staphylopine,Other,9,4312.0,61.0
+sepi_clade_41,contig_13,contig_13_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2546.0,60.0
+mlut_clade_704,contig_16,contig_16_c1,stenothricin,NRP:Cyclic depsipeptide,7,2942.0,52.0
+mlut_clade_704,contig_29,contig_29_c1,carotenoid,Terpene,4,1188.0,47.0
+mlut_clade_704,contig_38,contig_38_c1,microansamycin,Polyketide,2,663.0,53.0
+sepi_clade_44,contig_9,contig_9_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2535.0,60.0
+sepi_clade_44,contig_17,contig_17_c1,staphylopine,Other,9,4333.0,60.0
+saur_clade_302,contig_3,contig_3_c1,aureusimine A/aureusimine B/aureusimine C,NRP,2,5172.0,100.0
+saur_clade_302,contig_3,contig_3_c2,staphyloferrin B,Other,11,8528.0,97.0
+saur_clade_302,contig_4,contig_4_c1,staphylopine,Other,9,5816.0,97.0
+saur_clade_302,contig_11,contig_11_c1,kijanimicin,Polyketide,2,710.0,47.0
+saur_clade_302,contig_19,contig_19_c1,staphyloferrin A,Other:Non-NRP siderophore,4,3874.0,98.0
+sepi_clade_2,contig_8,contig_8_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2550.0,60.0
+sepi_clade_2,contig_10,contig_10_c2,staphylopine,Other,9,4315.0,60.0
+saur_clade_306,contig_2,contig_2_c1,aureusimine A/aureusimine B/aureusimine C,NRP,2,5055.0,98.0
+saur_clade_306,contig_2,contig_2_c2,staphyloferrin B,Other,11,8508.0,97.0
+saur_clade_306,contig_6,contig_6_c2,staphylopine,Other,9,5791.0,96.0
+saur_clade_306,contig_7,contig_7_c1,kijanimicin,Polyketide,2,710.0,47.0
+saur_clade_306,contig_19,contig_19_c1,staphyloferrin A,Other:Non-NRP siderophore,4,3874.0,98.0
+sepi_clade_45,contig_5,contig_5_c1,staphylopine,Other,9,4326.0,61.0
+sepi_clade_45,contig_28,contig_28_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2548.0,59.0
+sepi_clade_70,contig_10,contig_10_c1,staphylopine,Other,9,4323.0,61.0
+sepi_clade_70,contig_17,contig_17_c1,staphyloferrin A,Other:Non-NRP siderophore,4,2552.0,60.0

@@ -1,7 +1,7 @@
 These steps should be performed in order to run the Staphylococcus epidermidis gainloss analysis descriped in this work:
 
 Inputs:
-Lineage coassemblies, Sequencing fastqs (see Bioproject #SUB14054091) not included here
+Lineage coassemblies, Sequencing fastqs (see Bioproject #PRJNA1052084) not included here
 
 Steps:
 - Run Snakemake pipeline to produce gainloss results

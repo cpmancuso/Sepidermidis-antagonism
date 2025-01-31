@@ -14,6 +14,9 @@ This repository is grouped into three major parts:
 - **Image Analysis**: contains the MATLAB pipeline and processed image outputs used in the aforementioned manuscript. 
 - **Interaction Analysis**: contains the MATLAB pipeline and data sturctures needed to generate all the plots in the manuscript. 
 
+**Instructions** \
+See "instructions_for_use" document in this folder
+
 **Dependencies** \
 **Bioinformatic Analysis**: All conda environments used for SLURM cluster operation are included in the relevant snakemake folders. Installation of all required conda environments may take up to 1-2h depending on your system and the download speed of external databases. As these scripts are written for execution on the MIT Engaging computing cluster (a SLURM system), they will need significant modifications before running on your system. The v.1.0 (original GitHub commit) pipeline was tested on Snakemake version 7.32.3. \
 **Image & Interaction Analysis**: All MATLAB scripts are included, and were tested on a MATLAB 2023a environment with the Bioinformatics, Image Processing, and Statistics & Machine Learning toolboxes.
@@ -24,7 +27,7 @@ Original image files for the antagonism screens are saved at: https://doi.org/10
 
 Sequencing and genome assemblies were performed as part of "Highly-resolved within-species dynamics in the human facial skin microbiome", see Jacob's repo: https://github.com/jsbaker760/highres_dynamics 
 
-Raw sequencing data for running Snakemakes is currently being made available on the NCBI Sequence Read Archive under Bioproject #SUB14054091.
+Raw sequencing data for running Snakemakes is currently being made available on the NCBI Sequence Read Archive under Bioproject #PRJNA1052084 and #PRJNA1215987.
 
 **Expected Run Times** \
 See readme in each folder for additiona instructions.
