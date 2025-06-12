@@ -25,9 +25,9 @@ See "instructions_to_run" document in this folder
 Intermediate and processed data files for each set of pipelines are included in each folder. \
 Original image files for the antagonism screens are saved at: https://doi.org/10.6084/m9.figshare.25726482.v1
 
-Sequencing and genome assemblies were performed as part of "Highly-resolved within-species dynamics in the human facial skin microbiome", see Jacob's repo: https://github.com/jsbaker760/highres_dynamics 
+Sequencing and genome assemblies were performed as part of "Intraspecies dynamics underlie the apparent stability of two important skin microbiome species", see Jacob's repo: https://github.com/jsbaker760/highres_dynamics 
 
-Raw sequencing data for running Snakemakes is currently being made available on the NCBI Sequence Read Archive under Bioproject #PRJNA1052084 and #PRJNA1215987.
+Raw sequencing data for running Snakemakes are available on the NCBI Sequence Read Archive under Bioproject #PRJNA1052084 and #PRJNA1215987.
 
 **Expected Run Times** \
 See readme in each folder for additiona instructions.
